@@ -2,9 +2,23 @@
 # https://plot.ly/python/#3d-charts
 
 
+# El procemiento de ejecución del programa es
+
+# Ejecutamos en el terminal de python, despues de habernos
+# inscrito en la pagina de plotly 
+#https://plot.ly 
+
+# python -c "import plotly; plotly.tools.set_credentials_file(username='xxxxx', api_key='xxxxxxxx')"
+# username y api_key se generan cuando te inscribes en la pagina
+
+# Y despues, correr el script
+
+# python plotly1.py
+
+
 import plotly.plotly as py
 from plotly.graph_objs import *
-from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
+#from plotly.offline import download_plotlyjs, init_notebook_mode, iplot
 
 init_notebook_mode()
 
