@@ -1,5 +1,7 @@
 # M-L
 
+
+
 ## Herramientas a  usar
 
 ### Anaconda 
@@ -33,5 +35,6 @@ Alternativamente podemos desde PyPI usando **pip**:
 c-lara@Lara:~$ pip install bokeh
 ``` 
 
-
+## Lecturas
+1 .[7 pasos para empezar con Machine Learning](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html).
 
