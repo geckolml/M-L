@@ -40,3 +40,5 @@ c-lara@Lara:~$ pip install bokeh
 
 2 .[Un tour sobre los algoritmos de Machine Learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
 
+3 .[Algoritmos comunes de Machine Learning](http://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/).
+
