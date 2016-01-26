@@ -1,5 +1,7 @@
 # M-L
 
+
+
 ## Herramientas a  usar
 
 ### Anaconda 
@@ -33,5 +35,12 @@ Alternativamente podemos desde PyPI usando **pip**:
 c-lara@Lara:~$ pip install bokeh
 ``` 
 
+## Lecturas
+1 .[Pro y contras de los algoritmos en Machine Learning](http://www.lauradhamilton.com/machine-learning-algorithm-cheat-sheet).
 
+2 .[7 pasos para empezar con Machine Learning](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html).
+
+3 .[Un tour sobre los algoritmos de Machine Learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
+
+4 .[Algoritmos comunes de Machine Learning](http://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/).
 
