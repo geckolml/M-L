@@ -62,3 +62,5 @@ c-lara@Lara:~$ pip install bokeh
 
 4 .[Algoritmos comunes de Machine Learning](http://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/).
 
+5 .[13 framework para Machine Learning](http://www.infoworld.com/article/3026262/data-science/13-frameworks-for-mastering-machine-learning.html).
+
