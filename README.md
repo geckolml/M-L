@@ -53,6 +53,13 @@ Alternativamente podemos desde PyPI usando **pip**:
 c-lara@Lara:~$ pip install bokeh
 ``` 
 
+El proyecto [Anaconda](https://www.continuum.io/downloads) ha creado [R Essentials](http://anaconda.org/r/r-essentials), que incluye el IRKernel y alrededor de 80 paquetes para análisis de datos, incluyendo `dplyr`, `shiny`, `ggplot2`,`caret`, etc. Para instalar **R Essentials** en un entorno de trabajo, hacemos
+
+```bash
+c-lara@Lara:~$ conda install -c r r-essentials
+``` 
+
+
 ## Lecturas
 1 .[Pro y contras de los algoritmos en Machine Learning](http://www.lauradhamilton.com/machine-learning-algorithm-cheat-sheet).
 
