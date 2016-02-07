@@ -7,9 +7,13 @@
 Los contenedores son  estructuras de datos, que contienen elementos y suporta pruebas de permanencia de sus elementos. Son esstructuras de datos que viven en la memoria y almacenan sus valores en memoria también. En Python algunos ejemplo son:
 
 1 . **list**, `deque , ...`
+
 2 . **set**, `frozensets, ...`
+
 3 . **dict**, `default, OrderedDict, Counter, ...`
+
 4 . **tuple**, `namedtuple, ...`
+
 5. **str**
 
 Un objecto es un `contenedor`, cuando podemos preguntar si contiene un cierto elemento. Podemos llevar esas pruebas de pertenencia sobre listas, conjuntos (sets) o tuplas, de la siguiente manera:
@@ -193,12 +197,13 @@ El estado dentro de este iterador se  mantiene dentro de las variables de instan
 Desde el exterior, el iterador es como una fábrica 'perezosa'  que está inactiva hasta que se le  pide para un valor, que es cuando comienza a funcionar y produce un solo valor, después del cual se vuelve inactiva de nuevo.
 
 
+
 ## Generadores 
 
 Los generadores son un tipo especial de iterador. Los generadores te permiten escribir iteradores al igual que el ejemplo de secuencia  de los números de Fibonacci, dada anteriormente, pero una sucinta sintaxis, que evita escribir clases con los métodos `__iter__()` y `__next__()`. En general
 
 1 . Un generador es un iterador, pero no se cumple lo contrario.
-2 . Un generador, por tanto es como una fábrica ('perezosa') que produce valores.
+2 . Un generador, por tanto es como una fábrica ('perezosa') que produce valores, en realidad una secuencia de valores.
 
 Aquí la misma secuencia de números de Fibonacci, usando generadores
 
@@ -239,6 +244,47 @@ A continuación, se pide a `ìslice` por el valor siguiente, el cual le pedirá 
 Esto ocurre hasta que la lista tenga 9 elementos y cuando `list()` pide a `islice()` por el valor 10, `islice()` provocará una excepción `StopIteration`, lo que indica que el final se ha alcanzado, y la lista devolverá el resultado: una lista  que contienen los 9 primeros números de Fibonacci.
 
 Se debe notar que el generador no recibe la llamada 10 de `next()`. De hecho, no se volverá a utilizar, y será basura recogida más tarde.
+
+
+
+Mostremos otro ejemplo, para clarificar mejor la relación entre `yield` y la llamada al método `next` sobre el generador
+
+```python
+def fg():
+    print ("inicio")
+    for i in range(3):
+        print ("antes de yield", i)
+        yield i
+        print ("despues de yield", i)
+    print (" fin")
+
+f = fg()
+next(f)
+inicio
+antes de yield 0
+0
+
+next(f)
+despues de yield  0
+antes de yield 1
+1
+
+next(f)
+despues de yield 1
+antes de yield 2
+2
+
+next(f)
+despues de yield 2
+ fin
+Traceback (most recent call last):
+
+  File "<ipython-input-43-468f0afdf1b9>", line 1, in <module>
+    next(f)
+
+StopIteration
+```
+
 
 
 ### Tipos de Generadores
