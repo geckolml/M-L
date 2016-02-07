@@ -1,10 +1,10 @@
-# Iterables, Iteradores  y generadores
+# Iterables, Iteradores  y Generadores
 
 *Notas basadas en el artículo de Vincent Driessen: Iterables vs iterators vs Generators*
 
 ## Contenedores 
 
-Los contenedores son  estructuras de datos, que contienen elementos y suporta pruebas de permanencia de sus elementos. Son esstructuras de datos que viven en la memoria y almacenan sus valores en memoria también. En Python algunos ejemplo son:
+Los contenedores son  estructuras de datos, que contienen elementos y suporta pruebas de permanencia de sus elementos. Son estructuras de datos que viven en la memoria y almacenan sus valores en memoria también. En Python algunos ejemplo son:
 
 1 . **list**, `deque , ...`
 
@@ -14,7 +14,7 @@ Los contenedores son  estructuras de datos, que contienen elementos y suporta pr
 
 4 . **tuple**, `namedtuple, ...`
 
-5. **str**
+5 . **str**
 
 Un objecto es un `contenedor`, cuando podemos preguntar si contiene un cierto elemento. Podemos llevar esas pruebas de pertenencia sobre listas, conjuntos (sets) o tuplas, de la siguiente manera:
 
@@ -196,7 +196,20 @@ El estado dentro de este iterador se  mantiene dentro de las variables de instan
 
 Desde el exterior, el iterador es como una fábrica 'perezosa'  que está inactiva hasta que se le  pide para un valor, que es cuando comienza a funcionar y produce un solo valor, después del cual se vuelve inactiva de nuevo.
 
+En Python, podemos definir un iterador es un objeto que implementa el `protocolo iterador` que consiste de los métodos mencionados `__iter__()` que retorna el objeto iterador y `__next__()` que retorna el elemento siguiente de una secuencia. Python tiene varios objetos, que implementan el `protocolo iterador`, como las listas, tuplas, diccionarios o archivos.
 
+```python
+# Ejemplo del uso de iteradores con archivos
+
+#!/usr/bin/python
+
+f = open('python.txt', 'r')
+
+for linea in f:
+    print (linea)
+    
+f.close()
+```
 
 ## Generadores 
 
