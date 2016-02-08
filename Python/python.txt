@@ -1,0 +1,5 @@
+Temas de Python:
+Programacion orientada de Objetos.
+Iteradores, generadores.
+Clausura, decoradores.
+Programacion funcional.
