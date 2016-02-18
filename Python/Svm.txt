@@ -1,0 +1,29 @@
+Las máquinas de soporte vectorial
+(Desde Wikipedia)
+
+Las SVM son un conjunto de algoritmos de aprendizaje supervisado desarrollados por
+Vladimir Vapk y su equipo en los laboratorios AT&T.
+
+Estos métodos están propiamente relacionados con problemas de clasificación y regresión.
+Intuitivamente, una SVM es un modelo que representa a los puntos de muestra en el espacio, 
+separando las clases por un espacio lo más amplio posible. 
+Cuando las nuevas muestras se ponen en correspondencia con dicho modelo, en función de su
+proximidad pueden ser clasificadas a una u otra clase.
+
+Más formalmente, una SVM construye un hiperplano o conjunto de hiperplanos en un espacio de 
+dimensionalidad muy alta (o incluso infinita) que puede ser utilizado en problemas de 
+clasificación o regresión.
+
+Una buena separación entre las clases permitirá un clasificación correcta.
+
+Los algoritmos SVM pertenecen a la familia de los clasificadores lineales. También pueden 
+ser considerados un caso especial de la regularización de Tikhonov.En la literatura de los SVMs,
+se llama atributo a la variable predictora y característica a un atributo transformado que es usado
+para definir el hiperplano. La elección de la representación más adecuada del universo estudiado, 
+se realiza mediante un proceso denominado selección de características.
+
+Al vector formado por los puntos más cercanos al hiperplano se le llama vector de soporte.
+
+Los modelos basados en SVMs están estrechamente relacionados con las redes neuronales. 
+Usando una función kernel, resultan un método de entrenamiento alternativo para clasificadores 
+polinomiales, funciones de base radial y perceptrón multicapa.
