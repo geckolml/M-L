@@ -1,0 +1,35 @@
+Hadoop
+Desde Wikipedia
+
+Apache Hadoop es un framework de software que soporta aplicaciones distribuidas
+bajo una licencia libre.  Permite a las aplicaciones trabajar con miles de 
+nodos y petabytes de datos. Hadoop se inspiró en los 
+documentos Google para MapReduce y Google File System (GFS).
+
+Hadoop es un proyecto de alto nivel Apache que está siendo construido y usado 
+por una comunidad global  de contribuyentes, mediante el lenguaje de programación 
+Java. Yahoo! ha sido el mayor contribuyente al  proyecto, y usa Hadoop extensivamente
+en su negocio.
+
+Hadoop consiste básicamente en el Hadoop Common, que proporciona acceso a los
+sistemas de archivos soportados por Hadoop. El paquete de software The Hadoop
+Common contiene los archivos .jar y los scripts necesarios para
+hacer correr Hadoop. El paquete también proporciona código fuente, documentación,
+y una sección de contribución que incluye proyectos de la Comunidad Hadoop.
+Una funcionalidad clave es que para la programación efectiva de trabajo, cada 
+sistema de archivos debe conocer y proporcionar su ubicación: el nombre del rack
+(más precisamente, del switch) donde está el nodo trabajador.
+Las aplicaciones Hadoop pueden usar esta información para ejecutar trabajo en el
+nodo donde están los datos y, en su defecto, en el mismo rack/switch, reduciendo
+así el tráfico de red troncal (backbone traffic). El sistema de archivos HDFS usa 
+esto cuando replica datos, para intentar conservar copias diferentes de los datos
+en racks diferentes. El objetivo es reducir el impacto de un corte de energía de 
+rack o de fallo de interruptor de modo que incluso si se producen estos eventos,
+los datos todavía puedan ser legibles.
+
+Un clúster típico Hadoop incluye un nodo maestro y múltiples nodos esclavo. 
+El nodo maestro consiste en jobtracker (rastreador de trabajo), tasktracker 
+(rastreador de tareas), namenode (nodo de nombres), y datanode (nodo de datos).
+ Un esclavo o compute node (nodo de cómputo) consisten en un nodo de datos y un
+ rastreador de tareas. Hadoop requiere tener instalados entre nodos en el clúster
+ JRE 1.6 o superior, y SSH.
