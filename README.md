@@ -1,5 +1,19 @@
 # M-L
 
+1. Introduccíon a Python
+   * Curso ŕapido de Python.
+   * Uso de las paquetes: Matplotlib, NumPy,pandas, scikit-learn.
+   * Nano y Vim. Uso de Ipython.
+
+2. Algebra Lineal
+   * Vectores y Matrices.
+   * Valores y vectores propios.
+
+3. Estad́ıstica
+   * Describiendo un conjunto de datos. Tendencias centrales, dispersión.
+   * Correlacíon. Paradoja de Simpson.
+   * Algunas advertencia, acerca de la correlacíon.
+   * Correlacíon y Causalidad.
 
 
 ## Herramientas a  usar 
