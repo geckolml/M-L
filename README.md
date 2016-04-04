@@ -2,7 +2,7 @@
 
 1. Introduccíon a Python
    * Curso ŕapido de Python.
-   * Uso de las paquetes: Matplotlib, NumPy,pandas, scikit-learn.
+   * Uso de las paquetes: Matplotlib, NumPy, Pandas, scikit-learn.
    * Nano y Vim. Uso de Ipython.
 
 2. Algebra Lineal
@@ -14,7 +14,39 @@
    * Correlacíon. Paradoja de Simpson.
    * Algunas advertencia, acerca de la correlacíon.
    * Correlacíon y Causalidad.
+   
+4. Probabilidad
+   * Dependencia y Independencia. Probabilidad Condicional. Teorema de Bayes.
+   * Variables Aleatorias.Distribuciones continuas. La distribucion Normal.  
+   * Teorema del Límite Central.
 
+5. Hipotesis e Inferencia  Estadística
+   * Prueba de hipótesis estadística.
+   * Intervalos de Confianza.
+   * P-hacking. El test A/B.
+   * Inferencia Bayesiana
+   
+6. Descenso del Gradiente
+   * Ideas detŕas del m ́etodo del Gradiente. Estimando el gradiente.
+   * Usando el gradiente.
+   * Descenso del gradiente estocástico.
+   
+7. Obtencíon de Datos
+   * Leyendo archivos. Web Scraping. Ejemplos.
+   * Usando APIS:JSON y XML y APIS no autenticadas. Encontrando APIS.
+   * Usando la API de Twitter.
+   
+8. Trabajando con Datos
+   * Explorando datos de 1,2 y ḿas dimensiones.
+   * Manipulando datos, reescalando y reduccíon de la dimensionalidad
+   
+9. Machine Learning
+   * ¿ Qúe es Machine Learning?. Sobreajuste y Subajuste. Exactitud.
+   * The Bias-Variance Trade-off.
+
+10. K-vecinos ḿas cercanos
+   * El modelo. Ejemplos
+   * La maldición de la dimensión.
 
 ## Herramientas a  usar 
 
