@@ -1,0 +1,688 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Made with Remarkable!
+  </title>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css" rel="stylesheet"/>
+  <style type="text/css">
+   body{font:16px Helvetica,Arial,sans-serif;line-height:1.4;color:#333;word-wrap:break-word;background-color:#fff;padding:10px 15px}strong{font-weight:700}h1{font-size:2em;margin:.67em 0;text-align:center}h2{font-size:1.75em}h3{font-size:1.5em}h4{font-size:1.25em}h1,h2,h3,h4,h5,h6{font-weight:700;position:relative;margin-top:15px;margin-bottom:15px;line-height:1.1}h1,h2{border-bottom:1px solid #eee}hr{height:0;margin:15px 0;overflow:hidden;background:0 0;border:0;border-bottom:1px solid #ddd}a{color:#4183C4}a.absent{color:#c00}ol,ul{padding-left:15px;margin-left:5px}ol{list-style-type:lower-roman}table{padding:0}table tr{border-top:1px solid #ccc;background-color:#fff;margin:0;padding:0}table tr:nth-child(2n){background-color:#aaa}table tr th{font-weight:700;border:1px solid #ccc;text-align:left;margin:0;padding:6px 13px}table tr td{border:1px solid #ccc;text-align:left;margin:0;padding:6px 13px}table tr td :first-child,table tr th :first-child{margin-top:0}table tr td:last-child,table tr th :last-child{margin-bottom:0}img{max-width:100%}code{padding:0 5px;background-color:#d3d3d3}blockquote{padding: 0 15px;border-left:4px solid #ccc}
+  </style>
+ </head>
+ <body>
+  <h1 id="iterables-iteradores-y-generadores">
+   Iterables, Iteradores  y Generadores
+  </h1>
+  <p>
+   <em>
+    Notas basadas en el artículo de Vincent Driessen: Iterables vs iterators vs Generators
+   </em>
+  </p>
+  <h2 id="contenedores">
+   Contenedores
+  </h2>
+  <p>
+   Los contenedores son  estructuras de datos, que contienen elementos y suporta pruebas de permanencia de sus elementos. Son estructuras de datos que viven en la memoria y almacenan sus valores en memoria también. En Python algunos ejemplo son:
+  </p>
+  <p>
+   1 .
+   <strong>
+    list
+   </strong>
+   ,
+   <code>
+    deque , ...
+   </code>
+  </p>
+  <p>
+   2 .
+   <strong>
+    set
+   </strong>
+   ,
+   <code>
+    frozensets, ...
+   </code>
+  </p>
+  <p>
+   3 .
+   <strong>
+    dict
+   </strong>
+   ,
+   <code>
+    default, OrderedDict, Counter, ...
+   </code>
+  </p>
+  <p>
+   4 .
+   <strong>
+    tuple
+   </strong>
+   ,
+   <code>
+    namedtuple, ...
+   </code>
+  </p>
+  <p>
+   5 .
+   <strong>
+    str
+   </strong>
+  </p>
+  <p>
+   Un objecto es un
+   <code>
+    contenedor
+   </code>
+   , cuando podemos preguntar si contiene un cierto elemento. Podemos llevar esas pruebas de pertenencia sobre listas, conjuntos (sets) o tuplas, de la siguiente manera:
+  </p>
+  <pre><code class="python">assert 1 in [1, "R", 2, "JS"]      # listas
+assert 4 not in [1, 2, 3, 7]
+assert 1 in {1, 2, 3}      # sets
+assert 4 not in {1, 2, 3}
+assert 6 in (2, 4, 6, 8)      # tuplas
+assert 4 not in (1, 2, 3)
+</code></pre>
+  <p>
+   En el caso de los diccionarios
+  </p>
+  <pre><code class="python">d = {1: 'python', 2: 'R', 3: 'C++'}
+assert 1 in  d
+assert 5 in d
+assert 'C++' not in d
+</code></pre>
+  <p>
+   Podemos preguntas si una cadena, contiene una subcadena
+  </p>
+  <pre><code class="python">s = 'spandueballett'
+assert 'a' in s
+assert 'b' not in s
+assert 'ball' in s
+</code></pre>
+  <p>
+   Las cadenas literalmente no almacenan copias de todas sus subcadenas de memoria, pero se pueden usar de esta manera.
+  </p>
+  <p>
+   Aunque la mayoria de los contenedores proporcionan una manera de producir, todos los elementos  que contiene, esta capacidad, no le hace a ellos un contenedor sino un iterable.
+  </p>
+  <p>
+   <strong>
+    No todos los contenedores son iterables
+   </strong>
+   . Un ejemplo de esto es  un
+   <a href="http://billmill.org/bloomfilter-tutorial/">
+    Bloom Filters
+   </a>
+   , una estructura de datos probabilistica, que permite que se le pregunte si contiene un determinado elemento, pero no es capáz de retornas sus elementos individuales.
+  </p>
+  <h2 id="iterables">
+   Iterables
+  </h2>
+  <p>
+   La mayoría de los contenedores también son iterables. Pero muchas cosas más son también iterables . Ejemplos de ello son los archivos abiertos, sockets  abiertos, etc. Donde  los  contenedores  son típicamente finitos, un iterable puede  también  representar  una fuente infinita de datos.
+  </p>
+  <p>
+   Un iterable es cualquier objeto, no necesariamente una estructura de datos, que puede devolver un
+   <strong>
+    iterador
+   </strong>
+   (con el fin de devolver todos los elementos). Eso suena un poco incómodo, pero hay una diferencia importante entre un iterable y un iterador.  Vemos este ejemplo:
+  </p>
+  <pre><code class="python">x = [1, 2, 3]
+y = iter(x)
+z = iter(x)
+next(y)
+1
+next(y)
+2
+next(z)
+1
+type(x)
+&lt;class 'list'&gt;
+type(y)
+&lt;class 'list_iterator'&gt;
+</code></pre>
+  <p>
+   Aquí,
+   <code>
+    x
+   </code>
+   es el iterable, mientras que
+   <code>
+    y
+   </code>
+   y
+   <code>
+    z
+   </code>
+   son instancias individuales de un iterador, produciendo valores desde el iterable
+   <code>
+    x
+   </code>
+   . Ambos
+   <code>
+    y
+   </code>
+   y
+   <code>
+    z
+   </code>
+   mantienen un estado como se muestra en el ejemplo.
+  </p>
+  <p>
+   A menudo, las clases iterables implementarán tanto
+   <code>
+    _iter__()
+   </code>
+   y
+   <code>
+    __next__
+   </code>
+   en la misma clase y tener
+   <code>
+    __iter__()
+   </code>
+   devolviendo
+   <code>
+    self
+   </code>
+   , lo que hace de la clase un iterable y su propio iterador. Es correcto retornar diferentes objetos como iteradores sin embargo.
+  </p>
+  <p>
+   Cuando se escribe :
+  </p>
+  <pre><code class="python">x = [1, 2, 3]
+for elem in x:
+...
+</code></pre>
+  <p>
+   lo que ocurre es lo que se muestra en el siguiente gráfico:
+  </p>
+  <p>
+   <img alt="" src="/home/c-lara/M-L/Python/iterable-vs-iterator.png"/>
+  </p>
+  <p>
+   Cuando desensamblamos este código en Python, se puede ver la llamada explícita a
+   <code>
+    GET_ITER
+   </code>
+   , que es esencialmente igual a la invocación
+   <code>
+    iter(x)
+   </code>
+   .
+   <code>
+    FOR_ITER
+   </code>
+   es una instrucción que va a hacer el equivalente a llamar
+   <code>
+    next()
+   </code>
+   repetidamente para obtener todos los elementos, pero esto no se demuestra en  las instrucciones de código de bytes porque está optimizada para la velocidad en el intérprete.
+  </p>
+  <pre><code class="python">import dis
+x = [1,2,3]
+dis.dis('for _ in x: pass')
+
+1           0 SETUP_LOOP            14( to 17)
+            3 LOAD_NAME             0(x)
+            6 GET_ITER
+        &gt;&gt;  7 FOR_ITER               6(to 16)
+            10 STORE_NAME            1 (_)
+            13 JUMP_ABSOLUTE         7
+        &gt;&gt;  16 POP_BLOCK
+        &gt;&gt;  17 LOAD_CONST
+            20 RETURN VALUE
+</code></pre>
+  <h2 id="iteradores">
+   Iteradores
+  </h2>
+  <p>
+   Un iterador es un objeto auxiliar de ‘estado’ que producirá el siguiente valor cuando se llama a
+   <code>
+    next()
+   </code>
+   en el. Un objecto que tiene un método
+   <code>
+    __next__
+   </code>
+   es por tanto un iterador.
+  </p>
+  <p>
+   Cada vez que se pide por el próximo valor (next), este sabe como calcularlo ya que esta sujeto a estados internos.
+  </p>
+  <p>
+   Todas  las funciones de
+   <a href="https://docs.python.org/3/library/itertools.html">
+    itertools
+   </a>
+   retornan iteradores. Algunas producen secuencias infinitas:
+  </p>
+  <pre><code class="python">from itertools import count
+contador = count(start =3)
+next(contador)
+3
+next(contador)
+4
+next(contador)
+5
+</code></pre>
+  <p>
+   Algunas producen infinitas secuencias, desde finitas secuencias
+  </p>
+  <pre><code class="python">from itertools import cycle
+lenguajes = cycle(['Python', 'R', 'C++'])
+next(lenguajes)
+'Python'
+next(lenguajes)
+'R'
+next(lenguajes)
+'C++'
+next(lenguajes)
+'Python'
+</code></pre>
+  <p>
+   Algunas producen secuencias finitas, desde infinitas secuencias
+  </p>
+  <pre><code class="python">&gt;&gt;&gt; from itertools import islice
+&gt;&gt;&gt; lenguajes = itertools.cycle(['Python', 'R', 'C++'])  # infinito
+&gt;&gt;&gt; lim = islice(lenguajes, 0, 4)                          # finito
+&gt;&gt;&gt; for x in lim:                         # modo seguro de usar el bucle for
+...     print(x)
+Python
+R
+C++
+Python
+</code></pre>
+  <p>
+   Para tener una mejor idea de los detalles internos de un iterador, vamos a construir un iterador que produce los números Fibonnaci.
+  </p>
+  <pre><code class="python"># Iterador que produce los numeros de Fibonacci
+from itertools import islice
+
+class fib:
+    def __init__(self):
+        self.prev = 0
+        self.actual = 1
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        valor = self.actual
+        self.actual += self.prev
+        self.prev = valor
+        return valor
+
+f = fib()
+list(islice(f, 0,12))
+#[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
+
+</code></pre>
+  <p>
+   Tenga en cuenta que esta clase es a la vez un iterable ( tiene el método
+   <code>
+    __iter __ ()
+   </code>
+   ) y su propio iterador (tiene un método
+   <code>
+    __next __ ()
+   </code>
+   ).
+  </p>
+  <p>
+   El estado dentro de este iterador se  mantiene dentro de las variables de instancia
+   <code>
+    prev
+   </code>
+   y
+   <code>
+    actual
+   </code>
+   y se utilizan para   subsecuentes llamadas al iterador. Cada llamada a
+   <code>
+    next()
+   </code>
+   realiza dos importantes cosas:
+  </p>
+  <p>
+   1 . Modifica el estado para la siguiente llamada a
+   <code>
+    next()
+   </code>
+   .
+   <br/>
+   2 . Presenta el resultado para la actual llamada.
+  </p>
+  <p>
+   Desde el exterior, el iterador es como una fábrica ‘perezosa’  que está inactiva hasta que se le  pide para un valor, que es cuando comienza a funcionar y produce un solo valor, después del cual se vuelve inactiva de nuevo.
+  </p>
+  <p>
+   En Python, podemos definir un iterador es un objeto que implementa el
+   <code>
+    protocolo iterador
+   </code>
+   que consiste de los métodos mencionados
+   <code>
+    __iter__()
+   </code>
+   que retorna el objeto iterador y
+   <code>
+    __next__()
+   </code>
+   que retorna el elemento siguiente de una secuencia. Python tiene varios objetos, que implementan el
+   <code>
+    protocolo iterador
+   </code>
+   , como las listas, tuplas, diccionarios o archivos.
+  </p>
+  <pre><code class="python"># Ejemplo del uso de iteradores con archivos
+
+#!/usr/bin/python
+
+f = open('python.txt', 'r')
+
+for linea in f:
+    print (linea)
+
+f.close()
+</code></pre>
+  <h2 id="generadores">
+   Generadores
+  </h2>
+  <p>
+   Los generadores son un tipo especial de iterador. Los generadores te permiten escribir iteradores al igual que el ejemplo de secuencia  de los números de Fibonacci, dada anteriormente, pero una sucinta sintaxis, que evita escribir clases con los métodos
+   <code>
+    __iter__()
+   </code>
+   y
+   <code>
+    __next__()
+   </code>
+   . En general
+  </p>
+  <p>
+   1 . Un generador es un iterador, pero no se cumple lo contrario.
+   <br/>
+   2 . Un generador, por tanto es como una fábrica (‘perezosa’) que produce valores, en realidad una secuencia de valores.
+  </p>
+  <p>
+   Aquí la misma secuencia de números de Fibonacci, usando generadores
+  </p>
+  <pre><code class="python"># Creacion de la secuencia de Fibonacci usando generadores
+from itertools import islice 
+
+def fib():
+    prev, actual = 0, 1
+    while True:
+        yield actual
+        prev, actual = actual, prev + actual
+
+f = fib()
+list(islice(f, 0,9))
+[1, 1, 2, 3, 5, 8, 13, 21, 34]
+</code></pre>
+  <p>
+   Expliquemos paso a paso que sucede en el programa anterior : en primer lugar, debemos darnos cuenta que
+   <strong>
+    fib
+   </strong>
+   se define como una función de Python, nada especial. Nótese, sin embargo, que no hay la  palabra clave
+   <code>
+    return
+   </code>
+   dentro del cuerpo de la función. El valor de retorno de la función será un generador (es decir: un iterador, una fábrica, un objeto auxiliar de estado).
+  </p>
+  <p>
+   Ahora, cuando
+   <code>
+    f = fib()
+   </code>
+   se llama, el generador (la fábrica) es instanciado y retornado . Ningún código se ejecutará en este punto: el generador comienza en un estado inactivo inicialmente. Para ser explícitos: la línea
+  </p>
+  <p>
+   <code>
+    prev, actual = 0, 1
+   </code>
+  </p>
+  <p>
+   no se ejecuta todavía.
+  </p>
+  <p>
+   Entonces, esta instancia del generador es envuelto en
+   <code>
+    islice()
+   </code>
+   . Este es en sí también un iterador. No pasa nada, todavía.
+  </p>
+  <p>
+   Entonces, este iterador es envuelto en
+   <code>
+    list()
+   </code>
+   , que usará todos sus argumentos y crea una lista  de estos. Para ello, se empieza a llamar a
+   <code>
+    next()
+   </code>
+   en la instancia
+   <code>
+    islice()
+   </code>
+   , que a su vez empieza a llamar a
+   <code>
+    next()
+   </code>
+   en nuestro instancia
+   <code>
+    f
+   </code>
+   .
+  </p>
+  <p>
+   Sin embargo, un paso a la vez. En la primera invocación, el código  finalmente correrá un poco:
+   <code>
+    prev, curr = 0, 1
+   </code>
+   es ejecutado, ingresamos entonces  en el bucle
+   <code>
+    while True
+   </code>
+   , y luego nos encontramos la declaración
+   <code>
+    yield actual
+   </code>
+   .
+  </p>
+  <p>
+   Esta producirá el valor que está actualmente en la variable
+   <code>
+    actual
+   </code>
+   y se volverá inactiva  otra vez. Este valor se pasa a
+   <code>
+    islice()
+   </code>
+   , que producirá este valor (porque no se a ido más allá del 9 todavia) y la lista puede agregar el valor 1 a la lista ahora.
+  </p>
+  <p>
+   A continuación, se pide a
+   <code>
+    ìslice
+   </code>
+   por el valor siguiente, el cual le pedirá a
+   <code>
+    f
+   </code>
+   por el valor siguiente, esto deberá “quitar la pausa” de f desde su estado anterior, reanudando con la declaración
+   <code>
+    prev, actual  = actual, prev + actual
+   </code>
+   . Luego se vuelve a entrar en la siguiente iteración del bucle
+   <code>
+    while
+   </code>
+   , y alcanzamos la declaración
+   <code>
+    yield actual
+   </code>
+   , devolviendo el siguiente valor de
+   <code>
+    actual
+   </code>
+   .
+  </p>
+  <p>
+   Esto ocurre hasta que la lista tenga 9 elementos y cuando
+   <code>
+    list()
+   </code>
+   pide a
+   <code>
+    islice()
+   </code>
+   por el valor 10,
+   <code>
+    islice()
+   </code>
+   provocará una excepción
+   <code>
+    StopIteration
+   </code>
+   , lo que indica que el final se ha alcanzado, y la lista devolverá el resultado: una lista  que contienen los 9 primeros números de Fibonacci.
+  </p>
+  <p>
+   Se debe notar que el generador no recibe la llamada 10 de
+   <code>
+    next()
+   </code>
+   . De hecho, no se volverá a utilizar, y será basura recogida más tarde.
+  </p>
+  <p>
+   Mostremos otro ejemplo, para clarificar mejor la relación entre
+   <code>
+    yield
+   </code>
+   y la llamada al método
+   <code>
+    next
+   </code>
+   sobre el generador
+  </p>
+  <pre><code class="python">def fg():
+    print ("inicio")
+    for i in range(3):
+        print ("antes de yield", i)
+        yield i
+        print ("despues de yield", i)
+    print (" fin")
+
+f = fg()
+next(f)
+inicio
+antes de yield 0
+0
+
+next(f)
+despues de yield  0
+antes de yield 1
+1
+
+next(f)
+despues de yield 1
+antes de yield 2
+2
+
+next(f)
+despues de yield 2
+ fin
+Traceback (most recent call last):
+
+  File "&lt;ipython-input-43-468f0afdf1b9&gt;", line 1, in &lt;module&gt;
+    next(f)
+
+StopIteration
+</code></pre>
+  <h3 id="tipos-de-generadores">
+   Tipos de Generadores
+  </h3>
+  <p>
+   Hay dos tipos de generadores en Python: las funciones generadoras y los generadores  de expresiones. Una función generadoras  es cualquier función en la que  rendimiento de palabra clave
+   <code>
+    yield
+   </code>
+   aparece en su cuerpo. Acabamos de ver un ejemplo de ello. El aspecto de la  palabra clave
+   <code>
+    yield
+   </code>
+   es suficiente para hacer de la función  una función generadora.
+  </p>
+  <p>
+   El otro tipo de generador es el generador equivalente de una lista por comprensión. Su sintaxis es muy elegante para de uso limitado
+  </p>
+  <p>
+   Supongamos que se utiliza esta sintaxis para crear una lista de números:
+  </p>
+  <pre><code class="python">numeros = [1 ,2 ,3 ,4 ,5]
+[x * x for x in numeros]
+[1, 4, 9, 16, 25]
+</code></pre>
+  <p>
+   Se puede hacer lo mismo haciendo  usando un  conjunto por comprensión:
+  </p>
+  <pre><code class="python">{x*x for x in numeros}
+{1, 4, 9, 16, 25}
+</code></pre>
+  <p>
+   o usando diccionarios
+  </p>
+  <p>
+   <code>
+    python
+{x: x *x for x in numeros}
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+   </code>
+  </p>
+  <p>
+   Pero también se puede usar una expresión generadora:
+  </p>
+  <pre><code class="python">&gt;&gt;&gt; cuadrados= (x * x for x in numeros)
+&gt;&gt;&gt; cuadrados
+&lt;generator object &lt;genexpr&gt; at 0x10d1f5510&gt;
+&gt;&gt;&gt; next(cuadrados)
+1
+&gt;&gt;&gt; list(cuadrados)
+[4, 9, 16, 25]
+</code></pre>
+  <p>
+   Tenga en cuenta que, debido a que hemos leido el primer valor de
+   <code>
+    cuadrado
+   </code>
+   con
+   <code>
+    next ()
+   </code>
+   , su estado se encuentra ahora en el “segundo” item, por lo que cuando recorramos la totalidad de las llamadas a
+   <code>
+    list()
+   </code>
+   , sólo se devolverá una lista de
+   <code>
+    cuadrados
+   </code>
+   parcial, empezando por el segundo valor.
+  </p>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js">
+  </script>
+  <script>
+   hljs.initHighlightingOnLoad();
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   MathJax.Hub.Config({"showProcessingMessages" : false,"messageStyle" : "none","tex2jax": { inlineMath: [ [ "$", "$" ] ] }});
+  </script>
+ </body>
+</html>
