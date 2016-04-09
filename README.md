@@ -107,29 +107,17 @@ c-lara@Lara:~$ conda install -c r r-essentials
 
 
 ## Lecturas
-1 .[Análisis de los pro y contras de ciertos  algoritmos en Machine Learning](http://www.lauradhamilton.com/machine-learning-algorithm-cheat-sheet).
-2 .[7 pasos para empezar con Machine Learning con Python ](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html).
-
-3 .[Un tour sobre los principales algoritmos de Machine Learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
-
-4 .[Algoritmos de Machine Learning](http://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/).
-
-5 .[13 framework usados en Machine Learning](http://www.infoworld.com/article/3026262/data-science/13-frameworks-for-mastering-machine-learning.html).
-
-6 .[R y MongoDb](https://gist.github.com/Btibert3/7751989).
-
-7 .[Notas de Scikit-Learn como herramienta de Machine Learning](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
-
-8 .[Machine Learning Cheat Sheet for scikit-learn](http://peekaboo-vision.blogspot.pe/2013/01/machine-learning-cheat-sheet-for-scikit.html).
-
-9 .[Página principal de Scikit-learn](http://scikit-learn.org/stable/index.html).
-
-10 .[Artículo inicial de que es  Machine Learning  ](http://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/).
-
-11 .[Uso de Pandas, para Análisis exploratorio de datos ](http://www.analyticsvidhya.com/blog/2014/08/baby-steps-python-performing-exploratory-analysis-python/).
-
-12 .[Machine Learning en R](http://blog.datacamp.com/machine-learning-in-r/).
-
-13 .[Ciencia de datos con R, Analytics, Big Data, Text Mining](http://togaware.com/onepager/).
-
-14 . [Tutorial completo acerca de ciencia de datos en R ](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/).
+- [Análisis de los pro y contras de ciertos  algoritmos en Machine Learning](http://www.lauradhamilton.com/machine-learning-algorithm-cheat-sheet).
+- [7 pasos para empezar con Machine Learning con Python ](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html).
+- [Un tour sobre los principales algoritmos de Machine Learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
+- [Algoritmos de Machine Learning](http://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/).
+- [13 framework usados en Machine Learning](http://www.infoworld.com/article/3026262/data-science/13-frameworks-for-mastering-machine-learning.html).
+- [R y MongoDb](https://gist.github.com/Btibert3/7751989).
+- [Notas de Scikit-Learn como herramienta de Machine Learning](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
+- [Machine Learning Cheat Sheet for scikit-learn](http://peekaboo-vision.blogspot.pe/2013/01/machine-learning-cheat-sheet-for-scikit.html).
+- [Página principal de Scikit-learn](http://scikit-learn.org/stable/index.html).
+- [Artículo inicial de que es  Machine Learning  ](http://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/).
+- [Uso de Pandas, para Análisis exploratorio de datos ](http://www.analyticsvidhya.com/blog/2014/08/baby-steps-python-performing-exploratory-analysis-python/).
+- [Tutorial de datacamp de Machine Learning en R](http://blog.datacamp.com/machine-learning-in-r/).
+- [Ciencia de datos con R, Analytics, Big Data, Text Mining](http://togaware.com/onepager/).
+- [Tutorial completo acerca de ciencia de datos en R ](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/).
