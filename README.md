@@ -129,3 +129,6 @@ c-lara@Lara:~$ conda install -c r r-essentials
 
 11 .[Uso de Pandas, para Análisis exploratorio de datos ](http://www.analyticsvidhya.com/blog/2014/08/baby-steps-python-performing-exploratory-analysis-python/).
 
+12 .[Machine Learning en R](http://blog.datacamp.com/machine-learning-in-r/).
+
+13 .[Ciencia de datos con R](http://togaware.com/onepager/).
