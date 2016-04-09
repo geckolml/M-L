@@ -105,6 +105,13 @@ El proyecto [Anaconda](https://www.continuum.io/downloads) ha creado [R Essentia
 c-lara@Lara:~$ conda install -c r r-essentials
 ``` 
 
+### Weka 
+
+Para instalar Weka en Ubuntu, desempaquetar el [archivo](http://prdownloads.sourceforge.net/weka/weka-3-6-13.zip) conteniendo a Weka en algún de tu preferencia y luego ir al directorio creado  (weka-3-6-13) y ejecutar
+
+```bash
+c-lara@Lara:~$java -Xmx1000M -jar weka.jar
+```
 
 ## Lecturas
 - [Análisis de los pro y contras de ciertos  algoritmos en Machine Learning](http://www.lauradhamilton.com/machine-learning-algorithm-cheat-sheet).
@@ -113,7 +120,7 @@ c-lara@Lara:~$ conda install -c r r-essentials
 - [Algoritmos de Machine Learning](http://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/).
 - [13 framework usados en Machine Learning](http://www.infoworld.com/article/3026262/data-science/13-frameworks-for-mastering-machine-learning.html).
 - [R y MongoDb](https://gist.github.com/Btibert3/7751989).
-- [Weka3, software de Data Mining en Java ](http://www.cs.waikato.ac.nz/ml/weka/).
+- [Weka 3, software de Data Mining en Java ](http://www.cs.waikato.ac.nz/ml/weka/).
 - [Notas de Scikit-Learn como herramienta de Machine Learning](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
 - [Machine Learning Cheat Sheet for scikit-learn](http://peekaboo-vision.blogspot.pe/2013/01/machine-learning-cheat-sheet-for-scikit.html).
 - [Página principal de Scikit-learn](http://scikit-learn.org/stable/index.html).
