@@ -117,3 +117,15 @@ c-lara@Lara:~$ conda install -c r r-essentials
 
 5 .[13 framework para Machine Learning](http://www.infoworld.com/article/3026262/data-science/13-frameworks-for-mastering-machine-learning.html).
 
+6 .[R y MongoDb](https://gist.github.com/Btibert3/7751989).
+
+7 .[Notas de Scikit-Learn](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
+
+8 .[Machine Learning Cheat Sheet for scikit-learn](http://peekaboo-vision.blogspot.pe/2013/01/machine-learning-cheat-sheet-for-scikit.html).
+
+9 .[Página principal de Scikit-learn](http://scikit-learn.org/stable/index.html).
+
+10 .[Machine Learning básico](http://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/).
+
+11 .[Uso de Pandas, para Análisis exploratorio de datos ](http://www.analyticsvidhya.com/blog/2014/08/baby-steps-python-performing-exploratory-analysis-python/).
+
