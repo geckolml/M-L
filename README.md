@@ -105,6 +105,16 @@ El proyecto [Anaconda](https://www.continuum.io/downloads) ha creado [R Essentia
 c-lara@Lara:~$ conda install -c r r-essentials
 ``` 
 
+### Spyder 
+
+[Spyder](https://github.com/spyder-ide/spyder]) es un entorno de desarrollo para Python, con múltiples características como edición avanzada, testeo, depuración y características de instrospección, además de la capacidad de utilizar vía Ipython las librerías científicas de Numpy, Simpy o MatplotLib.  Si se tiene instalado Anaconda, entonces solo basta escribir en el terminal lo siguiente
+
+```bash
+c-lara@Lara:~$ spyder
+``` 
+
+
+
 ### Weka 
 
 [Weka](http://www.cs.waikato.ac.nz/ml/weka/) (Waikato Environment for Knowledge Acquisition) es una herramienta de Machine Learning y Data Minning escrito en Java. Con Weka podemos hacer Preprocessing data, clustering, classification, regression y ahora Big Data y datos con un driver JDBC.
