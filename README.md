@@ -47,6 +47,12 @@
 10. K-vecinos más cercanos
    * El modelo. Ejemplos
    * La maldición de la dimensión.
+   
+## Libros de Texto
+
+1 .Machine Learning: Hands-On for Developers and Technical Professionals, Jason Bell, Wiley 2015.
+
+2 .Coding The Matrix Linear Algebra Through Computer Science Applications, Newtonian Press, Phillip Klein, 2012.
 
 ## Herramientas a  usar 
 
@@ -159,3 +165,5 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Tutorial para aprender algoritmos  Naives Bayes con Python](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
 - [Tutorial para aprender boosting  con Python](http://www.analyticsvidhya.com/blog/2015/11/quick-introduction-boosting-algorithms-machine-learning/).
 - [Artículo acerca de Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
+- [Visualización con d3.js para la Ciencia de Datos y Inteligencia de negocios](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/newbie-d3-js-expert-complete-path-create-interactive-visualization-d3-js/).
+
