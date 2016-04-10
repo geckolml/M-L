@@ -115,6 +115,8 @@ Para instalar Weka en Ubuntu, desempaquetar el [archivo](http://prdownloads.sour
 c-lara@Lara:~$java -Xmx1000M -jar weka.jar
 ```
 
+Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch?v=m7kpIBGEdkI) de Brandon Weinberg o el [canal de Youtube](https://www.youtube.com/user/WekaMOOC) de Weka.
+
 ### Mahout 
 
 [Mahout](http://mahout.apache.org/) es un proyecto que es es parte del proyecto Apache. Una característica principal de Mahout es su integración con el paradigma Hadoop Map/Reduce para el procesamiento de datos a gran escala. Mahout soporta un gran número de algoritmos incluyendo:
@@ -127,6 +129,9 @@ c-lara@Lara:~$java -Xmx1000M -jar weka.jar
 
 
 ## Lecturas
+- [El cookbook del paquete Scipy ](http://scipy-cookbook.readthedocs.org/).
+- [Página principal de Scikit-learn](http://scikit-learn.org/stable/index.html).
+- [Weka – GUI way to learn Machine Learning](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/weka-gui-learn-machine-learning/).
 - [Análisis de los pro y contras de ciertos  algoritmos en Machine Learning](http://www.lauradhamilton.com/machine-learning-algorithm-cheat-sheet).
 - [7 pasos para empezar con Machine Learning con Python ](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html).
 - [Un tour sobre los principales algoritmos de Machine Learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
@@ -136,9 +141,9 @@ c-lara@Lara:~$java -Xmx1000M -jar weka.jar
 - [Weka 3, software de Data Mining en Java ](http://www.cs.waikato.ac.nz/ml/weka/).
 - [Notas de Scikit-Learn como herramienta de Machine Learning](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
 - [Machine Learning Cheat Sheet for scikit-learn](http://peekaboo-vision.blogspot.pe/2013/01/machine-learning-cheat-sheet-for-scikit.html).
-- [Página principal de Scikit-learn](http://scikit-learn.org/stable/index.html).
 - [Artículo inicial de que es  Machine Learning  ](http://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/).
 - [Uso de Pandas, para Análisis exploratorio de datos ](http://www.analyticsvidhya.com/blog/2014/08/baby-steps-python-performing-exploratory-analysis-python/).
 - [Tutorial de datacamp de Machine Learning en R](http://blog.datacamp.com/machine-learning-in-r/).
 - [Ciencia de datos con R, Analytics, Big Data, Text Mining](http://togaware.com/onepager/).
 - [Tutorial completo acerca de ciencia de datos en R ](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/).
+- [Tutorial para aprender algoritmos de Naives Bayes con Python](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
