@@ -1,50 +1,50 @@
 # M-L
 
-1. Introduccíon a Python
-   * Curso ŕapido de Python.
+1. Introdución a Python
+   * Curso rápido de Python.
    * Uso de las paquetes: Matplotlib, NumPy, Pandas, scikit-learn.
-   * Nano y Vim. Uso de Ipython.
+   * Nano y Vim. Uso de Jupyter .
 
 2. Algebra Lineal
    * Vectores y Matrices.
    * Valores y vectores propios.
 
-3. Estad́ıstica
+3. Estadística
    * Describiendo un conjunto de datos. Tendencias centrales, dispersión.
-   * Correlacíon. Paradoja de Simpson.
-   * Algunas advertencia, acerca de la correlacíon.
-   * Correlacíon y Causalidad.
+   * Correlación. Paradoja de Simpson.
+   * Algunas advertencia, acerca de la correlación.
+   * Correlación y Causalidad.
    
 4. Probabilidad
    * Dependencia y Independencia. Probabilidad Condicional. Teorema de Bayes.
-   * Variables Aleatorias.Distribuciones continuas. La distribucion Normal.  
+   * Variables Aleatorias.Distribuciones continuas. La distribución Normal.  
    * Teorema del Límite Central.
 
-5. Hipotesis e Inferencia  Estadística
+5. Hipótesis e Inferencia  Estadística
    * Prueba de hipótesis estadística.
    * Intervalos de Confianza.
    * P-hacking. El test A/B.
-   * Inferencia Bayesiana
+   * Inferencia Bayesiana.
    
 6. Descenso del Gradiente
-   * Ideas detŕas del m ́etodo del Gradiente. Estimando el gradiente.
+   * Ideas detrás del método del Gradiente. Estimando el gradiente.
    * Usando el gradiente.
    * Descenso del gradiente estocástico.
    
-7. Obtencíon de Datos
+7. Obtención de Datos
    * Leyendo archivos. Web Scraping. Ejemplos.
    * Usando APIS:JSON y XML y APIS no autenticadas. Encontrando APIS.
    * Usando la API de Twitter.
    
 8. Trabajando con Datos
-   * Explorando datos de 1,2 y ḿas dimensiones.
-   * Manipulando datos, reescalando y reduccíon de la dimensionalidad
+   * Explorando datos de 1,2 y más dimensiones.
+   * Manipulando datos, reescalando y reducción de la dimensionalidad
    
 9. Machine Learning
-   * ¿ Qúe es Machine Learning?. Sobreajuste y Subajuste. Exactitud.
+   * ¿ Qué es Machine Learning?. Sobreajuste y Subajuste. Exactitud.
    * The Bias-Variance Trade-off.
 
-10. K-vecinos ḿas cercanos
+10. K-vecinos más cercanos
    * El modelo. Ejemplos
    * La maldición de la dimensión.
 
@@ -107,13 +107,24 @@ c-lara@Lara:~$ conda install -c r r-essentials
 
 ### Weka 
 
-[Weka](http://www.cs.waikato.ac.nz/ml/weka/) (Waikato Environment for Knowledge Acquisition) es una herramienta de Machine Learning y Data Minning escrito en Java. Con Weka podemos hacer Preprocessing data, clustering, classification, regression y ahora Big Data. 
+[Weka](http://www.cs.waikato.ac.nz/ml/weka/) (Waikato Environment for Knowledge Acquisition) es una herramienta de Machine Learning y Data Minning escrito en Java. Con Weka podemos hacer Preprocessing data, clustering, classification, regression y ahora Big Data y datos con un driver JDBC.
 
 Para instalar Weka en Ubuntu, desempaquetar el [archivo](http://prdownloads.sourceforge.net/weka/weka-3-6-13.zip) conteniendo a Weka en algún de tu preferencia y luego ir al directorio creado  (weka-3-6-13) y ejecutar
 
 ```bash
 c-lara@Lara:~$java -Xmx1000M -jar weka.jar
 ```
+
+### Mahout 
+
+[Mahout](http://mahout.apache.org/) es un proyecto que es es parte del proyecto Apache. Una característica principal de Mahout es su integración con el paradigma Hadoop Map/Reduce para el procesamiento de datos a gran escala. Mahout soporta un gran número de algoritmos incluyendo:
+
+* Naive Bayes Classifier.
+* K Means Clustering.
+* Recommendation Engine.
+* Logistic Regression Classifier.
+* Random Forest.
+
 
 ## Lecturas
 - [Análisis de los pro y contras de ciertos  algoritmos en Machine Learning](http://www.lauradhamilton.com/machine-learning-algorithm-cheat-sheet).
