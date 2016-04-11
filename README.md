@@ -54,6 +54,12 @@
 
 2 .Coding The Matrix Linear Algebra Through Computer Science Applications, Newtonian Press, Phillip Klein, 2012.
 
+3 .Numerical Python: A Practical Techniques Approach for Industry, Robert Johansson, Apress 2015.
+
+4 .Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies, Aoife D'Arcy, Brian Mac Namee, John D. Kelleher, MIT 2015.
+
+5 .Mastering Machine Learning With scikit-learn, Gavin Hackeling, Packt Publishing, 2014.
+
 ## Herramientas a  usar 
 
 ### Editor Vim
