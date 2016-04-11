@@ -151,6 +151,8 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 
 
 ## Lecturas
+
+- [Una guía de bolsillo para la Ciencia de datos](http://www.kdnuggets.com/2016/04/pocket-guide-data-science.html).
 - [El cookbook del paquete Scipy ](http://scipy-cookbook.readthedocs.org/).
 - [Página principal de Scikit-learn](http://scikit-learn.org/stable/index.html).
 - [Weka – GUI way to learn Machine Learning](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/weka-gui-learn-machine-learning/).
