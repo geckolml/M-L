@@ -62,6 +62,8 @@
 
 6 .Probability: The Analysis of Data, Volumen 1, Guy Lebanon. El libro se puede leer de manera online en [theanalysisofdata.com](http://theanalysisofdata.com/).
 
+7 . Statistical inference for data science, Brian Caffo (Con código en R). El libro pueder se leído en Leanpub [Little Inference Book](https://leanpub.com/LittleInferenceBook).
+
 ## Herramientas a  usar 
 
 ### Editor Vim
