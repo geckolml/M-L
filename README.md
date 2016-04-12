@@ -60,6 +60,8 @@
 
 5 .Mastering Machine Learning With scikit-learn, Gavin Hackeling, Packt Publishing, 2014.
 
+6. Probability: The Analysis of Data, Volumen 1, Guy Lebanon. El libro se puede leer de manera online en [](http://theanalysisofdata.com/).
+
 ## Herramientas a  usar 
 
 ### Editor Vim
