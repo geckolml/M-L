@@ -100,6 +100,10 @@ c-lara@Lara:~$sudo apt-get update
 c-lara@Lara:~$sudo apt-get install git
 ```
 
+
+### Latex 
+
+
 ### MongoDB
 
 [MongoDB](https://www.mongodb.org/) es una sistema de base de datos NoSQL de código abierto utilizado  en aplicaciones web modernas, escrito en C++ le confiere cierta cercanía a los recursos del hardware, de modo que es bastante rápido a la hora de ejecutar sus tareas. MongoDB es una base de datos orientada a documentos, es decir guarda los datos en documentos que son almacenados en un representación binaria de JSON, llamado BSON.
