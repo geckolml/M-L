@@ -103,9 +103,13 @@ c-lara@Lara:~$sudo apt-get install git
 
 ### Latex 
 
-[LaTeX](https://www.latex-project.org/) es como un lenguaje de alto nivel para TeX, que es un sistema de preparación de documentos creados por Donald E. Knuth. Latex es en si un conjunto de macros y convenciones pensadas de modo que con pocas intrucciones seamos capaces de producir un documento de calidad profesional, como lo son los artículos  publicados por la comunidad científica.
+[LaTeX](https://www.latex-project.org/) es como un lenguaje de alto nivel para TeX, que es un sistema de preparación de documentos creados por Donald E. Knuth. Latex es en si un conjunto de macros y convenciones pensadas de modo que con pocas intrucciones seamos capaces de producir un documento de calidad profesional, como lo son los artículos  publicados por la comunidad científica. Mayor información se puede encontrar en :
 
-En ubuntu, la manera facil de instalar Latex, es usando `Tex Live`
+- [Referencia de Latex arbitraria](http://latex.knobs-dials.com/).
+- [TeX - LaTeX Stack Exchange](http://tex.stackexchange.com/)
+- [Wikibooks Latex](https://en.wikibooks.org/wiki/LaTeX).
+
+En ubuntu, la manera facil de instalar Latex, es usando `TexLive`
 
 ```bash
 c-lara@Lara:~$sudo apt-get install texlive-latex-base texlive-latex-recommended texlive-latex extra
@@ -116,12 +120,15 @@ Se pueden instalar paquetes extras, que no se encuentran en los paquetes anterio
 c-lara@Lara:sudo apt-get install texlive-science
 ```
 
-Si se desea instalar todo los paquetes de `Tex Live`, se puede hacer de la siguiente manera:
+Si se desea instalar todo los paquetes de `TexLive`, se puede hacer de la siguiente manera:
 
 
 ```bash
 c-lara@Lara:sudo apt-get install texlive-full
 ```
+
+Una página interesante para aprender los símbolos de latex, se pueden encontrar en [detexify](http://detexify.kirelabs.org/classify.html).
+
 ### MongoDB
 
 [MongoDB](https://www.mongodb.org/) es una sistema de base de datos NoSQL de código abierto utilizado  en aplicaciones web modernas, escrito en C++ le confiere cierta cercanía a los recursos del hardware, de modo que es bastante rápido a la hora de ejecutar sus tareas. MongoDB es una base de datos orientada a documentos, es decir guarda los datos en documentos que son almacenados en un representación binaria de JSON, llamado BSON.
