@@ -189,6 +189,18 @@ El proyecto [Anaconda](https://www.continuum.io/downloads) ha creado [R Essentia
 c-lara@Lara:~$ conda install -c r r-essentials
 ``` 
 
+### R y Rstudio
+
+[R](https://www.cran.r-project.org/) y [RStudio](https://www.rstudio.com/) . RStudio es un IDE para R. Es software libre con licencia GPLv3 y se puede ejecutar sobre distintas plataformas  o incluso desde la web usando [RStudio Server](https://support.rstudio.com/hc/en-us/articles/200552306-Getting-Started).
+
+
+```bash
+c-lara@Lara:~$ wget https://download1.rstudio.org/rstudio-0.99.893-amd64.deb
+c-lara@Lara:~$sudo dpkg -i *.deb
+c-lara@Lara:~$rm *.deb
+``` 
+
+
 ### Spyder 
 
 [Spyder](https://github.com/spyder-ide/spyder]) es un entorno de desarrollo para Python, con múltiples características como edición avanzada, testeo, depuración y características de instrospección, además de la capacidad de utilizar vía Ipython las librerías científicas de Numpy, Simpy o MatplotLib.  Si se tiene instalado Anaconda, entonces solo basta escribir en el terminal lo siguiente
