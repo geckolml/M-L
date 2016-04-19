@@ -221,6 +221,20 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 * Logistic Regression Classifier.
 * Random Forest.
 
+## Artículos
+
+- [Machine Learning introduction](https://jeremykun.com/2012/08/04/machine-learning-introduction/).
+- [Metric spaces introduction](https://jeremykun.com/2012/08/26/metric-spaces-a-primer/).
+- [k-nearest-neighbors](https://jeremykun.com/2012/08/26/k-nearest-neighbors-and-handwritten-digit-classification/).
+- [Inner product spaces](https://jeremykun.com/2011/07/25/inner-product-spaces-a-primer/).
+- [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
+- [Trees](https://jeremykun.com/2012/09/16/trees-a-primer/).
+- [Decision trees ](https://jeremykun.com/2012/10/08/decision-trees-and-political-party-classification/).
+- [k-Means Clustering ](https://jeremykun.com/2013/02/04/k-means-clustering-and-birth-rates/).
+- [Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
+- [Set theory](https://jeremykun.com/2011/07/09/set-theory-a-primer/).
+- [Probability theory introduction](https://jeremykun.com/2013/01/04/probability-theory-a-primer/).
+- [Linear Regression](https://jeremykun.com/2013/08/18/linear-regression/).
 
 ## Lecturas
 
@@ -238,12 +252,10 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Weka 3, software de Data Mining en Java ](http://www.cs.waikato.ac.nz/ml/weka/).
 - [Notas de Scikit-Learn como herramienta de Machine Learning](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
 - [Machine Learning Cheat Sheet for scikit-learn](http://peekaboo-vision.blogspot.pe/2013/01/machine-learning-cheat-sheet-for-scikit.html).
-- [Artículo inicial de que es  Machine Learning  ](http://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/).
 - [Tutorial de datacamp de Machine Learning en R](http://blog.datacamp.com/machine-learning-in-r/).
 - [Ciencia de datos con R, Analytics, Big Data, Text Mining](http://togaware.com/onepager/).
 - [Tutorial completo acerca de ciencia de datos en R ](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/).
 - [Tutorial para aprender algoritmos  Naives Bayes con Python](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
 - [Tutorial para aprender boosting  con Python](http://www.analyticsvidhya.com/blog/2015/11/quick-introduction-boosting-algorithms-machine-learning/).
-- [Artículo acerca de Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
 - [Visualización con d3.js para la Ciencia de Datos y Inteligencia de negocios](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/newbie-d3-js-expert-complete-path-create-interactive-visualization-d3-js/).
 
