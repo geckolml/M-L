@@ -1,4 +1,4 @@
-# M-L
+# Curso: Tópicos de investigación (Machine Learning)
 
 1. Introdución a Python
    * Curso rápido de Python.
@@ -250,6 +250,7 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 
 ## Lecturas
 
+- [Tutoriales de Machine Learning](https://github.com/ujjwalkarn/Machine-Learning-Tutorials).
 - [Una guía de bolsillo para la Ciencia de datos](http://www.kdnuggets.com/2016/04/pocket-guide-data-science.html).
 - [El cookbook del paquete Scipy ](http://scipy-cookbook.readthedocs.org/).
 - [Página principal de Scikit-learn](http://scikit-learn.org/stable/index.html).
