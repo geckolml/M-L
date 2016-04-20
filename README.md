@@ -1,4 +1,4 @@
-# Curso: Tópicos de investigación (Machine Learning)
+##  Curso: Tópicos de investigación (Machine Learning)
 
 1. Introdución a Python
    * Curso rápido de Python.
