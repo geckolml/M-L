@@ -90,7 +90,7 @@ for elem in x:
 
 lo que ocurre es lo que se muestra en el siguiente gráfico:
 
-![](iterable-vs-iterator.png)
+![](/home/c-lara/M-L/Python/iterable-vs-iterator.png) 
 
 
 Cuando desensamblamos este código en Python, se puede ver la llamada explícita a `GET_ITER`, que es esencialmente igual a la invocación `iter(x)`. `FOR_ITER` es una instrucción que va a hacer el equivalente a llamar  `next()` repetidamente para obtener todos los elementos, pero esto no se demuestra en  las instrucciones de código de bytes porque está optimizada para la velocidad en el intérprete.
