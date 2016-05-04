@@ -247,6 +247,7 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Set theory](https://jeremykun.com/2011/07/09/set-theory-a-primer/).
 - [Probability theory introduction](https://jeremykun.com/2013/01/04/probability-theory-a-primer/).
 - [Linear Regression](https://jeremykun.com/2013/08/18/linear-regression/).
+- [Tree decision and modeling](http://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/).
 
 ## Lecturas
 
