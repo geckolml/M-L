@@ -271,4 +271,6 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Tutorial para aprender algoritmos  Naives Bayes con Python](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
 - [Tutorial para aprender boosting  con Python](http://www.analyticsvidhya.com/blog/2015/11/quick-introduction-boosting-algorithms-machine-learning/).
 - [Visualización con d3.js para la Ciencia de Datos y Inteligencia de negocios](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/newbie-d3-js-expert-complete-path-create-interactive-visualization-d3-js/).
+- [Un tour de algoritmos de machine learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
+- [Machine learning en gráficos](http://www.denizyuret.com/2014/02/machine-learning-in-5-pictures.html).
 
