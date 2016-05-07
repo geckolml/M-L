@@ -64,6 +64,12 @@
 
 7 . Statistical inference for data science, Brian Caffo (Con código en R). El libro pueder se leído en Leanpub [Little Inference Book](https://leanpub.com/LittleInferenceBook).
 
+8 .Numerical Algorithms: Methods for Computer Vision, Machine Learning and Graphics, Justin Solomon, CRC Press, 2015.
+
+9 .An Introduction to Statistical Learning, Springer Texts in Statistics, Gareth James, Daniela Witten, Trevor Hastle y Robert Tibshirani, 2013.
+
+10 .Business Intelligence in Plain Language: A practical guide to Data Mining and Business Analytics, Jeremy Kolbs. Applied Data Labs Inc, 2012.
+
 ## Herramientas a  usar 
 
 ### Editor Vim
