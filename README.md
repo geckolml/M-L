@@ -242,6 +242,7 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 ## Artículos
 
 - [Machine Learning introduction](https://jeremykun.com/2012/08/04/machine-learning-introduction/).
+- [Difference machine learning and learning statistical modeling](http://www.analyticsvidhya.com/blog/2015/07/difference-machine-learning-statistical-modeling/).
 - [Metric spaces introduction](https://jeremykun.com/2012/08/26/metric-spaces-a-primer/).
 - [k-nearest-neighbors](https://jeremykun.com/2012/08/26/k-nearest-neighbors-and-handwritten-digit-classification/).
 - [Inner product spaces](https://jeremykun.com/2011/07/25/inner-product-spaces-a-primer/).
@@ -259,6 +260,7 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 
 - [Tutoriales de Machine Learning](https://github.com/ujjwalkarn/Machine-Learning-Tutorials).
 - [Una guía de bolsillo para la Ciencia de datos](http://www.kdnuggets.com/2016/04/pocket-guide-data-science.html).
+- [Learning from Data: Machine learning course](https://work.caltech.edu/lectures.html).
 - [El cookbook del paquete Scipy ](http://scipy-cookbook.readthedocs.org/).
 - [Página principal de Scikit-learn](http://scikit-learn.org/stable/index.html).
 - [Weka – GUI way to learn Machine Learning](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/weka-gui-learn-machine-learning/).
