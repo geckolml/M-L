@@ -246,6 +246,7 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Metric spaces introduction](https://jeremykun.com/2012/08/26/metric-spaces-a-primer/).
 - [k-nearest-neighbors](https://jeremykun.com/2012/08/26/k-nearest-neighbors-and-handwritten-digit-classification/).
 - [Inner product spaces](https://jeremykun.com/2011/07/25/inner-product-spaces-a-primer/).
+- [Geometric interpretation of covariance matrix](http://www.visiondummy.com/2014/04/geometric-interpretation-covariance-matrix/).
 - [Eigenvectors, PCA,covariance and entropy](http://deeplearning4j.org/eigenvector).
 - [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
 - [Trees](https://jeremykun.com/2012/09/16/trees-a-primer/).
