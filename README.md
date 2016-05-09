@@ -248,6 +248,7 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Inner product spaces](https://jeremykun.com/2011/07/25/inner-product-spaces-a-primer/).
 - [Geometric interpretation of covariance matrix](http://www.visiondummy.com/2014/04/geometric-interpretation-covariance-matrix/).
 - [Eigenvectors, PCA,covariance and entropy](http://deeplearning4j.org/eigenvector).
+- [PCA, eigenvectors and eigenvalues](http://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues).
 - [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
 - [Trees](https://jeremykun.com/2012/09/16/trees-a-primer/).
 - [Decision trees ](https://jeremykun.com/2012/10/08/decision-trees-and-political-party-classification/).
