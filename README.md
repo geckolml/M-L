@@ -247,6 +247,7 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 ## Artículos
 
 - [Machine Learning introduction](https://jeremykun.com/2012/08/04/machine-learning-introduction/).
+- [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
 - [Difference machine learning and learning statistical modeling](http://www.analyticsvidhya.com/blog/2015/07/difference-machine-learning-statistical-modeling/).
 - [Metric spaces introduction](https://jeremykun.com/2012/08/26/metric-spaces-a-primer/).
 - [k-nearest-neighbors](https://jeremykun.com/2012/08/26/k-nearest-neighbors-and-handwritten-digit-classification/).
