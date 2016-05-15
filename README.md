@@ -247,8 +247,6 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 ## Artículos
 
 - [Machine Learning introduction](https://jeremykun.com/2012/08/04/machine-learning-introduction/).
-- [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
-- [Difference machine learning and learning statistical modeling](http://www.analyticsvidhya.com/blog/2015/07/difference-machine-learning-statistical-modeling/).
 - [Metric spaces introduction](https://jeremykun.com/2012/08/26/metric-spaces-a-primer/).
 - [k-nearest-neighbors](https://jeremykun.com/2012/08/26/k-nearest-neighbors-and-handwritten-digit-classification/).
 - [Inner product spaces](https://jeremykun.com/2011/07/25/inner-product-spaces-a-primer/).
@@ -264,6 +262,9 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Probability theory introduction](https://jeremykun.com/2013/01/04/probability-theory-a-primer/).
 - [Linear Regression](https://jeremykun.com/2013/08/18/linear-regression/).
 - [Tree decision and modeling](http://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/).
+- [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/).
+- [ Naives Bayes explained](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
+- [Introduction boosting algorithms for machine learning](http://www.analyticsvidhya.com/blog/2015/11/quick-introduction-boosting-algorithms-machine-learning/).
 
 ## Lecturas
 
@@ -272,6 +273,8 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Learning from Data: Machine learning course](https://work.caltech.edu/lectures.html).
 - [El cookbook del paquete Scipy ](http://scipy-cookbook.readthedocs.org/).
 - [Página principal de Scikit-learn](http://scikit-learn.org/stable/index.html).
+- [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
+- [Difference machine learning and learning statistical modeling](http://www.analyticsvidhya.com/blog/2015/07/difference-machine-learning-statistical-modeling/).
 - [Weka – GUI way to learn Machine Learning](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/weka-gui-learn-machine-learning/).
 - [Uso de Pandas, para Análisis exploratorio de datos ](http://www.analyticsvidhya.com/blog/2014/08/baby-steps-python-performing-exploratory-analysis-python/).
 - [Análisis de los pro y contras de ciertos  algoritmos en Machine Learning](http://www.lauradhamilton.com/machine-learning-algorithm-cheat-sheet).
@@ -286,8 +289,6 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Tutorial de datacamp de Machine Learning en R](http://blog.datacamp.com/machine-learning-in-r/).
 - [Ciencia de datos con R, Analytics, Big Data, Text Mining](http://togaware.com/onepager/).
 - [Tutorial completo acerca de ciencia de datos en R ](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/).
-- [Tutorial para aprender algoritmos  Naives Bayes con Python](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
-- [Tutorial para aprender boosting  con Python](http://www.analyticsvidhya.com/blog/2015/11/quick-introduction-boosting-algorithms-machine-learning/).
 - [Visualización con d3.js para la Ciencia de Datos y Inteligencia de negocios](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/newbie-d3-js-expert-complete-path-create-interactive-visualization-d3-js/).
 - [Un tour de algoritmos de machine learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
 - [Machine learning en gráficos](http://www.denizyuret.com/2014/02/machine-learning-in-5-pictures.html).
