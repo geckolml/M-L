@@ -1,0 +1,330 @@
+\documentclass{article}
+\usepackage[sc]{mathpazo}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{bigints}
+\usepackage[]{algorithm2e}
+\geometry{verbose,tmargin=1.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\usepackage{url}
+\usepackage[unicode=true,pdfusetitle,
+ bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=2,
+ breaklinks=false,pdfborder={0 0 1},backref=false,colorlinks=false]
+ {hyperref}
+\hypersetup{
+ pdfstartview={XYZ null null 1}}
+\begin{document}
+<<setup, include=FALSE, cache=FALSE>>=
+library(knitr)
+library(ggplot2)
+library(grid)
+# set global chunk options
+opts_chunk$set(fig.path='figure/minimal-', fig.align='center', fig.show='hold')
+options(formatR.arrow=TRUE,width=90)
+@
+
+
+\title{Lista de ejercicios 3}
+
+
+\author{Curso: T\'opicos de Investigaci\'on : Machine Learning CM-072}
+\date{}
+\maketitle
+
+\vspace{0.3cm}
+
+
+\textbf{Lecturas Importantes }
+\begin{enumerate}
+\item  Interesante guia de data mining:
+\url{http://guidetodatamining.com/}.
+\end{enumerate}
+%{\normalsize Los c\'odigos, se presentaran impresos,  o como un archivo con extensi\'on $.R$, mostrando ejemplos de su ejecuci\'on.}
+\setlength{\unitlength}{1in}
+
+\begin{picture}(6,.1) 
+\put(0,0) {\line(1,0){6.25}}         
+\end{picture}
+
+\vspace{0.5cm}
+
+{\Large Probabilidad }
+
+
+\vspace{0.3cm}
+
+
+\begin{enumerate}
+\item Un dado es lanzado $n$ veces. Muestra que la probabilidad de que haya un  n\'umero par de \texttt{seis}  $\dfrac{1}{2}[1 + (\dfrac{2}{3})^n]$. Para este caso $0$ es un n\'umero par.
+\item Sea $A_r, r\geq 1$, los eventos tal que $P(A_r) = 1$ para todo $r$. Muestra que $P(\displaystyle\cap_{r =1}^{\infty}A_r) = 1$.
+\item Consideremos $\Omega = \{1, 2, \dots, p\}$ donde $p$ es primo. Sea $F$ el conjunto de todos los subconjuntos de $\Omega$ y $P(A) = \vert A\vert/p$ para todo $A \in F$. Muestra que, si $A$ y $B$ son eventos independientes, entonces al menos unos de los conjuntos $A$ y $B$  es $\emptyset$ o $\Omega$.
+\item Si $m$ estudiantes  nacidos en en $1991$ est\'an asistiendo a una conferencia, muestra que la probabilidad de que al menos dos de ellos tengan el mismo  cumplea\~nos es $p = 1 -(365)!/{(365 -m)!365^m}$. Muestra que $p >1/2$ cuando $m = 23$.
+\item Para que valores de $c$ y $\alpha$ es la funci\'on $p$ definida por
+
+\[
+p(k) = \begin{cases}
+ck^{\alpha} & \text{para}\ \ k =1,2, \dots\\
+0 & \text{en otros casos}
+\end{cases}
+\]
+
+es una funci\'on de masa de probabilidad.
+
+\item Si $X$ tiene una distribuci\'on geom\'etrica con par\'ametro $p$, muestra que
+
+\[
+P(X > m + n| X > m) = P(X > n)
+\]
+
+para $m, n = 0,1,2, \dots$.
+
+\item Sea $X$ y $Y$ una variable aleatoria discreta, cada teniendo una funci\'on de masa dado por
+
+\[
+P(X = k) = P(Y = k) = pq^k \ \ \text{para}\ \ k =0,1,2,\dots
+\]
+donde $0 < p = 1 -q < 1$. Muestra que
+
+\[
+P(X =k|X +Y = n) = \dfrac{1}{n +1}\ \ \text{para}\ \ k = 0,1, 2, \dots, n.
+\]
+\item Sea $X_1, X_2, \dots$ variables aleatoria independientes, identicamente distribuidas y sea $S_n = X_1 +X_2+ \cdots, +X_n$. Muestra que $E(S_m/S_n) = m/n$ si $m \leq n$ y $E(S_m/S_n) = 1 +(m -n)\mu E(1/S_n)$ si $m > n$, donde $\mu =E(X_1)$.
+\item Sean $F$ y $G$ funciones de distribuci\'on y sea la \texttt{m\'etrica de Levi}
+
+\[
+d_{L} = \inf\{\epsilon >0: G(x -\epsilon) -\epsilon\leq F(X)\leq G(x + \epsilon) + \epsilon \ \ \text{para todo}\ \ x \}
+\]
+
+Muestra que $d_{L}$ es efecto una m\'etrica sobre el espacio de las funciones de distribuci\'on. 
+\item Sea $X_r, 1\leq r\leq n$, variables aleatorias independientes, que son sim\'etricas alrededor del $0$; esto es, $X_r$ y $X_r$ tienen la misma distribuci\'on. Muestra que, para todo $x$, $P(S_n \geq x) = P(S_n \leq -x)$, donde $S_n = \displaystyle\sum_{r =1}^{n}X_r$.
+\item Sea $G(V,E)$ un grafo finito. Para un conjunto de v\'ertices y una arista $e \in E$, definimos la funci\'on indicador	
+
+\[
+I_{W}(e) = \begin{cases}
+1 & \text{si $e$ conecta $W$ y $W^{c}$}
+\end{cases}
+\]
+Sea $N_{W} = \displaystyle\sum_{e \in E}I_{W}(e)$. Muestra que existe un $W \subseteq N$ tal que $N_W \geq \frac{1}{2}\vert E\vert$.
+\item Sea $X$ con una funci\'on generadora de probabilidad $G_{X}(s)$ y sea $u_n = P(X > n)$. Muestra que la funci\'on generadora $U(s)$ de la secuencia $u_0, u_1, \dots$ satisface
+\[
+(1 -s)U(s) = 1 -G_{X}(s)
+\]
+siempre que la serie definida, de esa funci\'on generadora converge.
+\item Sean $X$ e $Y$ variables aleatorias independientes, con una distribuci\'on de Poisson con par\'ametros $\mu$ y $\lambda$ respectivamente. Prueba que $X +Y$ tiene una distribuci\'on de Poisson y que $var(X + Y) = var(X) + var(Y)$. Encuentra la probabilidad condicional $P(X= k| X+y = n)$ para $0 \leq k \leq n$ y as\'i muestra que la esperanza condicional de $X$ dado $X +Y = n$, esto es
+
+\[
+E(X| X +Y = n) = \displaystyle\sum_{k=0}^{\infty}kP(X = k|X +Y =n).
+\]
+es $n\lambda/(\lambda + \mu)$.
+\item Una moneda muestra cara con probabilidad $p$. Sea $X_n$ el n\'umero de de lanzamientos requeridos para obtener $n$ caras consecutivas. Muestra que $E(X_n) = \displaystyle\sum_{k =1}^{n}p^{-k}$.
+\item Si $var(X) =0$, entonces, existe un $a \in \mathbb{R}$ tal que $P(X = a) = 1$.
+\item Sean $X, Y$ variables aleatorias independientes con una funci\'on de distribuci\'on com\'un $F$ y una funci\'on densidad $f$. Muestra que $V = \max{X ,Y}$ tiene una funci\'on de distribuci\'on $P(V \leq x) = F(x)^2$ y funci\'on densidad $f_{V}(x) = 2f(x)F(x), x\in \mathbb{R}$. Encuentra la funci\'on densidad de $U = \min\{X,Y\}$
+
+\item Sea $X$ una variable aleatoria con media $\mu$ y una funci\'on de distribuci\'on continua $F$. Muestra que
+	
+	\[
+	\bigintsss_{-\infty}^{a}F(x)dx = \bigintsss_{a}^{\infty}[1 -F(x)]dx
+\]
+\item Muestra que para la densidad normal est\'andar $\phi(x)$, muestra que $\phi^{'}(x) + x\phi(x) = 0$. 
+\item Sea $\{X_r: r\geq 1 \}$ variables aleatorias indepedientes, uniformemente distribuidas en $[0,1]$. Sea $0 < x < 1$ y definimos
+	
+	\[
+	N = \min\{n \geq 1: X_1 +X_2 + \cdots + X_n > x\}
+	\]
+	
+	Muestra que $P(N > n) = x^n/n!$ y as\'i encuentra la media y la varianza de $N$.
+	\item Sea $X$ una variable aleatoria con una distribuci\'on binomial con par\'ametros $n$ y $p$, muestra que 
+	
+	\[
+	E\Bigl( \dfrac{1}{1 + X}\Bigr) = \dfrac{1 -(1-p)^{n +1}}{(n+1)p}
+	\] 
+	
+	Encuentra el l\'imite de esta expresi\'on cuando $n \rightarrow \infty$ y $p \rightarrow \infty$.
+	\item La variable aleatoria $X$ tiene una funci\'on densidad proporcional a $g(x)$, donde $g$ es una funci\'on satisfaciendo
+	
+\[
+g(x) = \begin{cases}
+\vert x\vert^{-n} & \text{si} \vert x \vert \geq 1 \\
+0 & \text{en otros casos}
+\end{cases}
+\]
+y $n \geq 2$ es un entero. Encuentra la funci\'on de densidad de $X$ y determina los valores de $n$ para el cual la media y la varianza de $X$ existe.
+\item Si $X$ es una variable aleatoria que toma los valores no negativos, muestra que
+\[
+E(X) = \bigintsss_{0}^{\infty}[1 -F_X(x)]dx
+\]
+siempre que la integral exista.
+\item Es la funci\'on $G$, definida por
+\[
+G(X,Y) = \begin{cases}
+1 & \text{if}\ \ x + y \leq 0, \\
+0 & \text{en otros casos}
+\end{cases}
+\]
+ una funci\'on de distribuci\'on conjunta de alg\'un par de variables aleatorias.
+ \item Sea $X$ y $Y$ variables aleatorias independientes, $X$ teniendo la distribuci\'on normal con media $0$ y la varianza $1$ y $Y$ teniendo la distribuci\'on $\chi^2$ con $n$ grados de libertad. Muestra que
+ 
+ \[
+ T = \dfrac{X}{\sqrt{Y/n}}
+ \]
+ tiene una funci\'on densidad
+ 
+ \[
+ f(t) = \dfrac{1}{\sqrt{\pi n}}\dfrac{\Gamma(\frac{1}{2}(n + 1))}{\Gamma(\frac{1}{2}n)}\Bigl(1 + \frac{t^2}{n} \Bigr)^{^{-\frac{1}{2}(n +1)}} \ \ \text{para}\ t \in  \mathbb{R}.
+ \]
+ \item Sea $X$ una funci\'on generadora de momentos $M(t)$.
+ \begin{itemize}
+ \item Muestra que $M(t)M(-t)$ es la funci\'on generadora de momentos de $X -Y$, donde $Y$ es independiente de $X$ , pero que tiene la misma distribuci\'on.
+ \item De manera similar, describe las variables aleatorias que tienen funciones generadoras de momentos
+ \[
+ \dfrac{1}{2 -M(t)}, \ \ \ \ \ \bigintss_{0}^{\infty}M(ut)e^{-u}du.
+ \]
+ \end{itemize}
+\end{enumerate}
+
+\vspace{0.5cm}
+
+{\Large \'Algebra Lineal }
+
+
+\vspace{0.3cm}
+
+\begin{enumerate}
+\item Calcula la dimensi\'on de cada uno de los conjuntos
+
+\begin{itemize}
+\item 
+$col\begin{pmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0\\
+0 & 0 & 0
+\end{pmatrix}
+$
+\item $\text{span}\{(1,1,1), (1, -1,1), (-1,1,1), (1,1,-1)\}$.
+\item $\text{span}\{(2,7,9), (3, 5 ,1), (0,1,0)\}$.
+\item 
+$col\begin{pmatrix}
+1 & 1 & 0 \\
+1 & 1 & 0\\
+0 & 0 & 1
+\end{pmatrix}
+$
+\end{itemize}
+\item Supongamos que $A, B \in \mathbb{R}^{n \times n}$ y $a,b \in \mathbb{R}$. Encuentra un sistema de ecuaciones lineales que para un $x$ minimize la funci\'on $\Vert Ax - a\Vert^2 + \Vert Bx - b\Vert^2$.
+\item Supongamos que $A \in \mathbb{R}^{n \times n}$ es sim\'etrica y definimos el cociente de Rayleigh como 
+\[
+R(x) = \dfrac{x^{T}Ax}{\Vert x \Vert^2 }
+\]
+
+Muestra que los minimizadores de $R(x)$ sujetos a $x\neq 0$ son los autovectores de $A$.
+
+\item Muestra que toma $O(n^2)$ tiempo para encontrar el producto $AB$ de dos matrices $A, B \in \mathbb{R}^{n \times n}$. 
+
+\item Sea $p(X) : \mathbb{R}^{n} \rightarrow [0,1]$, tal que $p(x) \geq 0$ y para todo $x \in \mathbb{R}^{n}$ y
+\[
+\bigintsss_{\mathbb{R}^n}p(x)dx = 1
+\]
+ 
+ Un tipo importante de esta funci\'on es la \texttt{distribuci\'on normal} que tiene la forma
+ 
+ \[
+ G_{\Sigma, \mu}(x) = e^{-\frac{1}{2}(x- \mu)^{T}\Sigma^{-1}(x -\mu)}
+ \]
+
+La matriz covarianza $\Sigma \in \mathbb{R}^{n\times n}$ y  la media $\mu \in \mathbb{R}^n$, determina la f\'ormula de la distribuci\'on normal. Suponiendo que $x^{*}$ es un m\'aximo local de $p(x)$. Sugiere una aproximaci\'on de $p(x)$ en una vecindad de $x^{*}$.
+
+\item Factorizar la matriz $A$ como un producto $A = LU$:
+
+\[
+\begin{pmatrix}
+1 & 2 & 7 \\
+3 & 5 & -1 \\
+6 & 1 & 4
+\end{pmatrix}
+\]
+\item Supongamos que tenemos una matriz cuadrada $M \in \mathbb{R}^{n \times n}$ es escrita en forma de bloques
+
+\[
+M = \begin{pmatrix}
+A & B \\
+C & D
+\end{pmatrix}
+\]
+
+donde $A \in \mathbb{R}^{ k\times k}$.
+
+\begin{itemize}
+\item Muestra que podemos descomponer $M$ como el producto
+
+\[
+M = \begin{pmatrix}
+I & O \\
+CA^{-1} & I
+\end{pmatrix} 
+\begin{pmatrix}
+A & O \\
+0 & D - CA^{-1}B
+\end{pmatrix} 
+\begin{pmatrix}
+I & A^{-1}B \\
+O & I
+\end{pmatrix}
+\]
+donde $I$ es la matriz identidad de tama\~no apropiado.
+\item Supongamos que descomponemos $A = L_1U_1$ y $D -CA^{-1}B = L_2U_2$. Muestra como construir una factorizaci\'on $LU$ de $M$ dados esas matrices adicionales.
+\item Usa esta estructura para definir un algoritmo recursivo para la factorizaci\'on $LU$, se puede asumir que $n = 2^{l}$ para alg\'un $l >0$.
+\end{itemize}
+\item Muestra que una matriz invertible $A \in \mathbb{R}^{n \times n}$ con $a_{11}= 0$ no puede tener una factorizaci\'on $A = LU$ para una matriz triangular $L$ y una matriz triangular superior $U$.
+\item Escribe una funci\'on para resolver el sistema $Ax = b$, usando la descomposici\'on SVD. La funci\'on debe tomar $A$ y $b$ como entrada  y debe retornar $x$. La funci\'on debe incluir lo siguiente
+
+\begin{itemize}
+	\item Verificar si $A$ es inversible, si no es as\'i debe retornar un mensaje de error.
+	\item Invertir 	$A$ usando SVD y resolver.
+	\item Retornar $x$
+\end{itemize}
+
+\item Implementa el algoritmo de Gedanken: Dada una matriz $A$ de orden $m\times n$, encuentra vectores $v_1, \dots, v_{\text{rank A}}$ tal que, para $k =1,2, \dots \text{rank (A)}$, el  subespacio k-dimensi\'on $V$ que minimiza 
+
+\[
+\displaystyle\sum_{i}(\text{distancia de la fila $i$ de $A$ hasta $V_k$})^2
+\]
+
+es el \texttt{Span} $\{v_1, \dots, v_k\}$.
+
+\item Supongamos que $A \in \mathbb{R}^{m \times n}$ tal que $m < n$. Muestra que tomando $x = A^{T}(AA^{T})^{-1}b$ resuelve el problema de optimizaci\'on:
+
+\begin{align*}
+\min_{x}\Vert x\Vert \\
+\text{sujeto}\ \  Ax = b
+\end{align*}
+Muestra que tomando $\alpha \rightarrow 0$ en el sistema de Tikhonov recupera el valor elegido de $x$.
+
+\texttt{Revisar: Numerical Algorithms de Justin Solomon.}
+
+\item Da un ejemplo de matriz sparse cuya inversa es densa.
+\item Supongamos que $A \in \mathbb{R}^{n \times n}$ admite una factorizaci\'on de Cholesky $A = LL^{T}$ 
+
+\begin{itemize}
+\item Muestra que $A$ debe ser semidefinida positiva.
+\item Use esta observaci\'on para sugerir un algoritmo para verificar si una matriz es semidefinida positiva.
+\end{itemize}
+\item Muestra como las t\'ecnicas lineales puede ser usadas para resolver los siguientes problemas de optimizaci\'on para $A \in \mathbb{R}^{m \times n}, B \in \mathbb{R}^{K \times n}, c \in \mathbb{R}^{k}$
+
+\begin{align*}
+\min_{x\in \mathbb{R}^n}\Vert Ax\Vert \\
+\text{sujeto}\ \  Bx = c
+\end{align*}
+\item Una versi\'on general de la descomposici\'on de Cholesky, que no requiere el c\'alculo de las raices es la \texttt{descomposici\'on LLT}
+
+\begin{itemize}
+\item Supongamos que $A \in \mathbb{R}^{n \times n}$ es sim\'etrica y admite una factorizaci\'on $LU$ (sin pivot). Muestra que $A$ puede ser factorizada como $A = LDL^{T}$, donde $D$ es  diagonal y $L$ es una matriz triangular.
+\item Modifica la construcci\'on de la descomposici\'on de Cholesky para mostrar que una matriz sim\'etrica, definida positiva $A$ puede ser factorizada como $A = LDL^{T}$ sin usar alguna operaci\'on de raices cuadradas.  
+\end{itemize}
+
+\end{enumerate}
+
+\end{document} 
+
