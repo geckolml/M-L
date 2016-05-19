@@ -176,7 +176,7 @@ x, y = np.random.normal(0, 1, (100,2)).T
 
 print ("p valores asumiendo igual varianza    =%.8f" % compare(x, y, stats.ttest_ind))
 prueba = partial(stats.ttest_ind, equal_var=False)
-print "p valores sin asumir  igual varianza=%.8f" % compare(x, y, test)
+print ("p valores sin asumir  igual varianza=%.8f" % compare(x, y, prueba))
 \end{verbatim}
 
 \vspace{0.3cm}
@@ -192,7 +192,7 @@ def quick_sort1(xs):
         pivot = xs[0]
         menos_que = [x for x in xs[1:] if x <= pivot]
         mas_que = [x for x in xs[1:] if x > pivot]
-        return quick_sort1(menos_que + [pivot] + quick_sort1(mas_que)
+        return quick_sort1(menos_que) + [pivot] + quick_sort1(mas_que)
 \end{verbatim}
 
 
@@ -204,8 +204,8 @@ def c_d(n):
         yield i
         
 c = c_d(10)
-print c.next()
-print c.next()
+print (next(c))
+print (next(c))
 for c1 in c:
     print (c1)
 \end{verbatim}
@@ -236,7 +236,7 @@ s("Hola Python", 1.5)
 \end{verbatim}
 
 
-\item Explica y corrige el siguiente c\'odigo 
+\item Explica el siguiente c\'odigo 
 
 \begin{verbatim}
 from itertools import cycle, groupby, islice, permutations, combinations
