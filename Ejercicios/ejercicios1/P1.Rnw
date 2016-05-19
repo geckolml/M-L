@@ -35,15 +35,6 @@ options(formatR.arrow=TRUE,width=90)
 \vspace{0.3cm}
 
 
-
-
-
-
-
-
-
-
-
 \textbf{Teoria de Conjuntos}
 
 \vspace{0.3cm}
