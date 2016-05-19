@@ -28,7 +28,7 @@ options(formatR.arrow=TRUE,width=90)
 \title{Ejercicios 1}
 
 
-\author{Tópicos de Investigación CM-072}
+\author{T\'opicos de Investigaci\'on CM-072}
 \date{}
 \maketitle
 
