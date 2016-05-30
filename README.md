@@ -244,6 +244,7 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 * Logistic Regression Classifier.
 * Random Forest.
 
+
 ## Artículos
 
 - [Machine Learning introduction](https://jeremykun.com/2012/08/04/machine-learning-introduction/).
@@ -293,3 +294,7 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Un tour de algoritmos de machine learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
 - [Machine learning en gráficos](http://www.denizyuret.com/2014/02/machine-learning-in-5-pictures.html).
 
+## Otros tópicos
+- [Eigenfaces for Facial recognition](https://jeremykun.com/2011/07/27/eigenfaces/).
+- [Boosting and AdaBoost](https://jeremykun.com/2015/05/18/boosting-census/).
+- [Machine learning as a batch process](http://onlinelibrary.wiley.com/doi/10.1002/9781119183464.ch10/summary). Libro de Jason Bell: Machine Learning- Hands-on for developers and technical professionals.
