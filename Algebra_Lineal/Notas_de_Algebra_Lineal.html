@@ -171,13 +171,16 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">scipy</span> 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">from</span> <span class="nn">scipy</span> <span class="k">import</span> <span class="n">linalg</span>
+<span class="kn">import</span> <span class="nn">scipy.linalg</span> <span class="k">as</span> <span class="nn">la</span>
+<span class="n">np</span><span class="o">.</span><span class="n">set_printoptions</span><span class="p">(</span><span class="n">suppress</span><span class="o">=</span><span class="k">True</span><span class="p">)</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline
 <span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s">&#39;ggplot&#39;</span><span class="p">)</span>
 </pre></div>
@@ -251,7 +254,7 @@ $$d(v, w) =\Vert v -w \Vert$$<p>.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># norma de un vector</span>
@@ -268,7 +271,7 @@ $$d(v, w) =\Vert v -w \Vert$$<p>.</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[27]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -283,7 +286,7 @@ $$d(v, w) =\Vert v -w \Vert$$<p>.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># distancia entre dos   vectores</span>
@@ -300,7 +303,7 @@ $$d(v, w) =\Vert v -w \Vert$$<p>.</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[28]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -329,7 +332,7 @@ $$\langle v, w \rangle =  v_1w_1 + \cdots v_nw_n$$<p>El producto es sólo la sum
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">v</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">w</span><span class="p">)</span>
@@ -343,7 +346,7 @@ $$\langle v, w \rangle =  v_1w_1 + \cdots v_nw_n$$<p>El producto es sólo la sum
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[29]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[5]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -370,7 +373,7 @@ $$\langle v, w \rangle =  v_1w_1 + \cdots v_nw_n$$<p>El producto es sólo la sum
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Producto externo</span>
@@ -386,7 +389,7 @@ $$\langle v, w \rangle =  v_1w_1 + \cdots v_nw_n$$<p>El producto es sólo la sum
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[30]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[6]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -412,7 +415,7 @@ $$\langle v, w \rangle =  v_1w_1 + \cdots v_nw_n$$<p>El producto es sólo la sum
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Tenemos n observaciones de p variables</span>
@@ -432,14 +435,14 @@ $$\langle v, w \rangle =  v_1w_1 + \cdots v_nw_n$$<p>El producto es sólo la sum
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[31]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[ 0.09150804, -0.03310061, -0.04806868, -0.0200871 ],
-       [-0.03310061,  0.08056226, -0.02153917,  0.00099497],
-       [-0.04806868, -0.02153917,  0.09637136,  0.02585519],
-       [-0.0200871 ,  0.00099497,  0.02585519,  0.03979969]])</pre>
+<pre>array([[ 0.0732272 , -0.01090744, -0.03609684, -0.05357588],
+       [-0.01090744,  0.08274922, -0.03362584,  0.0584788 ],
+       [-0.03609684, -0.03362584,  0.11922581,  0.04186271],
+       [-0.05357588,  0.0584788 ,  0.04186271,  0.12734962]])</pre>
 </div>
 
 </div>
@@ -472,7 +475,7 @@ $$\langle v, w \rangle =  v_1w_1 + \cdots v_nw_n$$<p>El producto es sólo la sum
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Ejemplo de determinante</span>
@@ -493,21 +496,21 @@ $$\langle v, w \rangle =  v_1w_1 + \cdots v_nw_n$$<p>El producto es sólo la sum
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[ 9 37 74  0 90 84]
- [15 41 96 44 85 27]
- [34 31  9  0 51  7]
- [74 98 61 98 40 57]
- [48 66 37 88  8 41]
- [19 73 56 60 30 28]]
+<pre>[[39 30 75 60 58 14]
+ [24 98  4 23  0  0]
+ [35 91 23 82 36 37]
+ [44 20 39 86  9 47]
+ [27 23 19 90 81 68]
+ [89  8 40 29 24  2]]
 </pre>
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[32]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>-9808944791.9999905</pre>
+<pre>-16500879409.999952</pre>
 </div>
 
 </div>
@@ -552,7 +555,7 @@ $$BAB^{-1}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Ejemplo</span>
@@ -569,7 +572,7 @@ $$BAB^{-1}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">e1</span><span class="p">))</span>             <span class="c"># probamos que  Ae1 es (2,3)</span>
@@ -598,7 +601,7 @@ $$BAB^{-1}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># nuevos vectores</span>
@@ -614,7 +617,7 @@ $$BAB^{-1}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Como v1 y v2 son tranasformados por A</span>
@@ -649,7 +652,7 @@ Av2:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Cambio de base  desde e1, e2 a v1,v2</span>
@@ -681,7 +684,7 @@ Av2:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># verificamos la inversa</span>
@@ -701,8 +704,8 @@ Av2:
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>B B_inv 
-[[  1.00000000e+00  -5.55111512e-17]
- [  5.55111512e-17   1.00000000e+00]]
+[[ 1. -0.]
+ [ 0.  1.]]
 </pre>
 </div>
 </div>
@@ -713,7 +716,7 @@ Av2:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># transformamos  e1 bajo cambio de coordenadas</span>
@@ -744,7 +747,7 @@ Av2:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Escribamos un grafico de este ejemplo</span>
@@ -773,7 +776,7 @@ Av2:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Colocamos los datos</span>
@@ -790,7 +793,7 @@ Av2:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Mostramos  un grafico de Ae_1  y Ae_2</span>
@@ -1134,6 +1137,653 @@ EVmd/wfgkfED05NJ/wAAAABJRU5ErkJggg==
 <li>La matriz covarianza es simétrica y definida positiva.</li>
 <li>Las matrices simétricas, definidas positivas  tienen raíz cuadrada.</li>
 </ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Descomposiciones-matriciales">Descomposiciones matriciales<a class="anchor-link" href="#Descomposiciones-matriciales">&#182;</a></h1><p>La descomposiciones de matrices es un importante paso para resolver sistema de ecuaciones de manera eficiente computacionalmente.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Descomposici&#243;n-LU-y-Eliminaci&#243;n-Gaussiana">Descomposici&#243;n LU y Eliminaci&#243;n Gaussiana<a class="anchor-link" href="#Descomposici&#243;n-LU-y-Eliminaci&#243;n-Gaussiana">&#182;</a></h2><p>La eliminación Gaussiana, es esencialmente la descomposición $LU$, veamos como trabaja:</p>
+<p>Consideremos un sistema de ecuaciones $3\times 3$, en general este procedimiento funciona para sistemas $n \times n$:</p>
+$$\begin{split}\left(\begin{matrix}a_{11}&a_{12} & a_{13}\\a_{21}&a_{22}&a_{23}\\a_{31}&a_{32}&a_{33}\end{matrix}\right)\left(\begin{matrix}x_1\\x_2\\x_3\end{matrix}\right) = \left(\begin{matrix}b_1\\b_2\\b_3\end{matrix}\right)\end{split}$$<p>Si la matriz $A$ es no singular, resolvamos el sistema usando la  <code>eliminación Gaussiana</code>, empezando por escribir la matriz aumentada del sistema</p>
+$$\begin{split}\left(\begin{array}{ccc|c}a_{11}&a_{12} & a_{13}& b_1 \\a_{21}&a_{22}&a_{23}&b_2\\a_{31}&a_{32}&a_{33}&b_3\end{array}\right)\end{split}$$<p>Si la primera entrada $a_{11}$ es diferente de cero, entonces dividimos la primera fila por $a_{11}$ y substraemos el múltiplo apropiado de la primera fila desde las otras filas, de manera que <code>0</code> sea el primer valor de todas las filas. Si $a_{11}$ es cero, debemos permutar las filas). El resultado es como sigue</p>
+$$\begin{split}\left(\begin{array}{ccc|c}
+1 & \frac{a_{12}}{a_{11}} & \frac{a_{13}}{a_{11}} & \frac{b_1}{a_{11}} \\
+0 & a_{22} - a_{21}\frac{a_{12}}{a_{11}} & a_{23} - a_{21}\frac{a_{13}}{a_{11}}  & b_2 - a_{21}\frac{b_1}{a_{11}}\\
+0&a_{32}-a_{31}\frac{a_{12}}{a_{11}} & a_{33} - a_{31}\frac{a_{13}}{a_{11}}  &b_3- a_{31}\frac{b_1}{a_{11}}\end{array}\right)\end{split}$$<p>Repetimos el procedimiento para la segunda fila, primero dividiendo  por la entrada distinta de cero, a continuación, restando el múltiplo apropiado de la fila con cada una de las filas tercera y primera, de modo que la segunda entrada en la fila $1$ y $3$ sean $0$. Se debe  continuar hasta que la matriz de la izquierda sea la identidad. El vector $x$ solución del sistema  es el vector columna resultante de la derecha.</p>
+<p>Por lo general, es más eficiente  parar en forma de un <code>nivel de fila reducida</code> (triangular superior, con unos en la diagonal), y luego usar otra forma de sustitución (<code>back sustitution</code>) para obtener la respuesta final. Ten en cuenta que en algunos casos, es necesario permutar filas para obtener un nivel de fila reducida (<code>pivoteo parcial</code>). Si también manipulamos columnas, tenemos un  <code>pivoteo completo</code>.</p>
+<p>Con la eliminación Gaussiana se puede obtener  la inversa de una matriz, mediante la reducción de la matriz $A$ a la identidad, con la matriz de identidad en  la porción aumentada.</p>
+<p>Ahora, todo esto está bien cuando estamos resolviendo un sistema  una  vez, para un resultado $b$. Muchas aplicaciones implican soluciones a múltiples problemas, donde el  lado izquierdo de la ecuación  no cambia, pero hay muchos vectores  resultados $b$.</p>
+<p>En este caso, es más eficiente para descomponer $A$.</p>
+<p>La descomposición $LU$ de una matriz $A$  es una descomposición tal que</p>
+$$A = LU$$<p>donde $L$ es una matriz triangular inferior y $U$ es una matriz triangular superior.</p>
+<p><strong>Ejemplo</strong></p>
+<p>Consideramos una matriz</p>
+$$\begin{split}A = \left(\begin{matrix} 1 & 3 & 4 \\
+  2& 1& 3\\
+  4&1&2\end{matrix}\right)\end{split}$$<p>Necesitamos multiplicar la fila $1$ por 2 y restar a la fila $2$ para eliminar la primera entrada en la fila $2$, y luego multiplicar la fila $1$ por 4 y restar de la fila $3$. En lugar de escribir ceros  en las primeras entradas de las filas $2$ y $3$, se registrar los múltiplos necesarios para su eliminación:</p>
+$$\begin{split}\left(\begin{matrix} 1 & 3 & 4 \\
+  (2)& -5 & -5\\
+   (4)&-11&-14
+  \end{matrix}\right)\end{split}$$<p>y entonces eliminamos la segunda entrada en la tercera fila:</p>
+$$\begin{split}\left(\begin{matrix} 1 & 3 & 4 \\
+ (2)& -5 & -5\\
+  (4)&(\frac{-11}{5})&-3
+   \end{matrix}\right)\end{split}$$<p>Ahora tenemos la descomposición:</p>
+$$\begin{split}L= \left(\begin{matrix} 1 & 0 & 0 \\
+   2& 1 & 0\\
+   4&\frac{-11}5&1
+   \end{matrix}\right)
+   U = \left(\begin{matrix} 1 & 3 & 4 \\
+   0& -5 & -5\\
+   0&0&-3
+   \end{matrix}\right)\end{split}$$<p>Podemos resolver el sistema, con dos substituciones:</p>
+<p>$$Ly = b$$</p>
+<p>$$Ux = y$$</p>
+<p>Con <code>numpy</code> se puede realizar de la siguiente manera:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+
+<span class="n">P</span><span class="p">,</span> <span class="n">L</span><span class="p">,</span> <span class="n">U</span> <span class="o">=</span> <span class="n">la</span><span class="o">.</span><span class="n">lu</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">P</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">A</span><span class="p">))</span>
+<span class="nb">print</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">L</span><span class="p">,</span> <span class="n">U</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">P</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">L</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">U</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[[1 3 4]
+ [2 1 3]
+ [4 1 2]]
+[[ 4.  1.  2.]
+ [ 1.  3.  4.]
+ [ 2.  1.  3.]]
+[[ 4.  1.  2.]
+ [ 1.  3.  4.]
+ [ 2.  1.  3.]]
+[[ 0.  1.  0.]
+ [ 0.  0.  1.]
+ [ 1.  0.  0.]]
+[[ 1.          0.          0.        ]
+ [ 0.25        1.          0.        ]
+ [ 0.5         0.18181818  1.        ]]
+[[ 4.          1.          2.        ]
+ [ 0.          2.75        3.5       ]
+ [ 0.          0.          1.36363636]]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>Numpy</code> utiliza pivoteo parcial en las descomposiciones (las filas de la matriz son permutadas para  utilizar el  mayor pivote). Esto se debe a que  pequeños pivotes pueden conducir a  inestabilidad numérica.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Descomposici&#243;n-de-Cholesky">Descomposici&#243;n de Cholesky<a class="anchor-link" href="#Descomposici&#243;n-de-Cholesky">&#182;</a></h2><p>Sea $A$ una matriz simétrica, definida positiva. Hay una única descomposición tal que</p>
+$$A = LL^{T}$$<p>donde $L$ es una matriz triangular con elementos en la diagonal positivos y $L^{T}$ es su transpuesta.</p>
+<ul>
+<li>Sea $A$ una matriz $n \times n$. Encontramos la matriz $L$ usando el siguiente procedimiento iterativo</li>
+</ul>
+$$\begin{split}A = \left(\begin{matrix}a_{11}&A_{12}\\A_{12}&A_{22}\end{matrix}\right) =
+\left(\begin{matrix}\ell_{11}&0\\
+L_{12}&L_{22}\end{matrix}\right)
+\left(\begin{matrix}\ell_{11}&L_{12}\\0&L_{22}\end{matrix}\right)\end{split}$$<ul>
+<li>Sea $\ell_{11} = \sqrt{a_{11}}$.</li>
+<li>$L_{12} = \frac{1}{\ell_{11}}A_{12}$.</li>
+<li>Resolvemos $A_{22} - L_{12}L_{12}^T = L_{22}L_{22}^T$ para $L_{22}$.</li>
+</ul>
+<p><strong>Ejemplo</strong></p>
+$$\begin{split}A = \left(\begin{matrix}1&3&5\\3&13&23\\5&23&42\end{matrix}\right)\end{split}$$$$\ell_{11} = \sqrt{a_{11}} = 1$$$$L_{12} = \frac{1}{\ell_{11}} A_{12} = A_{12}$$<p>Y así se concluye con $\ell_{33}=1$</p>
+<p>Esto produce la descomposición:</p>
+$$\begin{split}\left(\begin{matrix}1&3&5\\3&13&23\\5&23&42\end{matrix}\right) =
+\left(\begin{matrix}1&0&0\\3&2&0\\5&4&1\end{matrix}\right)\left(\begin{matrix}1&3&5\\0&2&4\\0&0&1\end{matrix}\right)\end{split}$$<p>Usando <code>numpy</code> tenemos lo siguiente:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">13</span><span class="p">,</span><span class="mi">23</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">23</span><span class="p">,</span><span class="mi">42</span><span class="p">]])</span>
+<span class="n">L</span> <span class="o">=</span> <span class="n">la</span><span class="o">.</span><span class="n">cholesky</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">L</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">L</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">L</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[[  1.   3.   5.]
+ [  3.  13.  23.]
+ [  5.  23.  42.]]
+[[ 1.  3.  5.]
+ [ 0.  2.  4.]
+ [ 0.  0.  1.]]
+[[ 1  3  5]
+ [ 3 13 23]
+ [ 5 23 42]]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Descomposici&#243;n-matricial-para-PCA-y-m&#237;nimos-cuadrados">Descomposici&#243;n matricial para PCA y m&#237;nimos cuadrados<a class="anchor-link" href="#Descomposici&#243;n-matricial-para-PCA-y-m&#237;nimos-cuadrados">&#182;</a></h2><p>Un autovector de una matriz $A$ es un vector distinto cero $v$ tal que</p>
+<p>$$Av = \lambda v$$</p>
+<p>para un escalar $\lambda$. Un valor $\lambda$ es llamado un autovalor de $A$.</p>
+<p>Si una matriz $A$ de orden $n\times n$ tienen $n$ autovectores independientes, entonces $A$ puede ser descompuesto de la siguiente manera:</p>
+<p>$$A = B \Lambda B^{-1}$$</p>
+<p>donde $\Lambda$ es una matriz diagonal cuyas elementos en las diagonales son los autovalores  de $A$ y las columnas de $B$ son los autovectores de $A$.</p>
+<ul>
+<li>Una matriz $A$ de orden $n \times n \iff $ tiene $n$ autovectores linealmente.</li>
+<li><p>Una matriz definida positiva, simétrica tiene sólo autovalores positivos y su descomposición:</p>
+<p>$$A=B\Lambda B^{-1}$$</p>
+<p>es vía una transformación ortogonal $B$, es decir sus autovectores con conjuntos ortonormales.</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Autovalores">Autovalores<a class="anchor-link" href="#Autovalores">&#182;</a></h2><p>Si $v$ es un autovector de una matriz $A$ es de orden $n \times n$ con un autovalor $\lambda$, entonces</p>
+$$Av - \lambda I = 0$$<p>donde $I$ es la matriz identidad de dimensión $n$ y $0$ es el vector cero n-dimensional. Por tanto los autovalores de $A$ satisfacen:</p>
+$$\det(A - \lambda I) = 0$$<p>El lado izquierdo de la ecuación es un polinomio en $\lambda$ y es llamado polinomio característico de $A$. Así para encontrar un autovalor de $A$, debemos encontrar las raices del polinomio característico.</p>
+<p>Computacionalmente, el cálculo de polinomio caractístico y resolver las raices se hace a través de cálculo numérico.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># Ejemplo</span>
+
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]])</span>
+
+<span class="n">u</span><span class="p">,</span> <span class="n">V</span> <span class="o">=</span> <span class="n">la</span><span class="o">.</span><span class="n">eig</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">V</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">u</span><span class="p">),</span> <span class="n">la</span><span class="o">.</span><span class="n">inv</span><span class="p">(</span><span class="n">V</span><span class="p">))))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">u</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[[ 0.+0.j  1.+0.j  1.+0.j]
+ [ 2.+0.j  1.+0.j -0.+0.j]
+ [ 1.+0.j  1.+0.j  1.+0.j]]
+[ 2.61803399+0.j -1.00000000+0.j  0.38196601+0.j]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># Si $A$ es definida positva (matriz convarianza)</span>
+<span class="c"># usamos real_if_close </span>
+
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]])</span>
+<span class="n">u</span><span class="p">,</span> <span class="n">V</span> <span class="o">=</span> <span class="n">la</span><span class="o">.</span><span class="n">eig</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">u</span><span class="p">)</span>
+<span class="nb">print</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">real_if_close</span><span class="p">(</span><span class="n">u</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[ 5.85410197+0.j -0.85410197+0.j  1.00000000+0.j]
+[ 5.85410197 -0.85410197  1.        ]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Valores-singulares">Valores singulares<a class="anchor-link" href="#Valores-singulares">&#182;</a></h2><p>Para una matriz $A$ de orden $m \times n$, definimos sus <code>valores singulares</code> como  las raices cuadradas de los autovalores de $A^TA$. Esos valores son siempre bien definidos ya que $A^TA$ es siempre simétrica, definida positiva, de manera que sus autovalores son reales y positivos.</p>
+<p>Los valores singulares tienen importantes propiedades de la matriz. Geométricamente una matriz $A$ lleva la esfera unitaria $R^n$ a un elipse. Los valores singulares son la longitud de los semiejes.</p>
+<p><img src="svd.png" alt="Representación geométrica de los valores singulares"></p>
+<p>Los valores singulares proporcionan una medida de la <code>estabilidad de una matriz</code>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Descomposici&#243;n-QR">Descomposici&#243;n QR<a class="anchor-link" href="#Descomposici&#243;n-QR">&#182;</a></h2><p>QR es un método de descomposición para escribir una matriz $A$ como el producto de dos matrices:</p>
+$$A = QR$$<p>donde $Q$ es una matriz ortogonal de orden $m \times n$ y $R$ es una matriz triangular de orden $n \times n$. Las primeras $k$ columnas de $Q$ son una base ortonormal para el espacio columna de las primeras $k$ columnas de $A$.</p>
+<p>La descomposición QR iterativa es a menudo usada en el cálculo de los autovalores.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># Ejemplo</span>
+
+<span class="kn">import</span> <span class="nn">pprint</span>  <span class="c"># modulo de mejor presentacion de las estructuras de python</span>
+
+<span class="n">A</span> <span class="o">=</span> <span class="n">scipy</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">12</span><span class="p">,</span> <span class="o">-</span><span class="mi">51</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">167</span><span class="p">,</span> <span class="o">-</span><span class="mi">68</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="o">-</span><span class="mi">41</span><span class="p">]])</span> 
+<span class="n">Q</span><span class="p">,</span> <span class="n">R</span> <span class="o">=</span> <span class="n">la</span><span class="o">.</span><span class="n">qr</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+
+<span class="nb">print</span> <span class="p">(</span><span class="s">&quot;A:&quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+
+<span class="nb">print</span> <span class="p">(</span><span class="s">&quot;Q:&quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">Q</span><span class="p">)</span>
+
+<span class="nb">print</span> <span class="p">(</span><span class="s">&quot;R:&quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">R</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>A:
+array([[ 12, -51,   4],
+       [  6, 167, -68],
+       [ -4,  24, -41]])
+Q:
+array([[-0.85714286,  0.39428571,  0.33142857],
+       [-0.42857143, -0.90285714, -0.03428571],
+       [ 0.28571429, -0.17142857,  0.94285714]])
+R:
+array([[ -14.,  -21.,   14.],
+       [   0., -175.,   70.],
+       [   0.,    0.,  -35.]])
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Descomposici&#243;n-en-valores-singulares">Descomposici&#243;n en valores singulares<a class="anchor-link" href="#Descomposici&#243;n-en-valores-singulares">&#182;</a></h2><p>Una importante descomposición de una matriz, es la <code>Descomposición en valores singulares</code> o <code>SVD</code>. Para alguna matriz $A$ de orden $m \times n$, podemos escribir</p>
+$$A = UDV^T$$<p>donde $U$ es una matriz unitaria (ortogonal en el caso real) de orden $m \times m$, D es una matriz diagonal de orden $m \times n$, con elementos en la diagonal $d_1, \dots d_m$ no negativos y $V$ una matriz unitaria (ortogonal en el caso real) de orden $n \times n$.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># Ejemplo (Jeremy kun)</span>
+
+<span class="kn">from</span> <span class="nn">numpy.linalg</span> <span class="k">import</span> <span class="n">svd</span>
+<span class="kn">import</span> <span class="nn">pprint</span>
+ 
+<span class="n">MR</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span>
+<span class="p">]</span>
+
+<span class="n">U</span><span class="p">,</span> <span class="n">valores_singulares</span><span class="p">,</span> <span class="n">V</span> <span class="o">=</span> <span class="n">svd</span><span class="p">(</span><span class="n">MR</span><span class="p">)</span>
+
+
+<span class="nb">print</span> <span class="p">(</span><span class="s">&quot;U:&quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">U</span><span class="p">)</span>
+
+<span class="nb">print</span> <span class="p">(</span><span class="s">&quot;Valores singulares:&quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">valores_singulares</span><span class="p">)</span>
+
+<span class="nb">print</span> <span class="p">(</span><span class="s">&quot;V:&quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">V</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>U:
+array([[-0.39458526,  0.23923575, -0.35445911, -0.38062172, -0.29836818,
+        -0.49464816, -0.30703202, -0.29763321],
+       [-0.15830232,  0.03054913, -0.15299759, -0.45334816,  0.31122898,
+         0.23892035, -0.37313346,  0.67223457],
+       [-0.22155201, -0.52086121,  0.39334917, -0.14974792, -0.65963979,
+         0.00488292, -0.00783684,  0.25934607],
+       [-0.39692635, -0.08649009, -0.41052882,  0.74387448, -0.10629499,
+         0.01372565, -0.17959298,  0.26333462],
+       [-0.34630257, -0.64128825,  0.07382859, -0.04494155,  0.58000668,
+        -0.25806239,  0.00211823, -0.24154726],
+       [-0.53347449,  0.19168874,  0.19949342, -0.03942604,  0.00424495,
+         0.68715732, -0.06957561, -0.40033035],
+       [-0.31660464,  0.06109826, -0.30599517, -0.19611823, -0.01334272,
+         0.01446975,  0.85185852,  0.19463493],
+       [-0.32840223,  0.45970413,  0.62354764,  0.1783041 ,  0.17631186,
+        -0.39879476,  0.06065902,  0.25771578]])
+Valores singulares:
+array([ 15.09626916,   4.30056855,   3.40701739])
+V:
+array([[-0.54184808, -0.67070995, -0.50650649],
+       [-0.75152295,  0.11680911,  0.64928336],
+       [ 0.37631623, -0.73246419,  0.56734672]])
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Estos resultados, son un poco extraños., ya que las matrices $U$ y $V$ son de forma incorrecta, debido a que la matriz de entrada tiene rango $3$. Mejoremos un poco, esta situación, reconstuyendo la forma de la matriz inicial.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">S</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">([</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">valores_singulares</span><span class="p">),</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)),</span>
+<span class="p">])</span>
+ 
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">MR</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">U</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">S</span><span class="p">,</span> <span class="n">V</span><span class="p">)),</span> <span class="n">decimals</span><span class="o">=</span><span class="mi">10</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[[ 0.  0.  0.]
+ [ 0.  0.  0.]
+ [ 0.  0.  0.]
+ [ 0. -0.  0.]
+ [ 0. -0. -0.]
+ [ 0.  0.  0.]
+ [ 0. -0. -0.]
+ [ 0.  0. -0.]]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># Repetimos  el procedimiento anterior</span>
+
+<span class="n">U</span><span class="p">,</span> <span class="n">valores_singulares</span><span class="p">,</span> <span class="n">V</span> <span class="o">=</span> <span class="n">svd</span><span class="p">(</span><span class="n">MR</span><span class="p">,</span> <span class="n">full_matrices</span><span class="o">=</span><span class="k">False</span><span class="p">)</span>
+
+
+<span class="nb">print</span> <span class="p">(</span><span class="s">&quot;U:&quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">U</span><span class="p">)</span>
+
+<span class="nb">print</span> <span class="p">(</span><span class="s">&quot;Valores singulares:&quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">valores_singulares</span><span class="p">)</span>
+
+<span class="nb">print</span> <span class="p">(</span><span class="s">&quot;V:&quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">V</span><span class="p">)</span>
+
+<span class="n">S</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">valores_singulares</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s">&quot;Diferencia: &quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">MR</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">U</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">S</span><span class="p">,</span> <span class="n">V</span><span class="p">)),</span> <span class="n">decimals</span><span class="o">=</span><span class="mi">10</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>U:
+array([[-0.39458526,  0.23923575, -0.35445911],
+       [-0.15830232,  0.03054913, -0.15299759],
+       [-0.22155201, -0.52086121,  0.39334917],
+       [-0.39692635, -0.08649009, -0.41052882],
+       [-0.34630257, -0.64128825,  0.07382859],
+       [-0.53347449,  0.19168874,  0.19949342],
+       [-0.31660464,  0.06109826, -0.30599517],
+       [-0.32840223,  0.45970413,  0.62354764]])
+Valores singulares:
+array([ 15.09626916,   4.30056855,   3.40701739])
+V:
+array([[-0.54184808, -0.67070995, -0.50650649],
+       [-0.75152295,  0.11680911,  0.64928336],
+       [ 0.37631623, -0.73246419,  0.56734672]])
+Diferencia: 
+array([[ 0.,  0.,  0.],
+       [ 0.,  0.,  0.],
+       [ 0.,  0.,  0.],
+       [ 0., -0.,  0.],
+       [ 0., -0., -0.],
+       [ 0.,  0.,  0.],
+       [ 0., -0., -0.],
+       [ 0., -0., -0.]])
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Esto hace que la reconstrucción mucho mejor , ya que sólo podemos multiplicar todo sin tener que añadir más filas de ceros a $D$.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="N&#250;mero-de-condici&#243;n">N&#250;mero de condici&#243;n<a class="anchor-link" href="#N&#250;mero-de-condici&#243;n">&#182;</a></h3><p>Una de las aplicaciones del SVD es lo que se conoce como <strong>número de condición</strong>:</p>
+<p>Para una matriz cuadrada no singular, el número de condición que se define como</p>
+$$cond (A) = \Vert A\Vert\Vert A^{-1}\Vert$$<p>y se puede expresar usando valores singulares.</p>
+<p>Para eso si $A =UDV^T$, entonces $A^{-1}= VD^{-1}U^T$. Por lo tanto los valores singulares de $A^{-1}$ s son $\frac{1}{\lambda_1}, \dots, \frac{1}{\lambda_n}$ y</p>
+$$\frac{1}{\lambda_n} \geq \dots \geq \frac{1}{\lambda_1}$$<p>.</p>
+<p>De aquí se obtiene que $\Vert A^{-1} \Vert = \frac{1}{\lambda_n}$, de manera que</p>
+$$cond (A) = \Vert A\Vert\Vert A^{-1}\Vert = \lambda_1/\lambda_n$$<p>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">pprint</span> 
+
+<span class="n">U</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">V</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">svd</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+
+<span class="nb">print</span> <span class="p">(</span><span class="s">&quot;Valores singulares:&quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+
+<span class="nb">print</span> <span class="p">(</span><span class="s">&quot;Numero de condicion:&quot;</span><span class="p">)</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">/</span><span class="nb">min</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Valores singulares:
+array([ 190.56724372,   32.85688323,   13.69492038])
+Numero de condicion:
+13.915177188954052
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Una de las principales aplicaciones a machine learning es el siguiente teorema:</p>
+<p><strong>Teorema SVD</strong></p>
+<p><code>Cálcular el mejor subespacio k-dimensional se reduce a k aplicaciones del problema unidimensional</code>.</p>
 
 </div>
 </div>
