@@ -310,3 +310,4 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Boosting and AdaBoost](https://jeremykun.com/2015/05/18/boosting-census/).
 - [Machine learning as a batch process](http://onlinelibrary.wiley.com/doi/10.1002/9781119183464.ch10/summary). Libro de Jason Bell: Machine Learning- Hands-on for developers and technical professionals.
 - [árboles aleatorios en python y R](http://www.analyticsvidhya.com/blog/2015/09/random-forest-algorithm-multiple-challenges/).
+- [Machine Learning for Static Ranking](http://www.msr-waypoint.com/pubs/68149/staticrank.pdf).
