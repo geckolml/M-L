@@ -47,6 +47,17 @@
 10. K-vecinos más cercanos
    * El modelo. Ejemplos
    * La maldición de la dimensión.
+
+11. Regresión lineal simple
+   * Ejemplos
+   * Usando el gradiente de descenso.
+   * Estimación de máxima probabilidad.
+
+12. Regresión múltiple
+   * Modelo de mínimos cuadrados.
+   * Fijando, interpretando el modelo.
+   * Bootstrap
+   * Regularización
    
 ## Libros de Texto
 
