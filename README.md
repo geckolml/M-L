@@ -312,3 +312,4 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 - [Árboles aleatorios en python y R](http://www.analyticsvidhya.com/blog/2015/09/random-forest-algorithm-multiple-challenges/).
 - [Machine Learning for Static Ranking](http://www.msr-waypoint.com/pubs/68149/staticrank.pdf).
 - [Inductive Learning Algorithms and Representations for Text Categorization](http://www.miv.t.u-tokyo.ac.jp/ishizuka/pr-class/Dumais-CIKM98.pdf).
+- [Genetic Algorithms](http://lethain.com/genetic-algorithms-cool-name-damn-simple/).
