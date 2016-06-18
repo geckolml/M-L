@@ -69,7 +69,12 @@
    * Función logística
    * Aplicando el modelo
    * Máquinas de soporte vectorial
-15. MapReduce
+
+15. Redes neuronales
+   * Perceptrón
+   * Prealimentación de redes neuronales
+   * Retropropagación
+16. MapReduce
    * Definición y ejemplos: Multiplicación de matrices
    * Combiners
    
