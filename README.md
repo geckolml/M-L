@@ -63,7 +63,13 @@
    * Entropia
    * La entropia de una partición
    * Árboles aleatorios
-14. MapReduce
+
+14. Regresión logística
+   * El problema
+   * Función logística
+   * Aplicando el modelo
+   * Máquinas de soporte vectorial
+15. MapReduce
    * Definición y ejemplos: Multiplicación de matrices
    * Combiners
    
