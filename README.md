@@ -58,6 +58,25 @@
    * Fijando, interpretando el modelo.
    * Bootstrap
    * Regularización
+13.  Árboles de decisión
+   * Definición
+   * Entropia
+   * La entropia de una partición
+   * Árboles aleatorios
+
+14. Regresión logística
+   * El problema
+   * Función logística
+   * Aplicando el modelo
+   * Máquinas de soporte vectorial
+
+15. Redes neuronales
+   * Perceptrón
+   * Prealimentación de redes neuronales
+   * Retropropagación
+16. MapReduce
+   * Definición y ejemplos: Multiplicación de matrices
+   * Combiners
    
 ## Libros de Texto
 
