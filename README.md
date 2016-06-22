@@ -319,6 +319,7 @@ Al igual que su predecesor, MapReduce  que  logra prácticamente una relación l
 - [Un tour sobre los principales algoritmos de Machine Learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
 - [Algoritmos de Machine Learning](http://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/).
 - [13 framework usados en Machine Learning](http://www.infoworld.com/article/3026262/data-science/13-frameworks-for-mastering-machine-learning.html).
+- [Modelado predictivo, aprendizaje supervisado y clasificación de patrones](http://sebastianraschka.com/Articles/2014_intro_supervised_learning.html).
 - [R y MongoDb](https://gist.github.com/Btibert3/7751989).
 - [Weka 3, software de Data Mining en Java ](http://www.cs.waikato.ac.nz/ml/weka/).
 - [Notas de Scikit-Learn como herramienta de Machine Learning](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
