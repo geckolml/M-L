@@ -339,3 +339,4 @@ Al igual que su predecesor, MapReduce  que  logra prácticamente una relación l
 - [Machine Learning for Static Ranking](http://www.msr-waypoint.com/pubs/68149/staticrank.pdf).
 - [Inductive Learning Algorithms and Representations for Text Categorization](http://www.miv.t.u-tokyo.ac.jp/ishizuka/pr-class/Dumais-CIKM98.pdf).
 - [Genetic Algorithms](http://lethain.com/genetic-algorithms-cool-name-damn-simple/).
+- [Gaussian Process for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/).
