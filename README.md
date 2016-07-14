@@ -5,25 +5,31 @@
    * Uso de las paquetes: Matplotlib, NumPy, Pandas, scikit-learn.
    * Nano y Vim. Uso de Jupyter .
 
-2. Algebra Lineal
+2. Algoritmos
+   * Estructura de datos (Árboles binarios, hashing, etc).
+   * Programación dinámica.
+   * Algoritmos sublineales y aleatorios.
+   * Grafos.
+
+3. Algebra Lineal
    * Vectores y Matrices.
    * Valores y vectores propios.
    * Descomposiciones matriciales
    * SDV.
    * Análisis de Componentes principales (PCA).
 
-3. Estadística
+4. Estadística
    * Describiendo un conjunto de datos. Tendencias centrales, dispersión.
    * Correlación. Paradoja de Simpson.
    * Algunas advertencia, acerca de la correlación.
    * Correlación y Causalidad.
    
-4. Probabilidad
+5. Probabilidad
    * Dependencia y Independencia. Probabilidad Condicional. Teorema de Bayes.
    * Variables Aleatorias.Distribuciones continuas. La distribución Normal.  
    * Teorema del Límite Central.
 
-5. Hipótesis e Inferencia  Estadística
+6. Hipótesis e Inferencia  Estadística
    * Prueba de hipótesis estadística.
    * Estimación de Máxima Verosimilitud (MLE).
    * MAP y métodos de muestreo.
@@ -31,55 +37,55 @@
    * P-hacking. El test A/B.
    * Inferencia Bayesiana.
    
-6. Descenso del Gradiente
+7. Descenso del Gradiente
    * Ideas detrás del método del Gradiente. Estimando el gradiente.
    * Usando el gradiente.
    * Descenso del gradiente estocástico.
-   
-7. Obtención de Datos
+   * Métodos primal-dual.
+8. Obtención de Datos
    * Leyendo archivos. Web Scraping. Ejemplos.
    * Usando APIS:JSON y XML y APIS no autenticadas. Encontrando APIS.
    * Usando la API de Twitter.
    
-8. Trabajando con Datos
+9. Trabajando con Datos
    * Explorando datos de 1,2 y más dimensiones.
    * Manipulando datos, reescalando y reducción de la dimensionalidad
    
-9. Machine Learning
+10. Machine Learning
    * ¿ Qué es Machine Learning?. Sobreajuste y Subajuste. Exactitud.
    * The Bias-Variance Trade-off.
 
-10. K-vecinos más cercanos
+11. K-vecinos más cercanos
    * El modelo. Ejemplos
    * La maldición de la dimensión.
 
-11. Regresión lineal simple
+12. Regresión lineal simple
    * Ejemplos
    * Usando el gradiente de descenso.
    * Estimación de máxima probabilidad.
 
-12. Regresión múltiple
+13. Regresión múltiple
    * Modelo de mínimos cuadrados.
    * Fijando, interpretando el modelo.
    * Bootstrap
    * Regularización
-13.  Árboles de decisión
+14.  Árboles de decisión
    * Definición
    * Entropia
    * La entropia de una partición
    * Árboles aleatorios
 
-14. Regresión logística
+15. Regresión logística
    * El problema
    * Función logística
    * Aplicando el modelo
    * Máquinas de soporte vectorial
 
-15. Redes neuronales
+16. Redes neuronales
    * Perceptrón
    * Prealimentación de redes neuronales
    * Retropropagación
-16. MapReduce
+17. MapReduce
    * Definición y ejemplos: Multiplicación de matrices
    * Combiners
    
