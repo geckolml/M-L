@@ -1,6 +1,6 @@
 ##  Curso: Tópicos de investigación (Machine Learning)
 
-1. Introdución a Python
+1. Introducción a Python
    * Curso rápido de Python.
    * Uso de las paquetes: Matplotlib, NumPy, Pandas, scikit-learn.
    * Nano y Vim. Uso de Jupyter .
@@ -9,8 +9,8 @@
    * Vectores y Matrices.
    * Valores y vectores propios.
    * Descomposiciones matriciales
-   * SDV 
-   * Análisis de Componentes principales
+   * SDV.
+   * Análisis de Componentes principales (PCA).
 
 3. Estadística
    * Describiendo un conjunto de datos. Tendencias centrales, dispersión.
@@ -25,6 +25,8 @@
 
 5. Hipótesis e Inferencia  Estadística
    * Prueba de hipótesis estadística.
+   * Estimación de Máxima Verosimilitud (MLE).
+   * MAP y métodos de muestreo.
    * Intervalos de Confianza.
    * P-hacking. El test A/B.
    * Inferencia Bayesiana.
