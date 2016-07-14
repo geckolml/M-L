@@ -8,6 +8,9 @@
 2. Algebra Lineal
    * Vectores y Matrices.
    * Valores y vectores propios.
+   * Descomposiciones matriciales
+   * SDV 
+   * Análisis de Componentes principales
 
 3. Estadística
    * Describiendo un conjunto de datos. Tendencias centrales, dispersión.
