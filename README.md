@@ -285,6 +285,9 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 * Logistic Regression Classifier.
 * Random Forest.
 
+
+Lectura: Mahout in Action de Sean Owen, Robin Anil, Ted Dunning y Ellen Friedman, Manning Publications.
+
 ### Spark
 [Spark](http://spark.apache.org/) es un framework de análisis distribuido en memoría y nos permite ir más allá de las operaciones en batch de Hadoop MapReduce: procesamiento de streaming, machine learning (MLlib), cálculo de grafos (GraphX), integración con lenguje R (Spark R) y análisis interactivos. 
 
