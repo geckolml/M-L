@@ -3,7 +3,8 @@
 1. Introducción a Python
    * Curso rápido de Python.
    * Uso de las paquetes: Matplotlib, NumPy, Pandas, scikit-learn.
-   * Nano y Vim. Uso de Jupyter .
+   * Uso de Jupyter Notebook.
+   * Otros lenguajes de Programación para Machine Learning.
 
 2. Algoritmos
    * Estructura de datos (Árboles binarios, hashing, etc).
@@ -18,13 +19,13 @@
    * SDV.
    * Análisis de Componentes principales (PCA).
 
-4. Estadística
+4. Nociones de Estadística
    * Describiendo un conjunto de datos. Tendencias centrales, dispersión.
    * Correlación. Paradoja de Simpson.
    * Algunas advertencia, acerca de la correlación.
    * Correlación y Causalidad.
    
-5. Probabilidad
+5. Notas de Probabilidad
    * Dependencia y Independencia. Probabilidad Condicional. Teorema de Bayes.
    * Variables Aleatorias.Distribuciones continuas. La distribución Normal.  
    * Teorema del Límite Central.
@@ -53,7 +54,7 @@
    
 10. Machine Learning
    * ¿ Qué es Machine Learning?. Sobreajuste y Subajuste. Exactitud.
-   * The Bias-Variance Trade-off.
+   * Modelos.
 
 11. K-vecinos más cercanos
    * El modelo. Ejemplos
