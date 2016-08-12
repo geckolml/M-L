@@ -112,6 +112,8 @@
 
 10 .Business Intelligence in Plain Language: A practical guide to Data Mining and Business Analytics, Jeremy Kolbs. Applied Data Labs Inc, 2012.
 
+11 . groking Algorithms, An illustred guide for programmers and other curious people, Aditya Y. Bhargava, Manning 2016.
+
 ## Herramientas a  usar 
 
 ### Editor Vim
