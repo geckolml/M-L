@@ -348,6 +348,11 @@ Al igual que su predecesor, MapReduce  que  logra prácticamente una relación l
 - [Visualización con d3.js para la Ciencia de Datos y Inteligencia de negocios](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/newbie-d3-js-expert-complete-path-create-interactive-visualization-d3-js/).
 - [Un tour de algoritmos de machine learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
 - [Machine learning en gráficos](http://www.denizyuret.com/2014/02/machine-learning-in-5-pictures.html).
+- Algunos canales de YouTube para aprender Inferencia estadistica:
+  * [Brandon Foltz](https://www.youtube.com/user/BCFoltz).
+  * [jbstatistics](https://www.youtube.com/user/jbstatistics).
+  * [Analytics University](https://www.youtube.com/channel/UC2XO4HDxzfMOZIV1l795g1Q).
+  * [NPTEL HRD](https://www.youtube.com/user/nptelhrd).
 
 ## Otros tópicos
 - [Eigenfaces for Facial recognition](https://jeremykun.com/2011/07/27/eigenfaces/).
