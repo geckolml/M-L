@@ -364,3 +364,4 @@ Al igual que su predecesor, MapReduce  que  logra prácticamente una relación l
 - [Genetic Algorithms](http://lethain.com/genetic-algorithms-cool-name-damn-simple/).
 - [Gaussian Process for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/).
 - [CrossValidation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
+- [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
