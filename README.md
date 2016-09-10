@@ -114,6 +114,8 @@
 
 11 . groking Algorithms, An illustred guide for programmers and other curious people, Aditya Y. Bhargava, Manning 2016.
 
+12 . Python Machine Learning, Sebastian Raschka, Pack Publishing, 2015.
+
 ## Herramientas a  usar 
 
 
