@@ -119,7 +119,6 @@
 ## Herramientas a  usar 
 
 
-
 ### Proyecto Jupyter y el Jupyter Nbviewer
 
 El [Proyecto Jupyter](http://jupyter.org/)  es una aplicación web que te permite crear y compartir documentos que contienen código de diversos lenguajes de programación, ecuaciones,  visualizaciones y texto en diversos formatos. El uso de Jupyter incluye la ciencia de datos, simulación numérica, la modelización en estadística, Machine Learning, etc.
@@ -149,6 +148,8 @@ Referencias y Lecturas
 - [Usando el GIT](http://www.cs.swarthmore.edu/~newhall/unixhelp/git.php).
 - [Practical Git Introduction](http://marc.helbling.fr/2014/09/practical-git-introduction).
 - [Visual Git Guide](http://marklodato.github.io/visual-git-guide/index-es.html).
+
+
 ### Latex 
 
 [LaTeX](https://www.latex-project.org/) es como un lenguaje de alto nivel para TeX, que es un sistema de preparación de documentos creados por Donald E. Knuth. Latex es en si un conjunto de macros y convenciones pensadas de modo que con pocas intrucciones seamos capaces de producir un documento de calidad profesional, como lo son los artículos  publicados por la comunidad científica. Mayor información se puede encontrar en :
