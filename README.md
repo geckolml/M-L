@@ -244,8 +244,12 @@ c-lara@Lara:~$ conda install -c r r-essentials
 c-lara@Lara:~$ wget https://download1.rstudio.org/rstudio-0.99.893-amd64.deb
 c-lara@Lara:~$sudo dpkg -i *.deb
 c-lara@Lara:~$rm *.deb
-``` 
+```
 
+Referencias
+
+- [Basic Tutorial of Rstudio](http://web.cs.ucla.edu/~gulzar/rstudio/basic-tutorial.html).
+- [Webinars and Videos of Rstudio](https://github.com/rstudio/webinars).
 
 ### Spyder 
 
@@ -279,8 +283,9 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 * Logistic Regression Classifier.
 * Random Forest.
 
+Lecturas
 
-Lectura: Mahout in Action de Sean Owen, Robin Anil, Ted Dunning y Ellen Friedman, Manning Publications.
+-  Mahout in Action de Sean Owen, Robin Anil, Ted Dunning y Ellen Friedman, Manning Publications, 2011.
 
 ### Spark
 [Spark](http://spark.apache.org/) es un framework de análisis distribuido en memoría y nos permite ir más allá de las operaciones en batch de Hadoop MapReduce: procesamiento de streaming, machine learning (MLlib), cálculo de grafos (GraphX), integración con lenguje R (Spark R) y análisis interactivos. 
@@ -289,6 +294,17 @@ Al igual que su predecesor, MapReduce  que  logra prácticamente una relación l
 
 * DAG (Directed Acyclic Graph).
 * RDD (Resilient Distributed Dataset).
+
+
+Algunas lecturas y referencias
+
+
+- [¿What is Apache Spark?](https://www.mapr.com/ebooks/spark/).
+- [First steps with Spark](http://spark.apache.org/screencasts/1-first-steps-with-spark.html).
+- [Spark Examples ](https://spark.apache.org/examples.html).
+- [Apache Spark Videos](https://www.youtube.com/user/TheApacheSpark/videos).
+- [Spark vs Hadoop](https://acadgild.com/blog/spark-vs-hadoop/).
+
 ## Artículos
 
 - [Machine Learning introduction](https://jeremykun.com/2012/08/04/machine-learning-introduction/).
