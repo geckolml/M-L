@@ -129,7 +129,7 @@ Propiedades de la Traza:
 
 \vspace{0.2cm}
 
-	Además $(AA^T)^T=(A^T)^TA^T=AA^T$ por tanto $AA^T$ es sim\'etrica; an\'alogamente $A^TA$ es sim\'etrica.
+	AdemÃ¡s $(AA^T)^T=(A^T)^TA^T=AA^T$ por tanto $AA^T$ es sim\'etrica; an\'alogamente $A^TA$ es sim\'etrica.
 
 Producto escalar Se define el producto escaalr de $u,v\in\mathbb{R}^n$ como
 	\begin{eqnarray*}
@@ -164,7 +164,7 @@ Sean $u,v\in\\mathbb{R}^n$, se dice que $u$ y $v$ son ortogonales si $u\cdot v=0
 	Un vector $v\in\mathbb{R}^n$ es normal, o unitario, si $\vert v \vert =1$.
 \vspace{0.3cm}
 
- Un conjunto $\{u_1,u_2,\ldots,u_m\}\subset\mathbb{R}^n$ $(m\leq n)$ es ortonormal si es un conjunto ortogonal y además $\vert u_i\vert =1$ para todo $i=1,\ldots,n$.
+ Un conjunto $\{u_1,u_2,\ldots,u_m\}\subset\mathbb{R}^n$ $(m\leq n)$ es ortonormal si es un conjunto ortogonal y ademÃ¡s $\vert u_i\vert =1$ para todo $i=1,\ldots,n$.
 
 \vspace{0.3cm}
 
