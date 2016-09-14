@@ -337,6 +337,7 @@ Algunas lecturas y referencias
 ## Lecturas
 
 - [Tutoriales de Machine Learning](https://github.com/ujjwalkarn/Machine-Learning-Tutorials).
+- [Top Algorithms Used by Data Scientists](http://www.kdnuggets.com/2016/09/poll-algorithms-used-data-scientists.html)
 - [Una guía de bolsillo para la Ciencia de datos](http://www.kdnuggets.com/2016/04/pocket-guide-data-science.html).
 - [Learning from Data: Machine learning course](https://work.caltech.edu/lectures.html).
 - [El cookbook del paquete Scipy ](http://scipy-cookbook.readthedocs.org/).
