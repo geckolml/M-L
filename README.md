@@ -114,13 +114,18 @@
 
 11 . groking Algorithms, An illustred guide for programmers and other curious people, Aditya Y. Bhargava, Manning 2016.
 
+12 . Python Machine Learning, Sebastian Raschka, Pack Publishing, 2015.
+
 ## Herramientas a  usar 
 
 
+### Proyecto Jupyter y el Jupyter Nbviewer
 
-### Jupyter nbviewer
+El [Proyecto Jupyter](http://jupyter.org/)  es una aplicación web que te permite crear y compartir documentos que contienen código de diversos lenguajes de programación, ecuaciones,  visualizaciones y texto en diversos formatos. El uso de Jupyter incluye la ciencia de datos, simulación numérica, la modelización en estadística, Machine Learning, etc.
 
 [Jupyter nbviewer](https://nbviewer.jupyter.org/)  es un servicio web gratuito que te permite compartir las versiones de archivos realizados por Jupyter, permitiendo el renderizado de diversos fórmatos incluyendo, código latex.
+
+- [Jupyter Documentation](https://jupyter.readthedocs.io/en/latest/).
 
 
 ### Git y Github
@@ -137,6 +142,12 @@ Podemos instalar Git en Ubuntu utilizando el administrador de paquetes `Apt`:
 c-lara@Lara:~$sudo apt-get update
 c-lara@Lara:~$sudo apt-get install git
 ```
+
+Referencias y Lecturas
+
+- [Usando el GIT](http://www.cs.swarthmore.edu/~newhall/unixhelp/git.php).
+- [Practical Git Introduction](http://marc.helbling.fr/2014/09/practical-git-introduction).
+- [Visual Git Guide](http://marklodato.github.io/visual-git-guide/index-es.html).
 
 
 ### Latex 
@@ -238,8 +249,12 @@ c-lara@Lara:~$ conda install -c r r-essentials
 c-lara@Lara:~$ wget https://download1.rstudio.org/rstudio-0.99.893-amd64.deb
 c-lara@Lara:~$sudo dpkg -i *.deb
 c-lara@Lara:~$rm *.deb
-``` 
+```
 
+Referencias
+
+- [Basic Tutorial of Rstudio](http://web.cs.ucla.edu/~gulzar/rstudio/basic-tutorial.html).
+- [Webinars and Videos of Rstudio](https://github.com/rstudio/webinars).
 
 ### Spyder 
 
@@ -273,8 +288,9 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 * Logistic Regression Classifier.
 * Random Forest.
 
+Lecturas
 
-Lectura: Mahout in Action de Sean Owen, Robin Anil, Ted Dunning y Ellen Friedman, Manning Publications.
+-  Mahout in Action de Sean Owen, Robin Anil, Ted Dunning y Ellen Friedman, Manning Publications, 2011.
 
 ### Spark
 [Spark](http://spark.apache.org/) es un framework de análisis distribuido en memoría y nos permite ir más allá de las operaciones en batch de Hadoop MapReduce: procesamiento de streaming, machine learning (MLlib), cálculo de grafos (GraphX), integración con lenguje R (Spark R) y análisis interactivos. 
@@ -283,9 +299,21 @@ Al igual que su predecesor, MapReduce  que  logra prácticamente una relación l
 
 * DAG (Directed Acyclic Graph).
 * RDD (Resilient Distributed Dataset).
+
+
+Algunas lecturas y referencias
+
+
+- [¿What is Apache Spark?](https://www.mapr.com/ebooks/spark/).
+- [First steps with Spark](http://spark.apache.org/screencasts/1-first-steps-with-spark.html).
+- [Spark Examples ](https://spark.apache.org/examples.html).
+- [Apache Spark Videos](https://www.youtube.com/user/TheApacheSpark/videos).
+- [Spark vs Hadoop](https://acadgild.com/blog/spark-vs-hadoop/).
+
 ## Artículos
 
 - [Machine Learning introduction](https://jeremykun.com/2012/08/04/machine-learning-introduction/).
+- [Deception of supervised learning](http://www.kdnuggets.com/2016/09/deception-of-supervised-learning.html).
 - [Approaching (Almost) Any Machine Learning Problem](http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/).
 - [Metric spaces introduction](https://jeremykun.com/2012/08/26/metric-spaces-a-primer/).
 - [k-nearest-neighbors](https://jeremykun.com/2012/08/26/k-nearest-neighbors-and-handwritten-digit-classification/).
@@ -309,6 +337,7 @@ Al igual que su predecesor, MapReduce  que  logra prácticamente una relación l
 ## Lecturas
 
 - [Tutoriales de Machine Learning](https://github.com/ujjwalkarn/Machine-Learning-Tutorials).
+- [Top Algorithms Used by Data Scientists](http://www.kdnuggets.com/2016/09/poll-algorithms-used-data-scientists.html)
 - [Una guía de bolsillo para la Ciencia de datos](http://www.kdnuggets.com/2016/04/pocket-guide-data-science.html).
 - [Learning from Data: Machine learning course](https://work.caltech.edu/lectures.html).
 - [El cookbook del paquete Scipy ](http://scipy-cookbook.readthedocs.org/).
