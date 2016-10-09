@@ -1,0 +1,285 @@
+\documentclass[utf8,spanish,xcolor={table,dvipsnames},12pt]{beamer}
+\uselanguage{spanish}
+\languagepath{spanish}
+
+\usepackage{dsfont}
+
+\title[Algoritmo EM]{Algoritmo  EM}
+\subtitle{T\'opicos de Investigaci\'on: Machine Learning}
+\author{Luis Alberto Evangelista}
+\institute[UNI]{Universidad Nacional de Ingeniería}
+\date{05 de Octubre}
+
+\usetheme{Berlin}
+\useinnertheme{rectangles}
+\useoutertheme{infolines}
+%\usecolortheme{wolverine}
+%\usefonttheme[onlymath]{serif} %%% SOLO MATEMATICA SE MANTIENE
+
+\begin{document}
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame}{Introducción}
+
+ El algoritmo EM (Expectation-Maximization) es una técnica de optimización originalmente introducida por Dempster, Laird y Rubin (1997), en su publicación \textit{Maximun Likelihood from Imcomplete Data via the EM algorithm}. 
+ 
+ \vspace{0.4cm}
+ 
+ Se utiliza en estad\'istica para encontrar estimadores de verosimilitud(VM) de parámetros en modelos probabilísticos que dependen de variables no observables (datos pérdidos).
+\end{frame}
+
+\begin{frame}{Introducción}
+ \begin{itemize}
+   \item El algoritmo EM alterna pasos de esperanza (paso E),donde se calcula la esperanza de la verosimilitud mediante la inclusión de variables latentes como si fueran observables,   
+   \item y un paso de Maximización (paso M),donde se calculan estimadores de VM de los parámetros mediante la maximización de la verosimilitud esperada del paso E.
+       Los parámetros que se encuentra en el paso M se usan para comenzar el paso E siguiente, y así el proceso se repite.
+ \end{itemize}
+
+ \end{frame}
+
+
+\begin{frame}{Preliminares: Desigualdad De Jensen}
+
+Sea $f$ una función cuyo dominio es el conjunto de los números reales. Sabemos que $f$ es función convexa si $f^{''}(x)\geq 0$, para todo $x\in \mathds{R}$.\\
+
+ En caso que $f$ sea  función real en varias variables , la función $f$ es convexa si su Hessiana $H$ es semidefinida positiva $(H\geq 0)$.\\
+
+\vspace{0.2cm}
+
+
+ Si $f^{''}(x)>0$ para todo $x\in \mathds{R}$ ( Hessiana $H$ de $f$ es definida positiva:$H>0$),decimos que f es estrictamente convexa.\\
+ 
+ \vspace{0.2cm}
+ 
+ La desigualdad de Jensen puede expresarse de la siguiente forma, escrito como el siguiente teorema
+\end{frame}
+
+\begin{frame}{Desigualdad de Jensen}
+\begin{theorem}
+  Sea $f$ una función y $X$ una variable aleatoria entonces
+  $$f(E[X])\leq E[f(X)]$$
+  
+  \vspace{0.2cm}
+  
+  Además si $f$ es estrictamente convexa  entonces:
+  
+  \vspace{0.2cm}
+  
+  $E[f(X)]=f(E[X])$ si y s\'olo si $X=E[X]$ con probabilidad $1$ (i.e $X$ es constante).
+\end{theorem}
+\end{frame}
+
+\begin{frame}
+\begin{proof}
+  \pause\
+  Veamos en el caso que
+  \pause\
+  \begin{enumerate}
+    \item X sea finito, en efecto:\\
+          Sea $p_{i}=P\{X=x_{i}\}$ entonces $E[X]= \displaystyle \sum_{i=1}^{n}p_{i}x_{i}$ es una combinación convexa de valores de X.\\
+          Como X es una función convexa entonces \\
+          $f(E[X])=f(\displaystyle \sum_{i=1}^{n}p_{i}x_{i})\leq \sum_{i=1}^{n}p_{i}f(x_{i})=E[f(X)]$
+    \pause\ 
+    \item X sea numerable, en efecto:\\
+     Como X toma una cantidad numerable de valores $x_{i}$ con probabilidad $p_{i}$.\\
+     Definimos $s_{n}=\displaystyle\sum_{i=1}^{n}p_{i}$, para cada $n\in \mathds{N}$\\
+     \end{enumerate}
+     \end{proof}
+     \end{frame}
+
+     \begin{frame}{}
+       Notamos que $\displaystyle\sum_{i=1}^{n}\frac{p_{i}}{s_{n}}x_{i}$ es una combinación convexa.
+
+
+     Luego como $f$ es convexa entonces
+     \[
+      f(\displaystyle\sum_{i=1}^{n}\frac{p_{i}}{s_{n}}x_{i})\leq \displaystyle\sum_{i=1}^{n}\frac{p_{i}}{s_{i}}f(x_{i})
+      \]
+      
+      \vspace{0.2cm}
+      
+      Luego tomando limite cuando $n\rightarrow \infty$,  $s_{n}\rightarrow 1$ y de la continuidad de $f$ tenemos:
+      
+      \vspace{0.2cm}
+      
+      $f(E[X])=f(\displaystyle\sum_{i=1}^{\infty}p_{i}x_{i})\leq \sum_{i=1}^{\infty}p_{i}f(x_{i})=E[f(X)]$
+     \end{frame}
+
+\begin{frame}
+
+ {\large \textbf{Recordar}} :
+ 
+ \vspace{0.3cm}
+ 
+  $f$ es concava(estrictamente concava) si y s\'olo si $-f$ es convexa (estrictamente convexa) i.e. $f(x)\leq 0,H\leq 0 (f(x)< 0,H<0)$
+
+\vspace{0.3cm}
+
+ El teorema puede reescribirse en términos de la función c\'oncava de la
+ siguente forma:
+
+
+\vspace{0.3cm}
+ 
+ \begin{theorem}
+ 	Sea $f$ una función c\'oncava y $X$ una variable aleatoria entonces
+ 	$$E[f(X)]\leq f(E[X])$$
+ \end{theorem}
+\end{frame}
+
+
+\begin{frame}{Algoritmo EM}
+
+ Se supone que $X=(X_{1},X_{2},\cdots,X_{n})$ es una variable aleatoria con distribución conjunta de $g(X\mid \theta)$ y se quiere calcular \\
+ \begin{center}
+   $ \widehat{\theta}$=argmáx$L(\theta\mid X)$
+ \end{center}
+ 
+ \vspace{0.2cm}
+ 
+ Donde $L(\theta\mid X)=g(X\mid\theta)$.
+ 
+ \vspace{0.2cm}
+ 
+ Consideremos los datos completos W provenientes de una muestra aleatoria constituida por $W=(X,Z)$,donde W representa los datos completos,X los datos observados y Z datos pérdidos.
+ 
+ \vspace{0.2cm}
+ 
+ 
+ La distribución conjunta de W es
+ \begin{center}
+   $f(W\mid \theta)=f(X,Z\mid\theta)=k(Z\mid\theta,X)g(X\mid\theta)$.
+ \end{center} 
+
+ \end{frame}
+ 
+
+\begin{frame}{Algoritmo EM}
+	
+ ¿Cómo calculamos $L^{c}(\theta\mid W)=L^{c}(\theta\mid X,Z)$ si no conocemos Z?
+ 
+ \vspace{0.4cm}
+ 
+ \textbf{Respuesta}: No conocemos Z de $L^{c}(\theta\mid X,Z)$, así que la supondremos como variable aleatoria y calculamos una media.
+ 
+ \vspace{0.2cm}
+ 
+Considerando $g(X\mid\theta)=\int_{Z}f(X,Z\mid\theta)dZ$,donde $(X,Z)\sim f(X,Z\mid\theta)$. Entonces la distribución condicional de los datos pérdidos Z,dado los datos observados X es
+
+\vspace{0.2cm}
+
+\begin{center}
+  $k(Z\mid\theta,X)=\frac{f(X,Z\mid\theta)}{g(X\mid\theta)}$
+\end{center}
+
+
+\end{frame}
+
+
+\begin{frame}{Algoritmo EM}
+
+Además existe una relación entre la verosimilitud para los datos completos $L^{c}(\theta\mid X,Z)$ y la verosimilitud para los datos observados$L(\theta\mid X)$ dada por
+
+\begin{center}
+	$L^{c}(\theta\mid X,Z)=k(Z\mid\theta,X)L(\theta\mid X)$
+\end{center}
+Luego tomando logaritmo
+
+
+\begin{center}
+	$\log L^{c}(\theta\mid X,Z)=\log k(Z\mid\theta,X)+\log L(\theta\mid X)$
+\end{center}
+
+Es decir :
+
+\vspace{0.2cm}
+
+$\log g(X\mid\theta)=\log L(\theta\mid X)=\log L^{c}(\theta\mid X,Z)-\log k(Z\mid\theta,X) $\
+
+\end{frame}
+
+\begin{frame}{Algoritmo EM}
+
+Para un valor de $\theta_{0}$,calculando la esperanza con respecto a $k(Z\mid\theta,X)$
+y utilizando la desigualdad de Jensen, se tiene
+
+\vspace{0.2cm}
+
+\begin{itemize}
+	\item $\log L(\theta\mid X)$: datos observados
+	\item $E_{\theta_{0}}[\log L^{c}(\theta\mid X,Z)]$:datos completos
+	\item $E_{\theta_{0}}[\log k(Z\mid\theta,X)]$ :datos pérdidos, que cumplen :
+\end{itemize}
+
+\vspace{0.2cm}
+
+\begin{center}
+	$\log L(\theta\mid X)=E_{\theta_{0}}[\log L^{c}(\theta\mid X,Z)]-E_{\theta_{0}}[\log k(Z\mid\theta,X)]$ 
+\end{center}
+\vspace{0.2cm}
+
+Al maximizar $\log L(\theta\mid X)$ se debe ignorar el término asociado solo a los datos pérdidos.
+\end{frame}
+
+
+
+
+
+\begin{frame}{Iteraciones}
+
+\begin{enumerate}
+  \item El valor esperado del $\log$-verosimilitud se denota por
+   \begin{center}
+     $ Q(\theta\mid\theta_{0},X)=E_{\theta_{0}}[\log L^{c}(\theta\mid X,Z)]$.
+   \end{center}
+   
+  \item El algoritmo EM comienza maximizando en cada iteración $Q(\theta\mid\theta_{0},X)$.
+  \item Si $\hat{\theta}_{(1)}$=argmáx$Q(\theta\mid\theta_{0},X)$ entonces $\hat{\theta}_{(0)}\rightarrow \hat{\theta}_{(1)}$.
+  \item Se tienen secuencias de estimadores $\{\hat{\theta}_{(j)}\}$, donde \\
+        $ \hat{\theta}_{(j)}$=argmáx $Q(\theta\mid\hat{\theta}_{(j-1)},X)$   
+  \item Este esquema iterativo, en cada paso contiene un cálculo de esperanza y maximización.
+  
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{El Algoritmo}
+\pause\
+Se comienza con un valor inicial $\hat{\theta}_{(0)}$ fijado por el investigador.\\
+Repita
+\pause\
+\begin{enumerate}
+  \item Calcule(Paso E)
+        \begin{center}
+          $Q(\theta\mid\hat{\theta}_{(m)},X)=E_{\hat{\theta}_{(m)}}[\log L^{c}(\theta\mid X,Z)]$,
+         \end{center}
+        donde la esperanza es con respecto a $k(Z\mid\hat{\theta}_{(m)},X)$ \\
+        y establecer $m=0$.
+   \pause\ 
+  \item Maximizar $Q(\theta\mid\hat{\theta}_{(m)},X)$ en $\theta$ y tomar (paso M)
+        \begin{center}
+          $\hat{\theta}_{(m+1)}$=argmáx$\{Q(\theta\mid\hat{\theta}_{(m)},X):\theta\}$
+        \end{center}
+         y establecer $ m=m+1$.\\
+         Los parámetros que se encuentran en el paso M se usan para comenzar el paso E, y así el proceso se repite.Es decir se fija el punto $\hat{\theta}_{(m+1)}=\hat{\theta}_{(m)}$
+\end{enumerate}
+\end{frame}
+\begin{frame}{Bibliografía}
+\begin{thebibliography}{9}
+
+\bibitem{Kop04}
+Maya R. Gupta, Yihua Chen
+\newblock{\ Theory and Use of the EM Algorithm}.
+\newblock Now Publishers Inc, 2011
+
+
+\bibitem{Ber04}
+Bickel and Docksum
+\newblock{\ Mathematical Statistics}
+\newblock A Chapman $\&$ Hall Book
+\end{thebibliography}
+\end{frame}
+
+
+\end{document} 
