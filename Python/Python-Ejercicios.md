@@ -222,3 +222,50 @@ else:
                     print("Super caluroso")
 
 ```
+
+22 .Escribe un programa que utiliza un bucle `while` para sumar los cuadrados (a partir de 1) de números  hasta que el total sea mayor  a 200. Imprime el resultado final y el último número al cuadrado agregado.
+
+23 . Explica que hace el siguiente código
+
+```python
+numeros = [1, 5, 2, 12, 14, 7, 18]
+
+doble = []
+for numero in numeros:
+    doble.append(2 * numero)
+
+numeros_pares = []
+for numero in numeros:
+    if numero % 2 == 0:
+        numero_pares.append(numero)
+
+animalitos = ['aardvark', 'cat', 'dog', 'opossum']
+
+animalitos_a = []
+for animalito in animalitos:
+    if animalito[0] in 'aeiou':
+        animalitos_a.append(animalito.title())
+```
+24 . Encuentra las fuentes potenciales de **errores de ejecución** en este fragmento de código:
+
+```python
+for x in range(a, b):
+    print("(%f, %f, %f)" % my_list[x])
+```
+
+25 . Encuentra las fuentes potenciales de **errores lógicos** en este fragmento de código:
+
+ ```python
+ producto = 0
+for i in range(10):
+    producto *= i
+
+sum_cuadrados = 0
+for i in range(10):
+    i_sq = i**2
+sum_cuadrados += i_sq
+
+nums = 0
+for num in range(10):
+    num += num
+ ```
