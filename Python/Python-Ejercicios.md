@@ -164,3 +164,61 @@ print("Esto siginifica que tu coche puede viajar %.2f km por litro de combustibl
 print("\nGracias por usar el programa.")
 
 ```
+
+17 . Escribe una función que convierte una temperatura dada en grados Fahrenheit a su equivalente en grados Celsius. Tu programa debe pedirle al usuario por un valor de entrada (grado Fahrenheit) y devuelva una salida (grado Celsius).
+
+18 . ¿ Cuál es la salida del siguiente fragmento de código?. Explica
+
+```python
+x = 2
+
+if x > 3:
+    print("Este numero ")
+print("es mayor")
+print("que 3.")
+```
+
+19 . ¿Cómo podemos simplificar estos fragmentos de código?
+
+```python
+if bool(a) == True:
+    print("a es verdadero")
+```
+
+```python
+if x > 50:
+    b += 1
+    a = 5
+else:
+    b -= 1
+    a = 5
+```
+
+20 . ¿Para qué valores  de `x` se imprime el valor de `True`?
+
+```python
+if x > 1 or x <= 8:
+    print("True")
+```
+
+21 . Reescribe el siguiente fragemento de código, usando declaraciones `elif`
+
+```python
+if temperatura < 0:
+    print("Super helado")
+else:
+    if temperatura < 10:
+        print("Muy frio")
+    else:
+        if temperatura < 20:
+            print("frio")
+        else:
+            if temperatura < 30:
+                print("caliente")
+            else:
+                if temperatura < 40:
+                    print("Caluroso")
+                else:
+                    print("Super caluroso")
+
+```
