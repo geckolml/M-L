@@ -60,3 +60,107 @@ print(dia_1("lunes"))
 
 9 .  ¿ Qué ocurre cuando evaluamos `1e1000`? ¿Qué hay de `-1e1000` y de `type(1e1000)`?
 
+
+10 . ¿ Qué produce la siguiente secuencia de código?
+
+```python
+nombre = "Cesar Lara-Avila"
+print(nombre.lower())
+print(nombre)
+```
+11 . Describe el ámbito (*scope*) de las variables `a, b, c` y `d` en este ejemplo:
+
+```python
+def f1(a):
+    b = a - 2
+    return b
+
+c = 3
+
+if c > 2:
+    d = f1(5)
+    print(d)
+```
+12 . Explica lo que hace el siguiente código, línea a línea (Escribe comentarios)
+
+```python
+# Definimos algunas opciones
+
+LOWER, UPPER, CAPITAL = 1, 2, 3
+
+nombre  = "milagritos"
+estilos = UPPER
+
+if estilos == LOWER:
+    print(nombre.lower())
+elif estilos == UPPER:
+    print(nombre.upper())
+elif estilos == CAPITAL:
+    print(nombre.capitalize())
+else:
+    
+    print("estilo desconocido!")
+
+```
+
+13 . Detalla las declaraciones del siguiente código
+
+```python
+import math
+i = math.ceil(5.834)
+j = math.floor(5.834)
+k = math. round(5.384)
+```
+14 . Explica el siguiente código y corrige alguna declaración si es que hubiese alguna escrita de forma incorrecta
+
+```python
+print(5)
+print(6.7)
+print("3" + 4)
+print("3%d" % 4)
+print(int("3") + 4) 
+print("3%d" % 4)
+print("3" + str(4))
+int("3")
+int("3.7") 
+int(float("3.7"))
+```
+15 . Las lista y diccionarios son mutable, además de muchos de los objetos que podamos escribir. Explica el código siguiente
+
+```python
+lista1 = [1, 2, 3]
+lista1[0] = 5
+print(lista1)
+
+class Ejemplo(object):
+    pass
+    
+nuevo_objeto = Ejemplo()
+
+nuevo_objeto.propiedad = 42
+```
+
+16 . Explica el siguiente código línea por línea
+
+```python
+PRECIO_PETROLEO_POR_LITRO = 4.50
+
+print("*** Soy un calculador de eficiencia de combutible! ***\n")
+nombre = input("Ingresa tu nombre : ")
+
+distancia_viajada = float(input("Ingresa la distancia que viajastes en km: "))
+cantidad_pagada = float(input("Ingresa cuanto pagastes por el combustible en tu viaje : R"))
+
+combustible_consumido = cantidad_pagada / PRECIO_PETROLEO_POR_LITRO
+
+eficiencia_l_por_100_km = combustible_consumido / distancia_viajada * 100
+eficiencia_km_por_l = distancia_viajada / combustible_consumido
+
+print("Hi, %s!" % nombre)
+print("La eficiencia de tu coche es  %.2f litros por 100 km." % eficiencia_l_por_100_km)
+print("Esto siginifica que tu coche puede viajar %.2f km por litro de combustible." % eficiencia_km_por_l)
+
+# Usamos la secuencia de escape \n para dejar un mensaje
+print("\nGracias por usar el programa.")
+
+```
