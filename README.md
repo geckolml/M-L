@@ -144,7 +144,7 @@ ipython kernel install --user
 
 o configurar el entorno para python 3.5
 
-```python
+```
 conda create -n py35 python=3.5
 source activate py35
 conda install notebook ipykernel
