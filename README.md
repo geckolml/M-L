@@ -126,7 +126,7 @@ El [Proyecto Jupyter](http://jupyter.org/)  es una aplicación web que te permit
 
 Desde la versión 4.1.0, *anaconda* incluye un paquete especial llamado  `nb_conda_kernels` que detecta entornos en conda con kernels para  jupyter notebook y los registra automáticamente. 
 
-```python
+```
 conda create -n py27 python=2.7 ipykernel
 conda create -n py35 python=3.5 ipykernel
 ``` 
@@ -135,7 +135,7 @@ conda create -n py35 python=3.5 ipykernel
 
 o de forma manual, por ejemplo para configurar el entorno para python 2.7
 
-```python
+```
 conda create -n py27 python=2.7
 source activate py27
 conda install notebook ipykernel
