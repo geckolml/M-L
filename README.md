@@ -323,6 +323,7 @@ Algunas lecturas y referencias
 - [Geometric interpretation of covariance matrix](http://www.visiondummy.com/2014/04/geometric-interpretation-covariance-matrix/).
 - [Eigenvectors, PCA,covariance and entropy](http://deeplearning4j.org/eigenvector).
 - [PCA, eigenvectors and eigenvalues](http://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues).
+- [Clustering key-terms](http://www.kdnuggets.com/2016/10/clustering-key-terms-explained.html)
 - [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
 - [Trees](https://jeremykun.com/2012/09/16/trees-a-primer/).
 - [Decision trees ](https://jeremykun.com/2012/10/08/decision-trees-and-political-party-classification/).
@@ -330,11 +331,15 @@ Algunas lecturas y referencias
 - [Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
 - [Set theory](https://jeremykun.com/2011/07/09/set-theory-a-primer/).
 - [Probability theory introduction](https://jeremykun.com/2013/01/04/probability-theory-a-primer/).
+- [Decision Tree concise technical overview](http://www.kdnuggets.com/2016/10/decision-trees-concise-technical-overview.html)
 - [Linear Regression](https://jeremykun.com/2013/08/18/linear-regression/).
 - [Tree decision and modeling](http://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/).
 - [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/).
 - [ Naives Bayes explained](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
 - [Introduction boosting algorithms for machine learning](http://www.analyticsvidhya.com/blog/2015/11/quick-introduction-boosting-algorithms-machine-learning/).
+- [How Bayesian Inference works](http://www.kdnuggets.com/2016/11/how-bayesian-inference-works.html)
+- [Quick introduction Neural network](http://www.kdnuggets.com/2016/11/quick-introduction-neural-networks.html)
+
 
 ## Lecturas
 
