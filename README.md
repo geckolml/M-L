@@ -1,6 +1,9 @@
 ##  Curso: Tópicos de investigación (Machine Learning)
 
-   
+Lectura previa:
+
+* Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython de Wes McKinney. 
+
 ## Libros de Texto
 
 1 .Machine Learning: Hands-On for Developers and Technical Professionals, Jason Bell, Wiley 2015.
