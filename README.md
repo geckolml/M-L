@@ -19,9 +19,17 @@ Lectura previa:
 
 
 * Teoría del aprendizaje
-- Solución bias-varianza. Unión y cotas de Chernoff-Hoeffding.
-- VC dimensión .
-- Notas cómo utilizar algoritmos de aprendizaje.
+ - Solución bias-varianza. Unión y cotas de Chernoff-Hoeffding.
+ - VC dimensión .
+ - Notas cómo utilizar algoritmos de aprendizaje.
+
+* Aprendizaje no Supervisado
+
+ - Clustering. K-medias.
+ - EM. Mixture Gaussiana.
+ - Análisis factorial.
+ - PCA (Análisis de componentes principales).
+ - ICA (Análisis de componentes independientes).
 
 ## Libros de Texto
 
