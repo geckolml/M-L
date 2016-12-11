@@ -4,6 +4,22 @@ Lectura previa:
 
 * Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython de Wes McKinney. 
 
+## Temario
+
+* Introducción 
+ - Conceptos básicos.
+ 
+* Aprendizaje Supervisado
+ - Nociones  sobre  aprendizaje supervisado. LMS.
+ - Regresión logística. Perceptron. Familia exponencial.
+ - Algoritmos de aprendizaje generativo. Análisis de  discriminante Gaussiano. Naive Bayes.
+ - Máquina de Soporte Vectorial.
+ - Selección de modelos y selección de características .
+ - Bagging y Boosting (Ensemble methods).
+
+
+* 
+
 ## Libros de Texto
 
 1 .Machine Learning: Hands-On for Developers and Technical Professionals, Jason Bell, Wiley 2015.
