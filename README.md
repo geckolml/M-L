@@ -1,8 +1,15 @@
 ##  Curso: Tópicos de investigación (Machine Learning)
 
-Lectura previa:
+Lecturas previas:
 
-* Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython de Wes McKinney. 
+* Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython de Wes McKinney.
+* [Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf).
+* [Review of Probability Theory](http://cs229.stanford.edu/section/cs229-prob.pdf).
+* [Convex Optimization Overview 1](http://cs229.stanford.edu/section/cs229-cvxopt.pdf).
+* [Convex Optimization Overview 2](http://cs229.stanford.edu/section/cs229-cvxopt2.pdf).
+* [The Multivariate Gaussian Distribution](http://cs229.stanford.edu/section/gaussians.pdf).
+* [More on Multivariate Gaussians](http://cs229.stanford.edu/section/more_on_gaussians.pdf).
+* [Gaussian processes](http://cs229.stanford.edu/section/cs229-gaussian_processes.pdf).
 
 ## Temario
 
