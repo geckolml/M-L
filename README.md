@@ -10,6 +10,7 @@ Lecturas previas:
 * [The Multivariate Gaussian Distribution](http://cs229.stanford.edu/section/gaussians.pdf).
 * [More on Multivariate Gaussians](http://cs229.stanford.edu/section/more_on_gaussians.pdf).
 * [Gaussian processes](http://cs229.stanford.edu/section/cs229-gaussian_processes.pdf).
+* [Applied Numerical Computing](http://www.seas.ucla.edu/~vandenbe/103/reader.pdf)
 
 ## Temario
 
