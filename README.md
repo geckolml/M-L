@@ -323,6 +323,13 @@ Algunas lecturas y referencias
   * [jbstatistics](https://www.youtube.com/user/jbstatistics).
   * [Analytics University](https://www.youtube.com/channel/UC2XO4HDxzfMOZIV1l795g1Q).
   * [NPTEL HRD](https://www.youtube.com/user/nptelhrd).
+- Algunos blog para aprender matématicas y temas relacionados para machine learning son:
+  * [Learning machine 101](http://www.learningmachines101.com/).
+  * [mrtz](http://blog.mrtz.org/).
+  * [Pete Warden's blog](https://petewarden.com/).
+  * [A blog by Allen Downey](http://allendowney.blogspot.pe/).
+  * [ Publishable Stuff Rasmus Bååth's Research Blog](http://www.sumsar.net/).
+  * [Healthy Algorithms](https://healthyalgorithms.com/).
 
 ## Otros tópicos
 - [Eigenfaces for Facial recognition](https://jeremykun.com/2011/07/27/eigenfaces/).
