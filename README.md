@@ -18,7 +18,10 @@ Lectura previa:
  - Bagging y Boosting (Ensemble methods).
 
 
-* 
+* Teoría del aprendizaje
+- Solución bias-varianza. Unión y cotas de Chernoff-Hoeffding.
+- VC dimensión .
+- Notas cómo utilizar algoritmos de aprendizaje.
 
 ## Libros de Texto
 
