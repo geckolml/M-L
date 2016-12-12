@@ -2,6 +2,9 @@
 
 Lecturas previas:
 
+* [Machine Learning basics for a newbie](https://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/).
+* [Difference between Machine Learning & Statistical Modeling](Difference between Machine Learning & Statistical Modeling).
+* [Ultimate guide for Data Exploration in Python using NumPy, Matplotlib and Pandas](https://www.analyticsvidhya.com/blog/2015/04/comprehensive-guide-data-exploration-sas-using-python-numpy-scipy-matplotlib-pandas/).
 * Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython de Wes McKinney.
 * [Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf).
 * [Review of Probability Theory](http://cs229.stanford.edu/section/cs229-prob.pdf).
