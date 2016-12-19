@@ -300,6 +300,14 @@ Algunas lecturas y referencias
   * [A blog by Allen Downey](http://allendowney.blogspot.pe/).
   * [ Publishable Stuff Rasmus Bååth's Research Blog](http://www.sumsar.net/).
   * [Healthy Algorithms](https://healthyalgorithms.com/).
+  * [A Machine Learning Craftsmanship Blog](http://iamtrask.github.io/).
+  * [Neural Networks (General)](http://colah.github.io/).
+  * [This Number Crunching Life Randomness in the world with a smattering of other randomness](http://blog.smellthedata.com/).
+  * [Machine Learning Newsletter](http://bugra.github.io/).
+  * [Machine Learning (Theory)](http://hunch.net/).
+  * [Hacker's guide to Neural Networks](http://karpathy.github.io/).
+  * [ Count Bayesie Probably a Probability Blog](https://www.countbayesie.com/).
+ 
 
 ## Otros tópicos
 - [Eigenfaces for Facial recognition](https://jeremykun.com/2011/07/27/eigenfaces/).
