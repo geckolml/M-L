@@ -18,7 +18,7 @@ Lecturas previas:
 ## Temario
 
 * Introducción 
- - Conceptos básicos.
+ - Conceptos básicos del Machine Learning.
  
 * Aprendizaje Supervisado
  - Nociones  sobre  aprendizaje supervisado. LMS.
@@ -310,6 +310,7 @@ Algunas lecturas y referencias
  
 
 ## Otros tópicos
+- [Bayesian Analysis](https://www.quora.com/What-is-an-intuitive-explanation-of-Bayes-Rule).
 - [Eigenfaces for Facial recognition](https://jeremykun.com/2011/07/27/eigenfaces/).
 - [Boosting and AdaBoost](https://jeremykun.com/2015/05/18/boosting-census/).
 - [Machine learning as a batch process](http://onlinelibrary.wiley.com/doi/10.1002/9781119183464.ch10/summary). Libro de Jason Bell: Machine Learning- Hands-on for developers and technical professionals.
