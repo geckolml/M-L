@@ -1,9 +1,9 @@
 ##  Curso: Tópicos de investigación (Machine Learning)
 
-Lecturas previas:
+### Lecturas previas:
 
 * [Machine Learning basics for a newbie](https://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/).
-* [Difference between Machine Learning & Statistical Modeling](Difference between Machine Learning & Statistical Modeling).
+* [Difference between Machine Learning & Statistical Modeling](https://www.analyticsvidhya.com/blog/2015/07/difference-machine-learning-statistical-modeling/).
 * [Ultimate guide for Data Exploration in Python using NumPy, Matplotlib and Pandas](https://www.analyticsvidhya.com/blog/2015/04/comprehensive-guide-data-exploration-sas-using-python-numpy-scipy-matplotlib-pandas/).
 * Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython de Wes McKinney.
 * [Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf).
@@ -17,56 +17,9 @@ Lecturas previas:
 
 ## Temario
 
-* Introducción 
- - Conceptos básicos del Machine Learning.
- 
-* Aprendizaje Supervisado
- - Nociones  sobre  aprendizaje supervisado. LMS.
- - Regresión logística. Perceptron. Familia exponencial.
- - Algoritmos de aprendizaje generativo. Análisis de  discriminante Gaussiano. Naive Bayes.
- - Máquina de Soporte Vectorial.
- - Selección de modelos y selección de características .
- - Bagging y Boosting (Ensemble methods).
-
-
-* Teoría del aprendizaje
- - Solución bias-varianza. Unión y cotas de Chernoff-Hoeffding.
- - VC dimensión .
- - Notas cómo utilizar algoritmos de aprendizaje.
-
-* Aprendizaje no Supervisado
-
- - Clustering. K-medias.
- - EM. Mixture Gaussiana.
- - Análisis factorial.
- - PCA (Análisis de componentes principales).
- - ICA (Análisis de componentes independientes).
-
 ## Libros de Texto
 
-1 .Machine Learning: Hands-On for Developers and Technical Professionals, Jason Bell, Wiley 2015.
-
-2 .Coding The Matrix Linear Algebra Through Computer Science Applications, Newtonian Press, Phillip Klein, 2012.
-
-3 .Numerical Python: A Practical Techniques Approach for Industry, Robert Johansson, Apress 2015.
-
-4 .Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies, Aoife D'Arcy, Brian Mac Namee, John D. Kelleher, MIT 2015.
-
-5 .Mastering Machine Learning With scikit-learn, Gavin Hackeling, Packt Publishing, 2014.
-
-6 .Probability: The Analysis of Data, Volumen 1, Guy Lebanon. El libro se puede leer de manera online en [theanalysisofdata.com](http://theanalysisofdata.com/).
-
-7 . Statistical inference for data science, Brian Caffo (Con código en R). El libro pueder se leído en Leanpub [Little Inference Book](https://leanpub.com/LittleInferenceBook).
-
-8 .Numerical Algorithms: Methods for Computer Vision, Machine Learning and Graphics, Justin Solomon, CRC Press, 2015.
-
-9 .An Introduction to Statistical Learning, Springer Texts in Statistics, Gareth James, Daniela Witten, Trevor Hastle y Robert Tibshirani, 2013.
-
-10 .Business Intelligence in Plain Language: A practical guide to Data Mining and Business Analytics, Jeremy Kolbs. Applied Data Labs Inc, 2012.
-
-11 . groking Algorithms, An illustred guide for programmers and other curious people, Aditya Y. Bhargava, Manning 2016.
-
-12 . Python Machine Learning, Sebastian Raschka, Pack Publishing, 2015.
+* Python Machine Learning, Sebastian Raschka, Pack Publishing, 2015.
 
 ## Herramientas a  usar 
 
