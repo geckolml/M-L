@@ -5,7 +5,6 @@
 * [Machine Learning basics for a newbie](https://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/).
 * [Difference between Machine Learning & Statistical Modeling](https://www.analyticsvidhya.com/blog/2015/07/difference-machine-learning-statistical-modeling/).
 * [Ultimate guide for Data Exploration in Python using NumPy, Matplotlib and Pandas](https://www.analyticsvidhya.com/blog/2015/04/comprehensive-guide-data-exploration-sas-using-python-numpy-scipy-matplotlib-pandas/).
-* Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython de Wes McKinney.
 * [Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf).
 * [Review of Probability Theory](http://cs229.stanford.edu/section/cs229-prob.pdf).
 * [Convex Optimization Overview 1](http://cs229.stanford.edu/section/cs229-cvxopt.pdf).
@@ -88,7 +87,6 @@ Anaconda incluye los instaladores de Python 2.7 y 3.5.  La instalación en **Lin
 c-lara@Lara:~$ bash Anaconda3-2.4.1-Linux-x86_64.sh
 
 ```
-
 Es recomendable leer, alguna de las característica de Anaconda en el siguiente material [conda 30-minutes test drive](http://conda.pydata.org/docs/test-drive.html).
 
 3 . La instalación de paquetes como [seaborn](http://stanford.edu/~mwaskom/software/seaborn/) o [bokeh](http://bokeh.pydata.org/en/latest/) se pueden realizar a través de Anaconda, de la siguiente manera:
@@ -110,35 +108,6 @@ El proyecto [Anaconda](https://www.continuum.io/downloads) ha creado [R Essentia
 ```bash
 c-lara@Lara:~$ conda install -c r r-essentials
 ``` 
-
-
-
-### R y Rstudio
-
-[R](https://www.cran.r-project.org/) y [RStudio](https://www.rstudio.com/) . RStudio es un IDE para R. Es software libre con licencia GPLv3 y se puede ejecutar sobre distintas plataformas  o incluso desde la web usando [RStudio Server](https://support.rstudio.com/hc/en-us/articles/200552306-Getting-Started).
-
-
-```bash
-c-lara@Lara:~$ wget https://download1.rstudio.org/rstudio-0.99.893-amd64.deb
-c-lara@Lara:~$sudo dpkg -i *.deb
-c-lara@Lara:~$rm *.deb
-```
-
-Referencias
-
-- [Basic Tutorial of Rstudio](http://web.cs.ucla.edu/~gulzar/rstudio/basic-tutorial.html).
-- [Webinars and Videos of Rstudio](https://github.com/rstudio/webinars).
-
-### Spyder 
-
-[Spyder](https://github.com/spyder-ide/spyder]) es un entorno de desarrollo para Python, con múltiples características como edición avanzada, testeo, depuración y características de instrospección, además de la capacidad de utilizar vía Ipython las librerías científicas de Numpy, Simpy o MatplotLib.  Si se tiene instalado Anaconda, entonces solo basta escribir en el terminal lo siguiente
-
-```bash
-c-lara@Lara:~$ spyder
-``` 
-
-
-
 ### Weka 
 
 [Weka](http://www.cs.waikato.ac.nz/ml/weka/) (Waikato Environment for Knowledge Acquisition) es una herramienta de Machine Learning y Data Minning escrito en Java. Con Weka podemos hacer Preprocessing data, clustering, classification, regression y ahora Big Data y datos con un driver JDBC.
