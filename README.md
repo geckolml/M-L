@@ -13,6 +13,11 @@
   - Shai Shalev-Shwartz, and Shai Ben-David,[Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), Cambridge University Press, 2014.
  
 
+* Cálculo
+  - Apendice D del libro de Chris Bishop.
+  - [Notas](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006/readings/lagrange.pdf) del MIT para multiplicadores de Lagrange.
+  - [Lagrange Multipliers without Permanent Scarring](https://people.eecs.berkeley.edu/~klein/papers/lagrange-multipliers.pdf) de  Dan Klein.
+  
 * Probabilidad
   
   - [Notas ](http://www.statslab.cam.ac.uk/~rrw1/prob/prob-weber.pdf) de  Richard Weber.
@@ -95,8 +100,16 @@
   - [Diapositiva 12]().
   
 * Regresión logística
+  - [Logistic Regression - Interpreting Parameters](http://www.unm.edu/%7Eschrader/biostat/bio2/Spr06/lec11.pdf).
   - [Diapositiva 13]().
   
+* K vecinos más cércanos
+  - [A Detailed Introduction to K-Nearest Neighbor (KNN) Algorithm](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/).
+  - Aplicaciones:
+    * [Nearest Neighbor Retrieval and Classification ](http://vlm1.uta.edu/%7Eathitsos/nearest_neighbors/).
+    * [Mapping Forest Resources Using the k-Nearest Neighbor Method](http://land.umn.edu/documents/FS6.pdf).
+    * [Text categorization using k-nearest neighbor classification](http://user.ceng.metu.edu.tr/~e120321/paper.pdf).
+  - [Diapositiva 14]().
   
 ## Herramientas a  usar 
 
