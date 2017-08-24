@@ -87,6 +87,7 @@
   
 * Introducción a la inferencia Bayesiana: Naive Bayes.
   - Artículo de Sebastian Raschka [Naive Bayes and Text Classification](http://sebastianraschka.com/Articles/2014_naive_bayes_1.html) sobre Naive Bayes.
+  - [ Naives Bayes explained](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
   - [Generative and discriminative classifiers:Naives Bayes y Logistic Regression](http://www.cs.cmu.edu/%7Etom/mlbook/NBayesLogReg.pdf). Secciones 1 y 2.
   - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Sección 24.
   
