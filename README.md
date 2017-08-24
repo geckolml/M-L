@@ -53,8 +53,7 @@
 * Clase 6: Métodos del Kernel: Métodos del Kernel para SVM y classificación multiclases.
   - [Notas](http://cs229.stanford.edu/notes/cs229-notes3.pdf) sobre Kernels (sección 7).
   - [Pegasos Algorithm y  Kernels](http://cs.nyu.edu/~dsontag/courses/ml16/slides/lecture6_notes.pdf).
-  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), capítulo 16 sobre métodos de kernels.
-  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), secciones Sections 17.1 & 17.2 sobre multiclases.
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), capítulo 16 sobre métodos de kernels. Secciones 17.1 & 17.2 sobre multiclases.
   - [Diapositiva 6]().
  
 * Clase 7: Regularización L1 y introducción a la teoria del aprendizaje
@@ -77,20 +76,26 @@
   - [Diapositiva 10].
   
 * Clase 11: K-means
+  - [k-Means Clustering ](https://jeremykun.com/2013/02/04/k-means-clustering-and-birth-rates/).
   - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Capítulo 22 (intro) y la sección 22.2.
   - [Diapositiva 10]().
   
 * Clasificación jerárquica y espectral
-  
+
   - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Secciones 22.1 y 22.3.
   - Lectura opcional: [A Tutorial on Spectral Clustering](http://cs.nyu.edu/%7Edsontag/courses/ml14/notes/Luxburg07_tutorial_spectral_clustering.pdf).
-  - [Diapositiva 10]().
+  - [Diapositiva 11]().
   
 * Introducción a la inferencia Bayesiana: Naive Bayes.
+  - [How Bayesian Inference works](http://www.kdnuggets.com/2016/11/how-bayesian-inference-works.html).
   - Artículo de Sebastian Raschka [Naive Bayes and Text Classification](http://sebastianraschka.com/Articles/2014_naive_bayes_1.html) sobre Naive Bayes.
   - [ Naives Bayes explained](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
   - [Generative and discriminative classifiers:Naives Bayes y Logistic Regression](http://www.cs.cmu.edu/%7Etom/mlbook/NBayesLogReg.pdf). Secciones 1 y 2.
   - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Sección 24.
+  - [Diapositiva 12]().
+  
+* Regresión logística
+  - [Diapositiva 13]().
   
   
 ## Herramientas a  usar 
@@ -161,6 +166,14 @@ Referencias y Lecturas
 - [Usando el GIT](http://www.cs.swarthmore.edu/~newhall/unixhelp/git.php).
 - [Practical Git Introduction](http://marc.helbling.fr/2014/09/practical-git-introduction).
 - [Visual Git Guide](http://marklodato.github.io/visual-git-guide/index-es.html).
+
+### Scikit-learn 
+
+[Scikit-learn](http://scikit-learn.org/stable/), es tal vez la mejor biblioteca para Machine Learning, construida sobre NumPy, SciPy y Matplotlib, esta biblioteca contiene una gran cantidad de herramientas eficientes para el Machine Learning y el modelado estadístico incluyendo clasificación, regresión, agrupación y reducción de la dimensionalidad.
+
+- Video sobre [Machine Learning with scikit-learn](https://www.youtube.com/watch?v=HC0J_SPm9co) de Jake VanderPlas.
+- [Machine Learning Cheat Sheet for scikit-learn](http://peekaboo-vision.blogspot.pe/2013/01/machine-learning-cheat-sheet-for-scikit.html).
+- [Notas de Scikit-Learn como herramienta de Machine Learning](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
 
 ### Otras herramientas
 
