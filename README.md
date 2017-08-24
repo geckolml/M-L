@@ -27,20 +27,46 @@
 
 ## Temario
 
-* Clase1: Introducción al Machine Learning 
+* Clase 1: Introducción al Machine Learning 
     - Lectura obligatoria: [Capitulo1 de Kevin P. Murphy](http://www.cs.ubc.ca/%7Emurphyk/MLbook/pml-intro-22may12.pdf).
-    - [Diapositiva1]().
+    - [Diapositiva 1]().
 * Clase 2: Introducción al aprendizaje: Funciones de pérdida, algoritmo del perceptrón, prueba de errores del perceptrón.
-    - [Diapositiva2]()
+    - [Diapositiva 2]()
     - 
 * Clase 3: Clasificadores lineales: Introducción al SVM.
-    - [Diapositiva3]().
+    - [Diapositiva 3]().
 * Clase 4: SVM: Introducción a la optimización convexa
   - [Gradient, Subgradient and how they may affect your grade](http://cs.nyu.edu/~dsontag/courses/ml16/slides/notes_convexity16.pdf)
   - Lectura obligatoria: [Support Vector Machines](http://cs229.stanford.edu/notes/cs229-notes3.pdf) de Andrew Ng.
   - Notas adicionales: [Linear Support Vector Machines](https://davidrosenberg.github.io/ml2015/docs/svm-notes.pdf) de David S. Rosenberg.
-  - [Diapositiva4]().
+  - [Diapositiva 4]().
+* Clase 5: Descenso de gradiente estocástico
+  - [Diapositiva 5]().
   
+* Clase 6: Métodos del Kernel: Métodos del Kernel para SVM y classificación multiclases.
+ - [Notas](http://cs229.stanford.edu/notes/cs229-notes3.pdf) sobre Kernels (sección 7).
+ - [Pegasos Algorithm y  Kernels](http://cs.nyu.edu/~dsontag/courses/ml16/slides/lecture6_notes.pdf).
+ - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), capítulo 16 sobre métodos de kernels.
+ - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), secciones Sections 17.1 & 17.2 sobre multiclases.
+ . [Diapositiva 6]().
+ 
+Clase 7: Regularización L1 y introducción a la teoria del aprendizaje
+  - [Diapositiva 7]().
+  
+Clase 8: Teoria del aprendizaje: Clases de hipótesis finitas
+  - [Notas](http://cs229.stanford.edu/notes/cs229-notes4.pdf) de teoria del aprendizaje de Andrew Ng. Secciones 1 -3.
+  - [Diapositiva 8]().
+  
+Clase 9: Teoria de aprendizaje: Dimensión VC
+  - [Notas](http://cs229.stanford.edu/notes/cs229-notes4.pdf) de teoria del aprendizaje de Andrew Ng. Sección 4.
+  - Lectura opcional: [A Tutorial on Support Vector Machines for PatternRecognition](http://cs.nyu.edu/%7Edsontag/courses/ml14/notes/burges_SVM_tutorial.pdf). Páginas 29-31.
+  - [Diapositiva 9]
+
+Clase 10 : Árboles de decisión.
+  - [Trees](https://jeremykun.com/2012/09/16/trees-a-primer/).
+  - [Decision trees ](https://jeremykun.com/2012/10/08/decision-trees-and-political-party-classification/).
+  - [Tom M. Mitchel: Capitulo 3](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf).
+  - Lectura opcional: [Cynthia Rudin: Decision Trees](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec08.pdf)
   
 ## Herramientas a  usar 
 
