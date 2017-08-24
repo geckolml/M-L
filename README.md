@@ -44,6 +44,41 @@
   
 ## Herramientas a  usar 
 
+### Anaconda 
+
+[Anaconda](https://www.continuum.io/downloads) es una distribución completa  libre de [Python](https://www.python.org/) incluye [paquetes de Python ](http://docs.continuum.io/anaconda/pkg-docs).
+
+Anaconda incluye los instaladores de Python 2.7 y 3.5.  La instalación en **Linux**, se encuentra en la página de Anaconda y es más o menos así
+
+1 . Descargar el instalador de Anaconda para Linux.
+
+2 . Después de descargar el instalar, en el terminal, ejecuta para 3.5
+
+```bash
+c-lara@Lara:~$ bash Anaconda3-2.4.1-Linux-x86_64.sh
+
+```
+Es recomendable leer, alguna de las característica de Anaconda en el siguiente material [conda 30-minutes test drive](http://conda.pydata.org/docs/test-drive.html).
+
+3 . La instalación de paquetes como [seaborn](http://stanford.edu/~mwaskom/software/seaborn/) o [bokeh](http://bokeh.pydata.org/en/latest/) se pueden realizar a través de Anaconda, de la siguiente manera:
+
+
+
+``` bash
+c-lara@Lara:~$ conda install bokeh
+```
+
+Alternativamente podemos desde PyPI usando **pip**:
+
+```bash
+c-lara@Lara:~$ pip install bokeh
+``` 
+
+El proyecto [Anaconda](https://www.continuum.io/downloads) ha creado [R Essentials](http://anaconda.org/r/r-essentials), que incluye el IRKernel y alrededor de 80 paquetes para análisis de datos, incluyendo `dplyr`, `shiny`, `ggplot2`,`caret`, etc. Para instalar **R Essentials** en un entorno de trabajo, hacemos
+
+```bash
+c-lara@Lara:~$ conda install -c r r-essentials
+``` 
 
 ### Proyecto Jupyter y el Jupyter Nbviewer
 
@@ -75,4 +110,50 @@ Referencias y Lecturas
 - [Usando el GIT](http://www.cs.swarthmore.edu/~newhall/unixhelp/git.php).
 - [Practical Git Introduction](http://marc.helbling.fr/2014/09/practical-git-introduction).
 - [Visual Git Guide](http://marklodato.github.io/visual-git-guide/index-es.html).
+
+### Otras herramientas
+
+### Weka 
+
+[Weka](http://www.cs.waikato.ac.nz/ml/weka/) (Waikato Environment for Knowledge Acquisition) es una herramienta de Machine Learning y Data Minning escrito en Java. Con Weka podemos hacer Preprocessing data, clustering, classification, regression y ahora Big Data y datos con un driver JDBC.
+
+Para instalar Weka en Ubuntu, desempaquetar el [archivo](http://prdownloads.sourceforge.net/weka/weka-3-6-13.zip) conteniendo a Weka en algún de tu preferencia y luego ir al directorio creado  (weka-3-6-13) y ejecutar
+
+```bash
+c-lara@Lara:~$java -Xmx1000M -jar weka.jar
+```
+
+Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch?v=m7kpIBGEdkI) de Brandon Weinberg o el [canal de Youtube](https://www.youtube.com/user/WekaMOOC) de Weka.
+
+### Mahout 
+
+[Mahout](http://mahout.apache.org/) es un proyecto que es es parte del proyecto Apache. Una característica principal de Mahout es su integración con el paradigma Hadoop Map/Reduce para el procesamiento de datos a gran escala. Mahout soporta un gran número de algoritmos incluyendo:
+
+* Naive Bayes Classifier.
+* K Means Clustering.
+* Recommendation Engine.
+* Logistic Regression Classifier.
+* Random Forest.
+
+Lecturas
+
+-  Mahout in Action de Sean Owen, Robin Anil, Ted Dunning y Ellen Friedman, Manning Publications, 2011.
+
+### Spark
+[Spark](http://spark.apache.org/) es un framework de análisis distribuido en memoría y nos permite ir más allá de las operaciones en batch de Hadoop MapReduce: procesamiento de streaming, machine learning (MLlib), cálculo de grafos (GraphX), integración con lenguje R (Spark R) y análisis interactivos. 
+
+Al igual que su predecesor, MapReduce  que  logra prácticamente una relación lineal de escalabilidad, Spark mantiene la escalabilidad lineal y la tolerancia a fallos de MapReduce, pero amplía sus bondades gracias a varias funcionalidades:
+
+* DAG (Directed Acyclic Graph).
+* RDD (Resilient Distributed Dataset).
+
+
+Algunas lecturas y referencias
+
+
+- [¿What is Apache Spark?](https://www.mapr.com/ebooks/spark/).
+- [First steps with Spark](http://spark.apache.org/screencasts/1-first-steps-with-spark.html).
+- [Spark Examples ](https://spark.apache.org/examples.html).
+- [Apache Spark Videos](https://www.youtube.com/user/TheApacheSpark/videos).
+- [Spark vs Hadoop](https://acadgild.com/blog/spark-vs-hadoop/).
 
