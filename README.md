@@ -7,7 +7,8 @@
   - [Machine Learning: a Probabilistic Perspective](http://www.cs.ubc.ca/%7Emurphyk/MLbook/index.html) de Kevin Murphy (2012).
   - [Pattern Recognition and Machine Learning](http://research.microsoft.com/en-us/um/people/cmbishop/prml/) de Chris Bishop  (2006). 
   - Data Science From Scratch: First Principles with Python de Joel Grus 2015.
-  - 
+  - Machine Learning refined: Foundations, Algorithms, and Applications 1st Edition Jeremy Watt, Reza Borhani y Aggelos K. Katsaggelos, 2016.
+  - Foundations of Machine Learning (Adaptive Computation and Machine Learning series) Mehryar Mohri, Afshin Rostamizadeh  y Ameet Talwalkar, 2012.
   - David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online), , Cambridge University Press, 2012. 
   - Shai Shalev-Shwartz, and Shai Ben-David,[Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), Cambridge University Press, 2014.
  
@@ -50,11 +51,11 @@
   - [Diapositiva 5]().
   
 * Clase 6: Métodos del Kernel: Métodos del Kernel para SVM y classificación multiclases.
- - [Notas](http://cs229.stanford.edu/notes/cs229-notes3.pdf) sobre Kernels (sección 7).
- - [Pegasos Algorithm y  Kernels](http://cs.nyu.edu/~dsontag/courses/ml16/slides/lecture6_notes.pdf).
- - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), capítulo 16 sobre métodos de kernels.
- - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), secciones Sections 17.1 & 17.2 sobre multiclases.
- - [Diapositiva 6]().
+  - [Notas](http://cs229.stanford.edu/notes/cs229-notes3.pdf) sobre Kernels (sección 7).
+  - [Pegasos Algorithm y  Kernels](http://cs.nyu.edu/~dsontag/courses/ml16/slides/lecture6_notes.pdf).
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), capítulo 16 sobre métodos de kernels.
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), secciones Sections 17.1 & 17.2 sobre multiclases.
+  - [Diapositiva 6]().
  
 * Clase 7: Regularización L1 y introducción a la teoria del aprendizaje
   - [Diapositiva 7]().
