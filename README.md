@@ -3,9 +3,14 @@
 ###  Material de referencias
 
 * Libros de Machine Learning.
-  - Python Machine Learning, Sebastian Raschka, Pack Publishing, 2015.
+  - Python Machine Learning de Sebastian Raschka, Pack Publishing, 2015.
   - [Machine Learning: a Probabilistic Perspective](http://www.cs.ubc.ca/%7Emurphyk/MLbook/index.html) de Kevin Murphy (2012).
-  . [Pattern Recognition and Machine Learning](http://research.microsoft.com/en-us/um/people/cmbishop/prml/) de Chris Bishop  (2006). 
+  - [Pattern Recognition and Machine Learning](http://research.microsoft.com/en-us/um/people/cmbishop/prml/) de Chris Bishop  (2006). 
+  - Data Science From Scratch: First Principles with Python de Joel Grus 2015.
+  - 
+  - David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online), , Cambridge University Press, 2012. 
+  - Shai Shalev-Shwartz, and Shai Ben-David,[Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), Cambridge University Press, 2014.
+ 
 
 * Probabilidad
   
@@ -32,8 +37,9 @@
     - [Diapositiva 1]().
 * Clase 2: Introducción al aprendizaje: Funciones de pérdida, algoritmo del perceptrón, prueba de errores del perceptrón.
     - [Diapositiva 2]()
-    - 
+    - [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
 * Clase 3: Clasificadores lineales: Introducción al SVM.
+    - [Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
     - [Diapositiva 3]().
 * Clase 4: SVM: Introducción a la optimización convexa
   - [Gradient, Subgradient and how they may affect your grade](http://cs.nyu.edu/~dsontag/courses/ml16/slides/notes_convexity16.pdf)
@@ -48,25 +54,42 @@
  - [Pegasos Algorithm y  Kernels](http://cs.nyu.edu/~dsontag/courses/ml16/slides/lecture6_notes.pdf).
  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), capítulo 16 sobre métodos de kernels.
  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), secciones Sections 17.1 & 17.2 sobre multiclases.
- . [Diapositiva 6]().
+ - [Diapositiva 6]().
  
-Clase 7: Regularización L1 y introducción a la teoria del aprendizaje
+* Clase 7: Regularización L1 y introducción a la teoria del aprendizaje
   - [Diapositiva 7]().
   
-Clase 8: Teoria del aprendizaje: Clases de hipótesis finitas
+* Clase 8: Teoria del aprendizaje: Clases de hipótesis finitas
   - [Notas](http://cs229.stanford.edu/notes/cs229-notes4.pdf) de teoria del aprendizaje de Andrew Ng. Secciones 1 -3.
   - [Diapositiva 8]().
   
-Clase 9: Teoria de aprendizaje: Dimensión VC
+* Clase 9: Teoria de aprendizaje: Dimensión VC
   - [Notas](http://cs229.stanford.edu/notes/cs229-notes4.pdf) de teoria del aprendizaje de Andrew Ng. Sección 4.
   - Lectura opcional: [A Tutorial on Support Vector Machines for PatternRecognition](http://cs.nyu.edu/%7Edsontag/courses/ml14/notes/burges_SVM_tutorial.pdf). Páginas 29-31.
-  - [Diapositiva 9]
+  - [Diapositiva 9]().
 
-Clase 10 : Árboles de decisión.
+* Clase 10 : Árboles de decisión
   - [Trees](https://jeremykun.com/2012/09/16/trees-a-primer/).
   - [Decision trees ](https://jeremykun.com/2012/10/08/decision-trees-and-political-party-classification/).
   - [Tom M. Mitchel: Capitulo 3](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf).
-  - Lectura opcional: [Cynthia Rudin: Decision Trees](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec08.pdf)
+  - Lectura opcional: [Cynthia Rudin: Decision Trees](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec08.pdf).
+  - [Diapositiva 10].
+  
+* Clase 11: K-means
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Capítulo 22 (intro) y la sección 22.2.
+  - [Diapositiva 10]().
+  
+* Clasificación jerárquica y espectral
+  
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Secciones 22.1 y 22.3.
+  - Lectura opcional: [A Tutorial on Spectral Clustering](http://cs.nyu.edu/%7Edsontag/courses/ml14/notes/Luxburg07_tutorial_spectral_clustering.pdf).
+  - [Diapositiva 10]().
+  
+* Introducción a la inferencia Bayesiana: Naive Bayes.
+  - Artículo de Sebastian Raschka [Naive Bayes and Text Classification](http://sebastianraschka.com/Articles/2014_naive_bayes_1.html) sobre Naive Bayes.
+  - [Generative and discriminative classifiers:Naives Bayes y Logistic Regression](http://www.cs.cmu.edu/%7Etom/mlbook/NBayesLogReg.pdf). Secciones 1 y 2.
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Sección 24.
+  
   
 ## Herramientas a  usar 
 
