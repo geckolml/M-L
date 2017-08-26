@@ -1,192 +1,121 @@
-##  Curso: Tópicos de investigación (Machine Learning)
+## Curso: Tópicos de investigación (Machine Learning)
 
-1. Introdución a Python
-   * Curso rápido de Python.
-   * Uso de las paquetes: Matplotlib, NumPy, Pandas, scikit-learn.
-   * Nano y Vim. Uso de Jupyter .
+### Libro de referencia
 
-2. Algebra Lineal
-   * Vectores y Matrices.
-   * Valores y vectores propios.
+* David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online), , Cambridge University Press, 2017. 
 
-3. Estadística
-   * Describiendo un conjunto de datos. Tendencias centrales, dispersión.
-   * Correlación. Paradoja de Simpson.
-   * Algunas advertencia, acerca de la correlación.
-   * Correlación y Causalidad.
-   
-4. Probabilidad
-   * Dependencia y Independencia. Probabilidad Condicional. Teorema de Bayes.
-   * Variables Aleatorias.Distribuciones continuas. La distribución Normal.  
-   * Teorema del Límite Central.
+###  Material de referencias
 
-5. Hipótesis e Inferencia  Estadística
-   * Prueba de hipótesis estadística.
-   * Intervalos de Confianza.
-   * P-hacking. El test A/B.
-   * Inferencia Bayesiana.
-   
-6. Descenso del Gradiente
-   * Ideas detrás del método del Gradiente. Estimando el gradiente.
-   * Usando el gradiente.
-   * Descenso del gradiente estocástico.
-   
-7. Obtención de Datos
-   * Leyendo archivos. Web Scraping. Ejemplos.
-   * Usando APIS:JSON y XML y APIS no autenticadas. Encontrando APIS.
-   * Usando la API de Twitter.
-   
-8. Trabajando con Datos
-   * Explorando datos de 1,2 y más dimensiones.
-   * Manipulando datos, reescalando y reducción de la dimensionalidad
-   
-9. Machine Learning
-   * ¿ Qué es Machine Learning?. Sobreajuste y Subajuste. Exactitud.
-   * The Bias-Variance Trade-off.
+* Otros libros de Machine Learning.
+  - Python Machine Learning de Sebastian Raschka, Pack Publishing, 2015.
+  - [Machine Learning: a Probabilistic Perspective](http://www.cs.ubc.ca/%7Emurphyk/MLbook/index.html) de Kevin Murphy (2012).
+  - [Pattern Recognition and Machine Learning](http://research.microsoft.com/en-us/um/people/cmbishop/prml/) de Chris Bishop  (2006). 
+  - Data Science From Scratch: First Principles with Python de Joel Grus 2015.
+  - Machine Learning refined: Foundations, Algorithms, and Applications 1st Edition Jeremy Watt, Reza Borhani y Aggelos K. Katsaggelos, 2016.
+  - Foundations of Machine Learning (Adaptive Computation and Machine Learning series) Mehryar Mohri, Afshin Rostamizadeh  y Ameet Talwalkar, 2012.
+  - David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online), , Cambridge University Press, 2012. 
+  - Shai Shalev-Shwartz, and Shai Ben-David,[Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), Cambridge University Press, 2014.
+ 
 
-10. K-vecinos más cercanos
-   * El modelo. Ejemplos
-   * La maldición de la dimensión.
+* Cálculo
+  - Apendice D del libro de Chris Bishop.
+  - [Notas](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006/readings/lagrange.pdf) del MIT para multiplicadores de Lagrange.
+  - [Lagrange Multipliers without Permanent Scarring](https://people.eecs.berkeley.edu/~klein/papers/lagrange-multipliers.pdf) de  Dan Klein.
+  
+* Probabilidad
+  
+  - [Notas ](http://www.statslab.cam.ac.uk/~rrw1/prob/prob-weber.pdf) de  Richard Weber.
+  - Capitulo 2 del libro de Kevin P. Murphy o Chris Bishop.
+  - [Notas](http://cs229.stanford.edu/section/cs229-prob.pdf) de probabilidades de las clases de Machine Learning de Stanford.
+ 
+* Álgebra Lineal
+  - [Coding The Matrix: Linear Algebra Through Computer Science Applications](http://codingthematrix.com/), fantástico libro de Philip Klein (Revisar los diapositivas que acompañan al libro).
+  - [Notas](http://cs229.stanford.edu/section/cs229-linalg.pdf) de álgebra lineal de las clases de Machine Learning de Stanford.
+  - Apendice C del libro de Chris Bishop.
+  - [Notas ](http://cs.nyu.edu/%7Edsontag/courses/ml12/notes/linear_algebra.pdf) de Sam Roweis.
+  
+* Optimización
+  - [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/) de Stephen Boyd y  Lieven Vandenberghe.
+  - Notas de Optimización de las clases de Machine Learning de Stanford:
+    * [Convex Optimization Overview 1](http://cs229.stanford.edu/section/cs229-cvxopt.pdf).
+    * [Convex Optimization Overview 2](http://cs229.stanford.edu/section/cs229-cvxopt2.pdf).
 
-11. Regresión lineal simple
-   * Ejemplos
-   * Usando el gradiente de descenso.
-   * Estimación de máxima probabilidad.
+## Temario
 
-12. Regresión múltiple
-   * Modelo de mínimos cuadrados.
-   * Fijando, interpretando el modelo.
-   * Bootstrap
-   * Regularización
-13.  Árboles de decisión
-   * Definición
-   * Entropia
-   * La entropia de una partición
-   * Árboles aleatorios
+* Clase 1: Introducción al Machine Learning 
+    - Lectura obligatoria: [Capitulo1 de Kevin P. Murphy](http://www.cs.ubc.ca/%7Emurphyk/MLbook/pml-intro-22may12.pdf).
+    - [Diapositiva 1]().
+* Clase 2: Introducción al aprendizaje: Funciones de pérdida, algoritmo del perceptrón, prueba de errores del perceptrón.
+    - [Diapositiva 2]()
+    - [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
+* Clase 3: Clasificadores lineales: Introducción al SVM.
+    - [Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
+    - [Diapositiva 3]().
+* Clase 4: SVM: Introducción a la optimización convexa
+  - [Gradient, Subgradient and how they may affect your grade](http://cs.nyu.edu/~dsontag/courses/ml16/slides/notes_convexity16.pdf)
+  - Lectura obligatoria: [Support Vector Machines](http://cs229.stanford.edu/notes/cs229-notes3.pdf) de Andrew Ng.
+  - Notas adicionales: [Linear Support Vector Machines](https://davidrosenberg.github.io/ml2015/docs/svm-notes.pdf) de David S. Rosenberg.
+  - [Diapositiva 4]().
+* Clase 5: Descenso de gradiente estocástico
+  - [Diapositiva 5]().
+  
+* Clase 6: Métodos del Kernel: Métodos del Kernel para SVM y classificación multiclases.
+  - [Notas](http://cs229.stanford.edu/notes/cs229-notes3.pdf) sobre Kernels (sección 7).
+  - [Pegasos Algorithm y  Kernels](http://cs.nyu.edu/~dsontag/courses/ml16/slides/lecture6_notes.pdf).
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), capítulo 16 sobre métodos de kernels. Secciones 17.1 & 17.2 sobre multiclases.
+  - [Diapositiva 6]().
+ 
+* Clase 7: Regularización L1 y introducción a la teoria del aprendizaje
+  - [Diapositiva 7]().
+  
+* Clase 8: Teoria del aprendizaje: Clases de hipótesis finitas
+  - [Notas](http://cs229.stanford.edu/notes/cs229-notes4.pdf) de teoria del aprendizaje de Andrew Ng. Secciones 1 -3.
+  - [Diapositiva 8]().
+  
+* Clase 9: Teoria de aprendizaje: Dimensión VC
+  - [Notas](http://cs229.stanford.edu/notes/cs229-notes4.pdf) de teoria del aprendizaje de Andrew Ng. Sección 4.
+  - Lectura opcional: [A Tutorial on Support Vector Machines for PatternRecognition](http://cs.nyu.edu/%7Edsontag/courses/ml14/notes/burges_SVM_tutorial.pdf). Páginas 29-31.
+  - [Diapositiva 9]().
 
-14. Regresión logística
-   * El problema
-   * Función logística
-   * Aplicando el modelo
-   * Máquinas de soporte vectorial
+* Clase 10 : Árboles de decisión
+  - [Trees](https://jeremykun.com/2012/09/16/trees-a-primer/).
+  - [Decision trees ](https://jeremykun.com/2012/10/08/decision-trees-and-political-party-classification/).
+  - [Tom M. Mitchel: Capitulo 3](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf).
+  - Lectura opcional: [Cynthia Rudin: Decision Trees](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec08.pdf).
+  - [Diapositiva 10].
+  
+* Clase 11: K-means
+  - [k-Means Clustering ](https://jeremykun.com/2013/02/04/k-means-clustering-and-birth-rates/).
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Capítulo 22 (intro) y la sección 22.2.
+  - [Diapositiva 10]().
+  
+* Clasificación jerárquica y espectral
 
-15. Redes neuronales
-   * Perceptrón
-   * Prealimentación de redes neuronales
-   * Retropropagación
-16. MapReduce
-   * Definición y ejemplos: Multiplicación de matrices
-   * Combiners
-   
-## Libros de Texto
-
-1 .Machine Learning: Hands-On for Developers and Technical Professionals, Jason Bell, Wiley 2015.
-
-2 .Coding The Matrix Linear Algebra Through Computer Science Applications, Newtonian Press, Phillip Klein, 2012.
-
-3 .Numerical Python: A Practical Techniques Approach for Industry, Robert Johansson, Apress 2015.
-
-4 .Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies, Aoife D'Arcy, Brian Mac Namee, John D. Kelleher, MIT 2015.
-
-5 .Mastering Machine Learning With scikit-learn, Gavin Hackeling, Packt Publishing, 2014.
-
-6 .Probability: The Analysis of Data, Volumen 1, Guy Lebanon. El libro se puede leer de manera online en [theanalysisofdata.com](http://theanalysisofdata.com/).
-
-7 . Statistical inference for data science, Brian Caffo (Con código en R). El libro pueder se leído en Leanpub [Little Inference Book](https://leanpub.com/LittleInferenceBook).
-
-8 .Numerical Algorithms: Methods for Computer Vision, Machine Learning and Graphics, Justin Solomon, CRC Press, 2015.
-
-9 .An Introduction to Statistical Learning, Springer Texts in Statistics, Gareth James, Daniela Witten, Trevor Hastle y Robert Tibshirani, 2013.
-
-10 .Business Intelligence in Plain Language: A practical guide to Data Mining and Business Analytics, Jeremy Kolbs. Applied Data Labs Inc, 2012.
-
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Secciones 22.1 y 22.3.
+  - Lectura opcional: [A Tutorial on Spectral Clustering](http://cs.nyu.edu/%7Edsontag/courses/ml14/notes/Luxburg07_tutorial_spectral_clustering.pdf).
+  - [Diapositiva 11]().
+  
+* Introducción a la inferencia Bayesiana: Naive Bayes.
+  - [How Bayesian Inference works](http://www.kdnuggets.com/2016/11/how-bayesian-inference-works.html).
+  - Artículo de Sebastian Raschka [Naive Bayes and Text Classification](http://sebastianraschka.com/Articles/2014_naive_bayes_1.html) sobre Naive Bayes.
+  - [ Naives Bayes explained](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
+  - [Generative and discriminative classifiers:Naives Bayes y Logistic Regression](http://www.cs.cmu.edu/%7Etom/mlbook/NBayesLogReg.pdf). Secciones 1 y 2.
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Sección 24.
+  - [Diapositiva 12]().
+  
+* Regresión logística
+  - [Logistic Regression - Interpreting Parameters](http://www.unm.edu/%7Eschrader/biostat/bio2/Spr06/lec11.pdf).
+  - [Diapositiva 13]().
+  
+* K vecinos más cércanos
+  - [A Detailed Introduction to K-Nearest Neighbor (KNN) Algorithm](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/).
+  - Aplicaciones:
+    * [Nearest Neighbor Retrieval and Classification ](http://vlm1.uta.edu/%7Eathitsos/nearest_neighbors/).
+    * [Mapping Forest Resources Using the k-Nearest Neighbor Method](http://land.umn.edu/documents/FS6.pdf).
+    * [Text categorization using k-nearest neighbor classification](http://user.ceng.metu.edu.tr/~e120321/paper.pdf).
+  - [Diapositiva 14]().
+  
 ## Herramientas a  usar 
-
-### Editor Vim
-
-[vim](http://www.vim.org/), un editor de texto que dispone de diferentes modos entre los que se alternan ciertas operaciones, comunes entre los programadores. No obstante, debido a su eficiencia, a su variedad de añadidos ("plugins")", y a sus posibilidades de personalización vim es uno de los editores de texto más populares para programadores y usuarios de sistemas tipo Unix (junto con Emacs*).
-
-Existe un tutorial, que se puede utilizar dentro de Linux (Ubuntu 14.04), escribiendo en el terminal.
-
-```bash
-c-lara@Lara:~$ vimtutor
-```
-
-Otras fuentes de referencia son:
-
-1 . [Vim en archlinux](https://wiki.archlinux.org/index.php/Vim_%28Espa%C3%B1ol%29).
-
-2 . [Tutorial de Vim](http://www.sromero.org/wiki/linux/aplicaciones/manual_vim).
-
-3 . [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/).
-
-
-### Git y Github
-
-[Git](https://git-scm.com/) es un sistema de control de versiones de gran potencia y versatilidad en el manejo de un gran número de archivos de  código fuente a a través del desarrollo no lineal, es decir vía la gestión rápida de ramas y mezclado de diferentes versiones.
-
-Para poder revisar y aprender los comandos necesarios de Git, puedes darle una ojeada al excelente [tutorial de CodeSchool](https://try.github.io/levels/1/challenges/1) o a la [guía](http://rogerdudler.github.io/git-guide/index.es.html) de Roger Dudle para aprender  Git.
-
-[Github](https://github.com/) es una plataforma de desarrollo colaborativo de software utilizado para alojar proyectos (muchos proyectos importantes como paquetes de R, Django, el Kernel de Linux, se encuentran alojados ahí) utilizando Git y el framework Ruby on Rails.
-
-Podemos instalar Git en Ubuntu utilizando el administrador de paquetes `Apt`:
-
-```bash
-c-lara@Lara:~$sudo apt-get update
-c-lara@Lara:~$sudo apt-get install git
-```
-
-
-### Latex 
-
-[LaTeX](https://www.latex-project.org/) es como un lenguaje de alto nivel para TeX, que es un sistema de preparación de documentos creados por Donald E. Knuth. Latex es en si un conjunto de macros y convenciones pensadas de modo que con pocas intrucciones seamos capaces de producir un documento de calidad profesional, como lo son los artículos  publicados por la comunidad científica. Mayor información se puede encontrar en :
-
-- [Arbitrary Latex reference](http://latex.knobs-dials.com/).
-- [TeX - LaTeX Stack Exchange](http://tex.stackexchange.com/)
-- [Wikibooks Latex](https://en.wikibooks.org/wiki/LaTeX).
-
-En ubuntu, la manera facil de instalar Latex, es usando `TexLive`
-
-```bash
-c-lara@Lara:~$sudo apt-get install texlive-latex-base texlive-latex-recommended texlive-latex extra
-```
-Se pueden instalar paquetes extras, que no se encuentran en los paquetes anteriores. Por ejemplo los paquetes relacionados con algoritmos como `algorithm.sty` se puede instalar con
-
-```bash
-c-lara@Lara:sudo apt-get install texlive-science
-```
-
-Si se desea instalar todo los paquetes de `TexLive`, se puede hacer de la siguiente manera:
-
-
-```bash
-c-lara@Lara:sudo apt-get install texlive-full
-```
-
-Una página interesante para aprender los símbolos de latex, se pueden encontrar en [detexify](http://detexify.kirelabs.org/classify.html).
-
-Un editor muy completo para trabajar con latex es: [TeXstudio](http://www.texstudio.org/), que se puede instalar en Ubuntu de la siguiente manera:
-
-```bash
-c-lara@Lara:wget http://download.opensuse.org/repositories/home:/jsundermeyer/xUbuntu_14.04/amd64/texstudio_2.10.8-5.1_amd64.deb
-c-lara@Lara :sudo dpkg -i texstudio_2.10.8-5.1_amd64.deb
-```
-
-
-### MongoDB
-
-[MongoDB](https://www.mongodb.org/) es una sistema de base de datos NoSQL de código abierto utilizado  en aplicaciones web modernas, escrito en C++ le confiere cierta cercanía a los recursos del hardware, de modo que es bastante rápido a la hora de ejecutar sus tareas. MongoDB es una base de datos orientada a documentos, es decir guarda los datos en documentos que son almacenados en un representación binaria de JSON, llamado BSON.
-
-Genbeta:dev tiene una lista de [artículos](http://www.genbetadev.com/bases-de-datos/una-introduccion-a-mongodb) para empezar en el mundo de las bases de datos NoSQL y MongoDB. Es interesantes ver los videos colgados en Youtube sobre MongoDB.
-
-- [¿Qué es MongoDB?](https://www.youtube.com/watch?v=CvIr-2lMLsk).
-- [Comparación de SQL y MongoBD](https://www.youtube.com/watch?v=kDSjVTpu8kI).
-- [Contruyendo tu primera aplicación con MongoDB](https://www.youtube.com/watch?v=ClAQEARNUoQ).
-
-Para poder instalar en Ubuntu, es preferible revisar la [documentación](http://docs.mongodb.org/master/tutorial/install-mongodb-on-ubuntu/) desde la página de MongoDB.
-
-
-
 
 ### Anaconda 
 
@@ -202,7 +131,6 @@ Anaconda incluye los instaladores de Python 2.7 y 3.5.  La instalación en **Lin
 c-lara@Lara:~$ bash Anaconda3-2.4.1-Linux-x86_64.sh
 
 ```
-
 Es recomendable leer, alguna de las característica de Anaconda en el siguiente material [conda 30-minutes test drive](http://conda.pydata.org/docs/test-drive.html).
 
 3 . La instalación de paquetes como [seaborn](http://stanford.edu/~mwaskom/software/seaborn/) o [bokeh](http://bokeh.pydata.org/en/latest/) se pueden realizar a través de Anaconda, de la siguiente manera:
@@ -225,32 +153,46 @@ El proyecto [Anaconda](https://www.continuum.io/downloads) ha creado [R Essentia
 c-lara@Lara:~$ conda install -c r r-essentials
 ``` 
 
-### Jupyter nbviewer
+### Proyecto Jupyter y el Jupyter Nbviewer
+
+El [Proyecto Jupyter](http://jupyter.org/)  es una aplicación web que te permite crear y compartir documentos que contienen código de diversos lenguajes de programación, ecuaciones,  visualizaciones y texto en diversos formatos. El uso de Jupyter incluye la ciencia de datos, simulación numérica, la modelización en estadística, Machine Learning, etc.
+
 
 [Jupyter nbviewer](https://nbviewer.jupyter.org/)  es un servicio web gratuito que te permite compartir las versiones de archivos realizados por Jupyter, permitiendo el renderizado de diversos fórmatos incluyendo, código latex.
 
-
-### R y Rstudio
-
-[R](https://www.cran.r-project.org/) y [RStudio](https://www.rstudio.com/) . RStudio es un IDE para R. Es software libre con licencia GPLv3 y se puede ejecutar sobre distintas plataformas  o incluso desde la web usando [RStudio Server](https://support.rstudio.com/hc/en-us/articles/200552306-Getting-Started).
+- [Jupyter Documentation](https://jupyter.readthedocs.io/en/latest/).
 
 
-```bash
-c-lara@Lara:~$ wget https://download1.rstudio.org/rstudio-0.99.893-amd64.deb
-c-lara@Lara:~$sudo dpkg -i *.deb
-c-lara@Lara:~$rm *.deb
-``` 
+### Git y Github
 
+[Git](https://git-scm.com/) es un sistema de control de versiones de gran potencia y versatilidad en el manejo de un gran número de archivos de  código fuente a a través del desarrollo no lineal, es decir vía la gestión rápida de ramas y mezclado de diferentes versiones.
 
-### Spyder 
+Para poder revisar y aprender los comandos necesarios de Git, puedes darle una ojeada al excelente [tutorial de CodeSchool](https://try.github.io/levels/1/challenges/1) o a la [guía](http://rogerdudler.github.io/git-guide/index.es.html) de Roger Dudle para aprender  Git.
 
-[Spyder](https://github.com/spyder-ide/spyder]) es un entorno de desarrollo para Python, con múltiples características como edición avanzada, testeo, depuración y características de instrospección, además de la capacidad de utilizar vía Ipython las librerías científicas de Numpy, Simpy o MatplotLib.  Si se tiene instalado Anaconda, entonces solo basta escribir en el terminal lo siguiente
+[Github](https://github.com/) es una plataforma de desarrollo colaborativo de software utilizado para alojar proyectos (muchos proyectos importantes como paquetes de R, Django, el Kernel de Linux, se encuentran alojados ahí) utilizando Git y el framework Ruby on Rails.
+
+Podemos instalar Git en Ubuntu utilizando el administrador de paquetes `Apt`:
 
 ```bash
-c-lara@Lara:~$ spyder
-``` 
+c-lara@Lara:~$sudo apt-get update
+c-lara@Lara:~$sudo apt-get install git
+```
 
+Referencias y Lecturas
 
+- [Usando el GIT](http://www.cs.swarthmore.edu/~newhall/unixhelp/git.php).
+- [Practical Git Introduction](http://marc.helbling.fr/2014/09/practical-git-introduction).
+- [Visual Git Guide](http://marklodato.github.io/visual-git-guide/index-es.html).
+
+### Scikit-learn 
+
+[Scikit-learn](http://scikit-learn.org/stable/), es tal vez la mejor biblioteca para Machine Learning, construida sobre NumPy, SciPy y Matplotlib, esta biblioteca contiene una gran cantidad de herramientas eficientes para el Machine Learning y el modelado estadístico incluyendo clasificación, regresión, agrupación y reducción de la dimensionalidad.
+
+- Video sobre [Machine Learning with scikit-learn](https://www.youtube.com/watch?v=HC0J_SPm9co) de Jake VanderPlas.
+- [Machine Learning Cheat Sheet for scikit-learn](http://peekaboo-vision.blogspot.pe/2013/01/machine-learning-cheat-sheet-for-scikit.html).
+- [Notas de Scikit-Learn como herramienta de Machine Learning](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
+
+### Otras herramientas
 
 ### Weka 
 
@@ -274,6 +216,10 @@ Podemos aprender un poco de Weka usando el [video](https://www.youtube.com/watch
 * Logistic Regression Classifier.
 * Random Forest.
 
+Lecturas
+
+-  Mahout in Action de Sean Owen, Robin Anil, Ted Dunning y Ellen Friedman, Manning Publications, 2011.
+
 ### Spark
 [Spark](http://spark.apache.org/) es un framework de análisis distribuido en memoría y nos permite ir más allá de las operaciones en batch de Hadoop MapReduce: procesamiento de streaming, machine learning (MLlib), cálculo de grafos (GraphX), integración con lenguje R (Spark R) y análisis interactivos. 
 
@@ -281,63 +227,14 @@ Al igual que su predecesor, MapReduce  que  logra prácticamente una relación l
 
 * DAG (Directed Acyclic Graph).
 * RDD (Resilient Distributed Dataset).
-## Artículos
 
-- [Machine Learning introduction](https://jeremykun.com/2012/08/04/machine-learning-introduction/).
-- [Metric spaces introduction](https://jeremykun.com/2012/08/26/metric-spaces-a-primer/).
-- [k-nearest-neighbors](https://jeremykun.com/2012/08/26/k-nearest-neighbors-and-handwritten-digit-classification/).
-- [Inner product spaces](https://jeremykun.com/2011/07/25/inner-product-spaces-a-primer/).
-- [Geometric interpretation of covariance matrix](http://www.visiondummy.com/2014/04/geometric-interpretation-covariance-matrix/).
-- [Eigenvectors, PCA,covariance and entropy](http://deeplearning4j.org/eigenvector).
-- [PCA, eigenvectors and eigenvalues](http://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues).
-- [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
-- [Trees](https://jeremykun.com/2012/09/16/trees-a-primer/).
-- [Decision trees ](https://jeremykun.com/2012/10/08/decision-trees-and-political-party-classification/).
-- [k-Means Clustering ](https://jeremykun.com/2013/02/04/k-means-clustering-and-birth-rates/).
-- [Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
-- [Set theory](https://jeremykun.com/2011/07/09/set-theory-a-primer/).
-- [Probability theory introduction](https://jeremykun.com/2013/01/04/probability-theory-a-primer/).
-- [Linear Regression](https://jeremykun.com/2013/08/18/linear-regression/).
-- [Tree decision and modeling](http://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/).
-- [Practical Guide to implementing Neural Networks in Python (using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/).
-- [ Naives Bayes explained](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
-- [Introduction boosting algorithms for machine learning](http://www.analyticsvidhya.com/blog/2015/11/quick-introduction-boosting-algorithms-machine-learning/).
 
-## Lecturas
+Algunas lecturas y referencias
 
-- [Tutoriales de Machine Learning](https://github.com/ujjwalkarn/Machine-Learning-Tutorials).
-- [Una guía de bolsillo para la Ciencia de datos](http://www.kdnuggets.com/2016/04/pocket-guide-data-science.html).
-- [Learning from Data: Machine learning course](https://work.caltech.edu/lectures.html).
-- [El cookbook del paquete Scipy ](http://scipy-cookbook.readthedocs.org/).
-- [Página principal de Scikit-learn](http://scikit-learn.org/stable/index.html).
-- [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
-- [Difference machine learning and learning statistical modeling](http://www.analyticsvidhya.com/blog/2015/07/difference-machine-learning-statistical-modeling/).
-- [Weka – GUI way to learn Machine Learning](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/weka-gui-learn-machine-learning/).
-- [Uso de Pandas, para Análisis exploratorio de datos ](http://www.analyticsvidhya.com/blog/2014/08/baby-steps-python-performing-exploratory-analysis-python/).
-- [Análisis de los pro y contras de ciertos  algoritmos en Machine Learning](http://www.lauradhamilton.com/machine-learning-algorithm-cheat-sheet).
-- [7 pasos para empezar con Machine Learning con Python ](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html).
-- [Un tour sobre los principales algoritmos de Machine Learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
-- [Algoritmos de Machine Learning](http://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/).
-- [13 framework usados en Machine Learning](http://www.infoworld.com/article/3026262/data-science/13-frameworks-for-mastering-machine-learning.html).
-- [Modelado predictivo, aprendizaje supervisado y clasificación de patrones](http://sebastianraschka.com/Articles/2014_intro_supervised_learning.html).
-- [R y MongoDb](https://gist.github.com/Btibert3/7751989).
-- [Weka 3, software de Data Mining en Java ](http://www.cs.waikato.ac.nz/ml/weka/).
-- [Notas de Scikit-Learn como herramienta de Machine Learning](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
-- [Machine Learning Cheat Sheet for scikit-learn](http://peekaboo-vision.blogspot.pe/2013/01/machine-learning-cheat-sheet-for-scikit.html).
-- [Tutorial de datacamp de Machine Learning en R](http://blog.datacamp.com/machine-learning-in-r/).
-- [Ciencia de datos con R, Analytics, Big Data, Text Mining](http://togaware.com/onepager/).
-- [Tutorial completo acerca de ciencia de datos en R ](http://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/).
-- [Visualización con d3.js para la Ciencia de Datos y Inteligencia de negocios](http://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/newbie-d3-js-expert-complete-path-create-interactive-visualization-d3-js/).
-- [Un tour de algoritmos de machine learning](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/).
-- [Machine learning en gráficos](http://www.denizyuret.com/2014/02/machine-learning-in-5-pictures.html).
 
-## Otros tópicos
-- [Eigenfaces for Facial recognition](https://jeremykun.com/2011/07/27/eigenfaces/).
-- [Boosting and AdaBoost](https://jeremykun.com/2015/05/18/boosting-census/).
-- [Machine learning as a batch process](http://onlinelibrary.wiley.com/doi/10.1002/9781119183464.ch10/summary). Libro de Jason Bell: Machine Learning- Hands-on for developers and technical professionals.
-- [Árboles aleatorios en python y R](http://www.analyticsvidhya.com/blog/2015/09/random-forest-algorithm-multiple-challenges/).
-- [Machine Learning for Static Ranking](http://www.msr-waypoint.com/pubs/68149/staticrank.pdf).
-- [Inductive Learning Algorithms and Representations for Text Categorization](http://www.miv.t.u-tokyo.ac.jp/ishizuka/pr-class/Dumais-CIKM98.pdf).
-- [Genetic Algorithms](http://lethain.com/genetic-algorithms-cool-name-damn-simple/).
-- [Gaussian Process for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/).
-- [CrossValidation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
+- [¿What is Apache Spark?](https://www.mapr.com/ebooks/spark/).
+- [First steps with Spark](http://spark.apache.org/screencasts/1-first-steps-with-spark.html).
+- [Spark Examples ](https://spark.apache.org/examples.html).
+- [Apache Spark Videos](https://www.youtube.com/user/TheApacheSpark/videos).
+- [Spark vs Hadoop](https://acadgild.com/blog/spark-vs-hadoop/).
+
