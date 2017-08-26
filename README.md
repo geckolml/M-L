@@ -4,8 +4,6 @@
 
 * David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online), , Cambridge University Press, 2017. 
 
-[![](http://img.youtube.com/vi/HC0J_SPm9co/0.jpg)](http://www.youtube.com/watch?v=HC0J_SPm9co "") 
-
 ###  Material de referencias
 
 * Otros libros de Machine Learning.
