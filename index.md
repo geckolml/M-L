@@ -279,6 +279,15 @@ Referencias y Lecturas
 - [Practical Git Introduction](http://marc.helbling.fr/2014/09/practical-git-introduction).
 - [Visual Git Guide](http://marklodato.github.io/visual-git-guide/index-es.html).
 
+* Empezando con github clasroom
+
+<iframe width="480" height="360" src="http://www.youtube.com/embed/ChA_zph7aao"> </iframe> 
+
+* Manejando asignaciones grupales en github classroom
+
+<iframe width="480" height="360" src="http://www.youtube.com/embed/52quDR2QSc"> </iframe> 
+
+
 ### Scikit-learn 
 
 [Scikit-learn](http://scikit-learn.org/stable/), es tal vez la mejor biblioteca para Machine Learning, construida sobre NumPy, SciPy y Matplotlib, esta biblioteca contiene una gran cantidad de herramientas eficientes para el Machine Learning y el modelado estadístico incluyendo clasificación, regresión, agrupación y reducción de la dimensionalidad.
@@ -286,6 +295,10 @@ Referencias y Lecturas
 - Video sobre [Machine Learning with scikit-learn](https://www.youtube.com/watch?v=HC0J_SPm9co) de Jake VanderPlas.
 - [Machine Learning Cheat Sheet for scikit-learn](http://peekaboo-vision.blogspot.pe/2013/01/machine-learning-cheat-sheet-for-scikit.html).
 - [Notas de Scikit-Learn como herramienta de Machine Learning](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
+
+* Videos de Jake VanderPlas sobre Machine Learning con  Scikit Learn :
+
+<iframe width="480" height="360" src="http://www.youtube.com/embed/HC0J_SPm9co"> </iframe> 
 
 ### Otras herramientas
 
