@@ -1,8 +1,12 @@
 ## Curso: Tópicos de investigación (Machine Learning)
 
+### Libro de referencia
+
+* David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online), , Cambridge University Press, 2012. 
+
 ###  Material de referencias
 
-* Libros de Machine Learning.
+* Otros libros de Machine Learning.
   - Python Machine Learning de Sebastian Raschka, Pack Publishing, 2015.
   - [Machine Learning: a Probabilistic Perspective](http://www.cs.ubc.ca/%7Emurphyk/MLbook/index.html) de Kevin Murphy (2012).
   - [Pattern Recognition and Machine Learning](http://research.microsoft.com/en-us/um/people/cmbishop/prml/) de Chris Bishop  (2006). 
