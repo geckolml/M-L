@@ -88,7 +88,17 @@
 
 <iframe width="360" height="240" src="http://www.youtube.com/embed/sarVw-iVWgc"> </iframe>
 
+* Ejemplo 5:
 
+<iframe width="360" height="240" src="http://www.youtube.com/embed/efR8ybG7Ihs"> </iframe>
+
+* Ejemplo 6:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/GufQYkMkdpw"> </iframe>
+
+* Ejemplo 7:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/klWUOO4sHaA"> </iframe>
 
 ## Temario
 
