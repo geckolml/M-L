@@ -1,4 +1,4 @@
-## Curso: Tópicos de investigación (Machine Learning)
+## Tópicos de investigación I (Machine Learning)
 
 ### Libro de referencia
 
