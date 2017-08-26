@@ -69,6 +69,27 @@
     * [Convex Optimization Overview 1](http://cs229.stanford.edu/section/cs229-cvxopt.pdf).
     * [Convex Optimization Overview 2](http://cs229.stanford.edu/section/cs229-cvxopt2.pdf).
 
+
+### El mundo del machine learning y la IA
+
+* Ejemplo 1:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/i8D90DkCLhI"> </iframe> 
+
+* Ejemplo 2:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/2ZhQkD1QKFw"> </iframe>
+
+* Ejemplo 3:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/0cRXaORbIFA"> </iframe>
+
+* Ejemplo 4:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/sarVw-iVWgc"> </iframe>
+
+
+
 ## Temario
 
 * Clase 1: Introducción al Machine Learning 
@@ -143,6 +164,8 @@
     * [Mapping Forest Resources Using the k-Nearest Neighbor Method](http://land.umn.edu/documents/FS6.pdf).
     * [Text categorization using k-nearest neighbor classification](http://user.ceng.metu.edu.tr/~e120321/paper.pdf).
   - [Diapositiva 15]().
+  
+ 
   
 ## Herramientas a  usar 
 
