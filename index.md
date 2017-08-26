@@ -100,6 +100,39 @@
 
 <iframe width="360" height="240" src="http://www.youtube.com/embed/klWUOO4sHaA"> </iframe>
 
+* Ejemplo 8:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/UVwwYZMFocg"> </iframe>
+
+* Ejemplo 9:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/yLwZEuybaqE"> </iframe>
+
+* Ejemplo 10:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/6cvPj9dmYTo"> </iframe>
+
+* Ejemplo 11:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/biy2yU3Auc4"> </iframe>
+
+* Ejemplo 12:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/Kg8W_q8pHik"> </iframe>
+
+* Ejemplo 13:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/g_sA8hYU3b8"> </iframe>
+
+* Ejemplo 14:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/tPHImr2sFBM"> </iframe>
+
+* Ejemplo 15:
+
+<iframe width="360" height="240" src="http://www.youtube.com/embed/FMCY3SXTELE"> </iframe>
+
+
 ## Temario
 
 * Clase 1: Introducción al Machine Learning 
