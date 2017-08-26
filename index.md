@@ -1,5 +1,16 @@
 ## Tópicos de investigación I (Machine Learning)
 
+
+### Lecturas:
+
+* El artículo [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-52) sobre un ejemplo de analisis exploratorio. 
+
+* La visualización y su importancia se encuentra en este artículo:[Anscombe’s Quartet, and Why Summary Statistics Don’t Tell the Whole Story - Heap Blog](https://blog.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/).
+
+* Video acerca de la visualización y el uso de datos:
+
+<iframe width="560" height="420" src="http://www.youtube.com/embed/coNDCIMH8bk"> </iframe> 
+
 ### Libro de referencia
 
 * David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online), , Cambridge University Press, 2017. 
