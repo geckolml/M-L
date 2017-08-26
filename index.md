@@ -25,6 +25,9 @@
 
 <iframe width="480" height="360" src="http://www.youtube.com/embed/bL4b1sGnILU"> </iframe> 
 
+* Demasiado importante: [Learning from the best](http://blog.kaggle.com/2014/08/01/learning-from-the-best/).
+
+* Principales usos de la ciencia de datos en [10 interesting ways to use data science](https://blog.dominodatalab.com/10-interesting-uses-of-data-science/).
 
 ### Libro de referencia
 
