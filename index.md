@@ -82,38 +82,38 @@
   - [Decision trees ](https://jeremykun.com/2012/10/08/decision-trees-and-political-party-classification/).
   - [Tom M. Mitchel: Capitulo 3](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf).
   - Lectura opcional: [Cynthia Rudin: Decision Trees](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec08.pdf).
-  - [Diapositiva 10].
+  - [Diapositiva 10]().
   
 * Clase 11: K-means
   - [k-Means Clustering ](https://jeremykun.com/2013/02/04/k-means-clustering-and-birth-rates/).
   - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Capítulo 22 (intro) y la sección 22.2.
-  - [Diapositiva 10]().
+  - [Diapositiva 11]().
   
-* Clasificación jerárquica y espectral
+* Clase 12: Clasificación jerárquica y espectral
 
   - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Secciones 22.1 y 22.3.
   - Lectura opcional: [A Tutorial on Spectral Clustering](http://cs.nyu.edu/%7Edsontag/courses/ml14/notes/Luxburg07_tutorial_spectral_clustering.pdf).
-  - [Diapositiva 11]().
+  - [Diapositiva 12]().
   
-* Introducción a la inferencia Bayesiana: Naive Bayes.
+* Clase 13: Introducción a la inferencia Bayesiana: Naive Bayes.
   - [How Bayesian Inference works](http://www.kdnuggets.com/2016/11/how-bayesian-inference-works.html).
   - Artículo de Sebastian Raschka [Naive Bayes and Text Classification](http://sebastianraschka.com/Articles/2014_naive_bayes_1.html) sobre Naive Bayes.
   - [ Naives Bayes explained](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
   - [Generative and discriminative classifiers:Naives Bayes y Logistic Regression](http://www.cs.cmu.edu/%7Etom/mlbook/NBayesLogReg.pdf). Secciones 1 y 2.
   - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Sección 24.
-  - [Diapositiva 12]().
-  
-* Regresión logística
-  - [Logistic Regression - Interpreting Parameters](http://www.unm.edu/%7Eschrader/biostat/bio2/Spr06/lec11.pdf).
   - [Diapositiva 13]().
   
-* K vecinos más cércanos
+* Clase 14: Regresión logística
+  - [Logistic Regression - Interpreting Parameters](http://www.unm.edu/%7Eschrader/biostat/bio2/Spr06/lec11.pdf).
+  - [Diapositiva 14]().
+  
+* Clase 15: K vecinos más cércanos
   - [A Detailed Introduction to K-Nearest Neighbor (KNN) Algorithm](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/).
   - Aplicaciones:
     * [Nearest Neighbor Retrieval and Classification ](http://vlm1.uta.edu/%7Eathitsos/nearest_neighbors/).
     * [Mapping Forest Resources Using the k-Nearest Neighbor Method](http://land.umn.edu/documents/FS6.pdf).
     * [Text categorization using k-nearest neighbor classification](http://user.ceng.metu.edu.tr/~e120321/paper.pdf).
-  - [Diapositiva 14]().
+  - [Diapositiva 15]().
   
 ## Herramientas a  usar 
 
