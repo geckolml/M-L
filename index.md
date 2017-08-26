@@ -285,7 +285,7 @@ Referencias y Lecturas
 
 * Manejando asignaciones grupales en github classroom
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/52quDR2QSc"> </iframe> 
+<iframe width="480" height="360" src="http://www.youtube.com/embed/-52quDR2QSc"> </iframe> 
 
 
 ### Scikit-learn 
