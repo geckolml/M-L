@@ -11,7 +11,7 @@
 
 <iframe width="480" height="360" src="http://www.youtube.com/embed/coNDCIMH8bk"> </iframe> 
 
-* Videos sobre paradigmas de aprendizaje (obligatorio): http://work.caltech.edu/library/014.html.
+* Videos sobre paradigmas de aprendizaje (obligatorio): [http://work.caltech.edu/library/014.html](http://work.caltech.edu/library/014.html).
 
 * Andrew ng y sus consejos en ML en el artículo : [ML-advice](http://cs229.stanford.edu/materials/ML-advice.pdf).
 
