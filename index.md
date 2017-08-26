@@ -1,7 +1,7 @@
 ## Tópicos de investigación I (Machine Learning)
 
 
-### Lecturas:
+### Lecturas iniciales:
 
 * El artículo [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-52) sobre un ejemplo de analisis exploratorio. 
 
@@ -9,7 +9,22 @@
 
 * Video acerca de la visualización y el uso de datos:
 
-<iframe width="560" height="420" src="http://www.youtube.com/embed/coNDCIMH8bk"> </iframe> 
+<iframe width="480" height="360" src="http://www.youtube.com/embed/coNDCIMH8bk"> </iframe> 
+
+* Videos sobre paradigmas de aprendizaje (obligatorio): http://work.caltech.edu/library/014.html.
+
+* Andrew ng y sus consejos en ML en el artículo : [ML-advice](http://cs229.stanford.edu/materials/ML-advice.pdf).
+
+* Una comparación empírica de aprendizajes supervisados [Which Supervised Learning Method Works Best for What? An Empirical Comparison of Learning Methods and Metrics](http://www.cs.cornell.edu/%7Ecaruana/ctp/ct.papers/caruana.icml06.pdf).
+
+* El artículo [Comparing supervised learning algorithms](http://www.dataschool.io/comparing-supervised-learning-algorithms/) muestra una comparación completa de aprendizajes supervisados.
+
+* El mapa del ML según sckit-learn [aquí](http://scikit-learn.org/stable/tutorial/machine_learning_map).
+
+* Algo de ingeniería características:
+
+<iframe width="480" height="360" src="http://www.youtube.com/embed/bL4b1sGnILU"> </iframe> 
+
 
 ### Libro de referencia
 
