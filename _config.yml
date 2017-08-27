@@ -2,7 +2,7 @@ title: Tópicos de Investigación
 description: "Notas del curso de Machine Learning"
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-minimal
+theme: jekyll-theme-dinky
 
 gems:
   - jekyll-mentions
