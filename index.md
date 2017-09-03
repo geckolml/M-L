@@ -93,6 +93,7 @@
 
 * Clase 1: Introducción al Machine Learning 
     - Lectura obligatoria: [Capitulo1 de Kevin P. Murphy](http://www.cs.ubc.ca/%7Emurphyk/MLbook/pml-intro-22may12.pdf).
+    - Cuaderno de Raúl Lopez Briega sobre una introducción a la [estadística y probabilidad con Python](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/pythonStats.ipynb).
     - Cuaderno introductorio de [scikit-learn](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/scikit-learn/scikit-learn.ipynb).
     - [Diapositiva 1]().
 * Clase 2: Introducción al aprendizaje: Funciones de pérdida, algoritmo del perceptrón, prueba de errores del perceptrón.
