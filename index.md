@@ -72,65 +72,21 @@
 
 ### El mundo del machine learning y la IA
 
-* Ejemplo 1:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/i8D90DkCLhI"> </iframe> 
-
-* Ejemplo 2:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/2ZhQkD1QKFw"> </iframe>
-
-* Ejemplo 3:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/0cRXaORbIFA"> </iframe>
-
-* Ejemplo 4:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/sarVw-iVWgc"> </iframe>
-
-* Ejemplo 5:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/efR8ybG7Ihs"> </iframe>
-
-* Ejemplo 6:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/GufQYkMkdpw"> </iframe>
-
-* Ejemplo 7:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/klWUOO4sHaA"> </iframe>
-
-* Ejemplo 8:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/UVwwYZMFocg"> </iframe>
-
-* Ejemplo 9:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/yLwZEuybaqE"> </iframe>
-
-* Ejemplo 10:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/6cvPj9dmYTo"> </iframe>
-
-* Ejemplo 11:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/biy2yU3Auc4"> </iframe>
-
-* Ejemplo 12:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/Kg8W_q8pHik"> </iframe>
-
-* Ejemplo 13:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/g_sA8hYU3b8"> </iframe>
-
-* Ejemplo 14:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/tPHImr2sFBM"> </iframe>
-
-* Ejemplo 15:
-
-<iframe width="360" height="240" src="http://www.youtube.com/embed/FMCY3SXTELE"> </iframe>
+* Ejemplo 1: [Introduction](https://www.youtube.com/watch?v=i8D90DkCLhI).
+* Ejemplo 2: [Rules on Rules on Rules](https://www.youtube.com/watch?v=2ZhQkD1QKFw).
+* Ejemplo 3: [Now I R1](https://www.youtube.com/watch?v=0cRXaORbIFA).
+* Ejemplo 4: [Machine Learning](https://www.youtube.com/watch?v=sarVw-iVWgc).
+* Ejemplo 5: [To Learn is to Generalize](https://www.youtube.com/watch?v=efR8ybG7Ihs).
+* Ejemplo 6: [It's Definitely Time to Play with Legos](https://www.youtube.com/watch?v=GufQYkMkdpw).
+* Ejemplo 7: [There is no f](https://www.youtube.com/watch?v=klWUOO4sHaA).
+* Ejemplo 8: [More Assumptions...Fewer Problems?](https://www.youtube.com/watch?v=UVwwYZMFocg).
+* Ejemplo 9: [Bias Variance Throwdown](https://www.youtube.com/watch?v=ZYjCIazhKbk).
+* Ejemplo 10: [World Domination](https://www.youtube.com/watch?v=6cvPj9dmYTo).
+* Ejemplo 11: [Haystacks on Haystacks](https://www.youtube.com/watch?v=biy2yU3Auc4).
+* Ejemplo 12: [Let's Get Greedy](https://www.youtube.com/watch?v=Kg8W_q8pHik).
+* Ejemplo 13: [Heuristics](https://www.youtube.com/watch?v=g_sA8hYU3b8).
+* Ejemplo 14: [Mejorando las Heurísticas](https://www.youtube.com/watch?v=tPHImr2sFBM).
+* Ejemplo 15: [Information](https://www.youtube.com/watch?v=FMCY3SXTELE).
 
 
 ## Temario
