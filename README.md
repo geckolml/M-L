@@ -40,10 +40,32 @@
     * [Convex Optimization Overview 1](http://cs229.stanford.edu/section/cs229-cvxopt.pdf).
     * [Convex Optimization Overview 2](http://cs229.stanford.edu/section/cs229-cvxopt2.pdf).
 
+### El mundo del machine learning y la IA
+
+* Ejemplo 1: [Introduction](https://www.youtube.com/watch?v=i8D90DkCLhI).
+* Ejemplo 2: [Rules on Rules on Rules](https://www.youtube.com/watch?v=2ZhQkD1QKFw).
+* Ejemplo 3: [Now I R1](https://www.youtube.com/watch?v=0cRXaORbIFA).
+* Ejemplo 4: [Machine Learning](https://www.youtube.com/watch?v=sarVw-iVWgc).
+* Ejemplo 5: [To Learn is to Generalize](https://www.youtube.com/watch?v=efR8ybG7Ihs).
+* Ejemplo 6: [It's Definitely Time to Play with Legos](https://www.youtube.com/watch?v=GufQYkMkdpw).
+* Ejemplo 7: [There is no f](https://www.youtube.com/watch?v=klWUOO4sHaA).
+* Ejemplo 8: [More Assumptions...Fewer Problems?](https://www.youtube.com/watch?v=UVwwYZMFocg).
+* Ejemplo 9: [Bias Variance Throwdown](https://www.youtube.com/watch?v=ZYjCIazhKbk).
+* Ejemplo 10: [World Domination](https://www.youtube.com/watch?v=6cvPj9dmYTo).
+* Ejemplo 11: [Haystacks on Haystacks](https://www.youtube.com/watch?v=biy2yU3Auc4).
+* Ejemplo 12: [Let's Get Greedy](https://www.youtube.com/watch?v=Kg8W_q8pHik).
+* Ejemplo 13: [Heuristics](https://www.youtube.com/watch?v=g_sA8hYU3b8).
+* Ejemplo 14: [Mejorando las Heurísticas](https://www.youtube.com/watch?v=tPHImr2sFBM).
+* Ejemplo 15: [Information](https://www.youtube.com/watch?v=FMCY3SXTELE).
+
+
 ## Temario
 
 * Clase 1: Introducción al Machine Learning 
     - Lectura obligatoria: [Capitulo1 de Kevin P. Murphy](http://www.cs.ubc.ca/%7Emurphyk/MLbook/pml-intro-22may12.pdf).
+    - Cuaderno de Raúl Lopez Briega sobre una introducción a la [estadística y probabilidad con Python](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/pythonStats.ipynb).
+    - Cuaderno introductorio de [scikit-learn](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/scikit-learn/scikit-learn.ipynb).
+    - [Una introducción visual al machine learning](http://www.r2d3.us/una-introduccion-visual-al-machine-learning-1/).
     - [Diapositiva 1]().
 * Clase 2: Introducción al aprendizaje: Funciones de pérdida, algoritmo del perceptrón, prueba de errores del perceptrón.
     - [Diapositiva 2]()
@@ -115,6 +137,8 @@
     * [Text categorization using k-nearest neighbor classification](http://user.ceng.metu.edu.tr/~e120321/paper.pdf).
   - [Diapositiva 15]().
   
+
+
 ## Herramientas a  usar 
 
 ### Anaconda 
