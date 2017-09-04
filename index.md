@@ -42,7 +42,6 @@
   - Data Science From Scratch: First Principles with Python de Joel Grus 2015.
   - Machine Learning refined: Foundations, Algorithms, and Applications 1st Edition Jeremy Watt, Reza Borhani y Aggelos K. Katsaggelos, 2016.
   - Foundations of Machine Learning (Adaptive Computation and Machine Learning series) Mehryar Mohri, Afshin Rostamizadeh  y Ameet Talwalkar, 2012.
-  - David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online), , Cambridge University Press, 2012. 
   - Shai Shalev-Shwartz, and Shai Ben-David,[Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), Cambridge University Press, 2014.
  
 
