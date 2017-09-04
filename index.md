@@ -166,7 +166,55 @@
     * [Text categorization using k-nearest neighbor classification](http://user.ceng.metu.edu.tr/~e120321/paper.pdf).
   - [Diapositiva 15]().
   
- 
+## Evaluaciones en el curso CM-072
+
+### Lista de temas propuestos
+
+Los artículos propuestos se encuentran en la carpeta **Papers** del repositorio del trabajo. Los participantes pueden elegir algún tema de proyecto de los artículos presentados o elegir alguno de su interés.
+
+La fuente de muchos artículos relacionado al curso  es: [https://papers.nips.cc/](https://papers.nips.cc/) o [http://jmlr.csail.mit.edu/papers/](http://jmlr.csail.mit.edu/papers/).
+
+
+### Fechas de presentaciones
+
+Un cronograma propuesto de asignaciones es :
+
+* Asignación 1: 17 de setiembre
+* Asignacion 2: 30 de setiembre
+* Asignacion 3: 14 de octubre
+* Asignacion 4: 29 de octubre
+* Asignacion 5: 19 de noviembre
+* Asignación 6: 3 de diciembre
+
+Fecha de presentación de proyectos
+
+* Proyecto parcial: Semana del 9 al 13 de octubre
+* Proyecto final: Semana del 11 al 15 de diciembre
+
+
+Cualquier cambio que realices en tus  repositorios o documentos en  github después de la fecha de vencimiento se ignorará. Por favor, tengan  todo su trabajo enviado y probado (presentaciones y/o páginas web, screencasts, código etc.) antes de la fecha límite.
+
+####  Equipo de proyecto
+
+Las tareas, asignaciones y proyecto se realizarán con 4 compañeros de clase. En general, no anticipamos que las calificaciones para cada miembro del grupo serán diferentes, sin embargo, me reservo el derecho de asignar diferentes calificaciones a cada miembro del grupo, de acuerdo al grado de participación.
+
+####  Código
+
+Escribe todos tus  códigos y ejemplos de preferencia en  Python utilizando las librerias mencionadas en el curso como [scikit-learn](http://scikit-learn.org/) o [TensorFlow](https://www.tensorflow.org/), el código debe  las cosas de  manera correcta, pensando  en aspectos como la reutilización, manejo de errores, etc. Es menester que  documente  su código con herramientas como [doxygen](http://www.stack.nl/~dimitri/doxygen/).
+
+####  Sitio web de las asignaciones y proyectos
+
+El equipo debe presentar un sitio web público para sus asignaciones, tareas de reforzamiento, proyectos, utilizando  [Github Pages](https://pages.github.com/) o cualquier otro servicio de alojamiento web de su  elección. El sitio web debe resumir  en el caso del proyecto, los tópicos del tema elegido , incorporar algunas  visualizaciones y  un  screencast al sitio web. Puedes ver un ejemplo de presentación parcial [aquí](http://matthewrocklin.com/blog/work/2017/02/11/dask-tensorflow).
+
+#### Screencast
+
+Cada equipo creará un screencast de 5 minutos como mínimo  mostrando, en que consiste su proyecto, utilizando un cuaderno de jupyter notebook  o algunas diapositivas. Puedes encontrar información de como hacerlo en [Making a Screencast Video](https://docs.google.com/document/d/1alPLuBOW5YPoQDa57KZes1h72PoQDoDj21-UEKOHp1I/pub) o en [How to record screencasts with recordMyDesktop](https://opensource.com/business/15/11/how-record-screencasts).
+
+#### Referencias
+
+* [Presentation Zen-How to Design & Deliver Presentations Like a Pro](http://www.garrreynolds.com/Presentation/pdf/presentation_tips.pdf).
+* [Points of view: Storytelling](http://www.nature.com/nmeth/journal/v10/n8/full/nmeth.2571.html).
+
   
 ## Herramientas a  usar 
 
