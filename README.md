@@ -142,7 +142,7 @@
 
 ### Lista de temas propuestos
 
-Los artículos propuestos se encuentran en la carpeta **Papers** del repositorio del trabajo. Los participantes pueden elegir algún tema de proyecto de los artículos presentados o elegir alguno de su interés.
+Los artículos propuestos se encuentran en la carpeta **PapersML** del repositorio del trabajo. Los participantes pueden elegir algún tema de proyecto de los artículos presentados o elegir alguno de su interés.
 
 La fuente de muchos artículos relacionado al curso  es: [https://papers.nips.cc/](https://papers.nips.cc/) o [http://jmlr.csail.mit.edu/papers/](http://jmlr.csail.mit.edu/papers/).
 
