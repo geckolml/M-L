@@ -68,10 +68,12 @@
     - [Una introducción visual al machine learning](http://www.r2d3.us/una-introduccion-visual-al-machine-learning-1/).
     - [Diapositiva 1]().
 * Clase 2: Introducción al aprendizaje: Funciones de pérdida, algoritmo del perceptrón, prueba de errores del perceptrón.
-    - [Diapositiva 2]()
     - [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
+    - Lectura del capítulo 17  sobre regresión de mínimos cuadrados de  David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online).
+    - Lectura recomendada: [Perceptron Algorithm](http://www.jennwv.com/courses/F10/material/notes_1018.pdf).
+    - [Diapositiva 2]().
 * Clase 3: Clasificadores lineales: Introducción al SVM.
-    - [Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
+    - [Support Vector Machine ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
     - [Diapositiva 3]().
 * Clase 4: SVM: Introducción a la optimización convexa
   - [Gradient, Subgradient and how they may affect your grade](http://cs.nyu.edu/~dsontag/courses/ml16/slides/notes_convexity16.pdf)
