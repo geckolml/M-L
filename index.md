@@ -94,7 +94,7 @@
     - Lectura obligatoria: [Capitulo1 de Kevin P. Murphy](http://www.cs.ubc.ca/%7Emurphyk/MLbook/pml-intro-22may12.pdf).
     - Cuaderno de Raúl Lopez Briega sobre una introducción a la [estadística y probabilidad con Python](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/pythonStats.ipynb).
     - Cuaderno introductorio de [scikit-learn](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/scikit-learn/scikit-learn.ipynb).
-    - [Diapositiva 1]().
+    - [Diapositiva 1](https://github.com/C-Lara/M-L/blob/master/Diapositivas/Diapositiva1/Diapositiva1.pdf).
 * Clase 2: Introducción al aprendizaje: Funciones de pérdida, algoritmo del perceptrón, prueba de errores del perceptrón.
     - [Diapositiva 2]()
     - [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
