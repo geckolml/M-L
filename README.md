@@ -189,6 +189,10 @@ Cada equipo creará un screencast de 5 minutos como mínimo  mostrando, en que c
 * [Presentation Zen-How to Design & Deliver Presentations Like a Pro](http://www.garrreynolds.com/Presentation/pdf/presentation_tips.pdf).
 * [Points of view: Storytelling](http://www.nature.com/nmeth/journal/v10/n8/full/nmeth.2571.html).
 
+### Horario de clases 
+
+* Miércoles 4 - 6 Sala 2.
+* Miércoles 6-  8 Sala 1.
 
 ## Herramientas a  usar 
 
