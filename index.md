@@ -216,6 +216,11 @@ Cada equipo creará un screencast de 5 minutos como mínimo  mostrando, en que c
 * [Presentation Zen-How to Design & Deliver Presentations Like a Pro](http://www.garrreynolds.com/Presentation/pdf/presentation_tips.pdf).
 * [Points of view: Storytelling](http://www.nature.com/nmeth/journal/v10/n8/full/nmeth.2571.html).
 
+
+### Asignaciones 
+
+* [Asignacion1](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/AsignacionesML/Asignacion1/AsignacionML1.ipynb).
+
 ### Horario de clases 
 
 * Miércoles 4 - 6 Sala 2.
