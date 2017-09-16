@@ -153,8 +153,8 @@ La fuente de muchos artículos relacionado al curso  es: [https://papers.nips.cc
 
 Un cronograma propuesto de asignaciones es :
 
-* Asignación 1: 17 de setiembre
-* Asignacion 2: 30 de setiembre
+* Asignación 1: 22 de setiembre
+* Asignacion 2: 2 de octubre
 * Asignacion 3: 14 de octubre
 * Asignacion 4: 29 de octubre
 * Asignacion 5: 19 de noviembre
@@ -193,6 +193,10 @@ Cada equipo creará un screencast de 5 minutos como mínimo  mostrando, en que c
 
 * Miércoles 4 - 6 Sala 2.
 * Miércoles 6-  8 Sala 1.
+
+### Asignaciones 
+
+* [Asignacion1](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/AsignacionesML/Asignacion1/AsignacionML1.ipynb).
 
 ## Herramientas a  usar 
 
