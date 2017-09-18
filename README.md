@@ -111,7 +111,7 @@ Fecha de presentación de proyectos
 
 Cualquier cambio que realices en tus  repositorios o documentos en  github después de la fecha de vencimiento se ignorará. Por favor, tengan  todo su trabajo enviado y probado (presentaciones y/o páginas web, screencasts, código etc.) antes de la fecha límite.
 
-#### Temas de trabajo
+## Temas de trabajo
 
 1 .[Binarized Neural Networks](https://papers.nips.cc/paper/6573-binarized-neural-networks.pdf): Sobre un método para entrenar Redes Neuronales Binarizadas (BNNs) - redes neuronales con pesos binarios y activaciones en tiempo de ejecución. 
 
