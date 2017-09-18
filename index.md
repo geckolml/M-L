@@ -195,6 +195,48 @@ Fecha de presentación de proyectos
 
 Cualquier cambio que realices en tus  repositorios o documentos en  github después de la fecha de vencimiento se ignorará. Por favor, tengan  todo su trabajo enviado y probado (presentaciones y/o páginas web, screencasts, código etc.) antes de la fecha límite.
 
+## Temas de trabajo 
+
+1 .[Binarized Neural Networks](https://papers.nips.cc/paper/6573-binarized-neural-networks.pdf): Sobre un método para entrenar Redes Neuronales Binarizadas (BNNs) - redes neuronales con pesos binarios y activaciones en tiempo de ejecución. 
+
+  * Frank  Cano Diaz
+  * Franz Maguiña Aranda
+  * Julio Cesar Silva
+  * Gianfranco Ferro Palomino
+
+
+2 .[A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf): El paper introduce un sistema artificial basado en una Red Neural Profunda que crea imágenes artísticas de alta calidad perceptiva.
+
+  * Briggette Román Huaytalla
+  * Danny Julca Carhuaz
+  * Edgar Huaranga Junco 
+  * Rogger Valverde Flores
+  * Victor Sotelo Chico
+  
+3 .[Weight Normalization: A Simple Reparameterization
+to Accelerate Training of Deep Neural Networks](https://papers.nips.cc/paper/6114-weight-normalization-a-simple-reparameterization-to-accelerate-training-of-deep-neural-networks.pdf): Se presenta  una reparametrización de los vectores de pesos en una red neural que desacopla la longitud de esos vectores de peso desde su dirección.
+
+  * Leonardo León Vera
+  * Enrique Peinado Rodriguez
+  * Renzo Cerrón Tome
+  * Gerson Garrido Mansilla
+  
+4 .[Where are they looking?](http://carlvondrick.com/gaze.pdf) El paper presenta un modelo de  red profunda capaz de descubrir cómo extraer la postura de la cabeza y la orientación de la mirada, y seleccionar objetos en la escena que están en la línea de visión prevista.
+ 
+  * Bruno Bedon Vasquez
+  * Miguel Mejia Puma
+  * Bitzer Arotoma Bacilio
+  * Óscar Huarcaya Canal
+ 
+5 .[Map-Reduce for Machine Learning on Multicore](https://papers.nips.cc/paper/3150-map-reduce-for-machine-learning-on-multicore.pdf) El artículo muestra  que los algoritmos que se ajustan al modelo de consulta estadística pueden ser escritos en una cierta  *forma de suma*, que les permite ser fácilmente paralelizados en computadoras multinúcleo.
+
+Adaptamos el paradigma de reducción de mapas de Google para demostrar esta técnica de aceleración paralela en una variedad de algoritmos de aprendizaje, incluyendo regresión lineal ponderada localmente (LWLR), k-means, regresión logística (LR), Bayes naïve (NB), SVM, ICA, PCA , análisis discriminante gaussiano (GDA), EM y retropropagación (NN).
+
+  * Katia Cotaquispe Mendoza
+  * George Prado Acuña
+  * Miguel Mini Huambachano
+  * Victor Galvan Oyola
+
 ####  Equipo de proyecto
 
 Las tareas, asignaciones y proyecto se realizarán con 4 compañeros de clase. En general, no anticipamos que las calificaciones para cada miembro del grupo serán diferentes, sin embargo, me reservo el derecho de asignar diferentes calificaciones a cada miembro del grupo, de acuerdo al grado de participación.
