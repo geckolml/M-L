@@ -1,5 +1,9 @@
 ## Curso: Tópicos de investigación (Machine Learning)
 
+### Sitio web del curso 
+
+* http://c-lara.github.io/M-L/
+
 ### Libro de referencia
 
 * David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online), , Cambridge University Press, 2017. 
@@ -62,82 +66,21 @@
 ## Temario
 
 * Clase 1: Introducción al Machine Learning 
-    - Lectura obligatoria: [Capitulo1 de Kevin P. Murphy](http://www.cs.ubc.ca/%7Emurphyk/MLbook/pml-intro-22may12.pdf).
-    - Cuaderno de Raúl Lopez Briega sobre una introducción a la [estadística y probabilidad con Python](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/pythonStats.ipynb).
-    - Cuaderno introductorio de [scikit-learn](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/scikit-learn/scikit-learn.ipynb).
-    - [Una introducción visual al machine learning](http://www.r2d3.us/una-introduccion-visual-al-machine-learning-1/).
-    - [Diapositiva 1]().
 * Clase 2: Introducción al aprendizaje: Funciones de pérdida, algoritmo del perceptrón, prueba de errores del perceptrón.
-    - [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
-    - Lectura del capítulo 17  sobre regresión de mínimos cuadrados de  David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online).
-    - Lectura recomendada: [Perceptron Algorithm](http://www.jennwv.com/courses/F10/material/notes_1018.pdf).
-    - [Diapositiva 2]().
 * Clase 3: Clasificadores lineales: Introducción al SVM.
-    - [Support Vector Machine ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
-    - [Diapositiva 3]().
 * Clase 4: SVM: Introducción a la optimización convexa
-  - [Gradient, Subgradient and how they may affect your grade](http://cs.nyu.edu/~dsontag/courses/ml16/slides/notes_convexity16.pdf)
-  - Lectura obligatoria: [Support Vector Machines](http://cs229.stanford.edu/notes/cs229-notes3.pdf) de Andrew Ng.
-  - Notas adicionales: [Linear Support Vector Machines](https://davidrosenberg.github.io/ml2015/docs/svm-notes.pdf) de David S. Rosenberg.
-  - [Diapositiva 4]().
 * Clase 5: Descenso de gradiente estocástico
-  - [Diapositiva 5]().
-  
 * Clase 6: Métodos del Kernel: Métodos del Kernel para SVM y classificación multiclases.
-  - [Notas](http://cs229.stanford.edu/notes/cs229-notes3.pdf) sobre Kernels (sección 7).
-  - [Pegasos Algorithm y  Kernels](http://cs.nyu.edu/~dsontag/courses/ml16/slides/lecture6_notes.pdf).
-  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), capítulo 16 sobre métodos de kernels. Secciones 17.1 & 17.2 sobre multiclases.
-  - [Diapositiva 6]().
- 
 * Clase 7: Regularización L1 y introducción a la teoria del aprendizaje
-  - [Diapositiva 7]().
-  
 * Clase 8: Teoria del aprendizaje: Clases de hipótesis finitas
-  - [Notas](http://cs229.stanford.edu/notes/cs229-notes4.pdf) de teoria del aprendizaje de Andrew Ng. Secciones 1 -3.
-  - [Diapositiva 8]().
   
 * Clase 9: Teoria de aprendizaje: Dimensión VC
-  - [Notas](http://cs229.stanford.edu/notes/cs229-notes4.pdf) de teoria del aprendizaje de Andrew Ng. Sección 4.
-  - Lectura opcional: [A Tutorial on Support Vector Machines for PatternRecognition](http://cs.nyu.edu/%7Edsontag/courses/ml14/notes/burges_SVM_tutorial.pdf). Páginas 29-31.
-  - [Diapositiva 9]().
-
 * Clase 10 : Árboles de decisión
-  - [Trees](https://jeremykun.com/2012/09/16/trees-a-primer/).
-  - [Decision trees ](https://jeremykun.com/2012/10/08/decision-trees-and-political-party-classification/).
-  - [Tom M. Mitchel: Capitulo 3](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf).
-  - Lectura opcional: [Cynthia Rudin: Decision Trees](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec08.pdf).
-  - [Diapositiva 10]().
-  
 * Clase 11: K-means
-  - [k-Means Clustering ](https://jeremykun.com/2013/02/04/k-means-clustering-and-birth-rates/).
-  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Capítulo 22 (intro) y la sección 22.2.
-  - [Diapositiva 11]().
-  
 * Clase 12: Clasificación jerárquica y espectral
-
-  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Secciones 22.1 y 22.3.
-  - Lectura opcional: [A Tutorial on Spectral Clustering](http://cs.nyu.edu/%7Edsontag/courses/ml14/notes/Luxburg07_tutorial_spectral_clustering.pdf).
-  - [Diapositiva 12]().
-  
-* Clase 13: Introducción a la inferencia Bayesiana: Naive Bayes.
-  - [How Bayesian Inference works](http://www.kdnuggets.com/2016/11/how-bayesian-inference-works.html).
-  - Artículo de Sebastian Raschka [Naive Bayes and Text Classification](http://sebastianraschka.com/Articles/2014_naive_bayes_1.html) sobre Naive Bayes.
-  - [ Naives Bayes explained](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
-  - [Generative and discriminative classifiers:Naives Bayes y Logistic Regression](http://www.cs.cmu.edu/%7Etom/mlbook/NBayesLogReg.pdf). Secciones 1 y 2.
-  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Sección 24.
-  - [Diapositiva 13]().
-  
+* Clase 13: Introducción a la inferencia Bayesiana: Naive Bayes. 
 * Clase 14: Regresión logística
-  - [Logistic Regression - Interpreting Parameters](http://www.unm.edu/%7Eschrader/biostat/bio2/Spr06/lec11.pdf).
-  - [Diapositiva 14]().
-  
 * Clase 15: K vecinos más cércanos
-  - [A Detailed Introduction to K-Nearest Neighbor (KNN) Algorithm](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/).
-  - Aplicaciones:
-    * [Nearest Neighbor Retrieval and Classification ](http://vlm1.uta.edu/%7Eathitsos/nearest_neighbors/).
-    * [Mapping Forest Resources Using the k-Nearest Neighbor Method](http://land.umn.edu/documents/FS6.pdf).
-    * [Text categorization using k-nearest neighbor classification](http://user.ceng.metu.edu.tr/~e120321/paper.pdf).
-  - [Diapositiva 15]().
   
 
 ## Evaluaciones en el curso CM-072
