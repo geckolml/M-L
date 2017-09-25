@@ -96,6 +96,8 @@
     - Cuaderno introductorio de [scikit-learn](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/scikit-learn/scikit-learn.ipynb).
     - [Diapositiva 1](https://github.com/C-Lara/M-L/blob/master/Diapositivas/Diapositiva1/Diapositiva1.pdf).
 * Clase 2: Introducción al aprendizaje: Funciones de pérdida, algoritmo del perceptrón, prueba de errores del perceptrón.
+    - [Cuaderno sobre OSL](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/OSL/OLS.ipynb).
+    - [Cuaderno sobre regresión lineal](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/Regresion-lineal/Regresion-lineal.ipynb).
     - [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
     - Lectura del capítulo 17  sobre regresión de mínimos cuadrados de  David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online).
     - Lectura recomendada: [Perceptron Algorithm](http://www.jennwv.com/courses/F10/material/notes_1018.pdf).
