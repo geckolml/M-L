@@ -234,7 +234,7 @@ to Accelerate Training of Deep Neural Networks](https://papers.nips.cc/paper/611
  
 5 .[Map-Reduce for Machine Learning on Multicore](https://papers.nips.cc/paper/3150-map-reduce-for-machine-learning-on-multicore.pdf) El artículo muestra  que los algoritmos que se ajustan al modelo de consulta estadística pueden ser escritos en una cierta  *forma de suma*, que les permite ser fácilmente paralelizados en computadoras multinúcleo.
 
-Adaptamos el paradigma de reducción de mapas de Google para demostrar esta técnica de aceleración paralela en una variedad de algoritmos de aprendizaje, incluyendo regresión lineal ponderada localmente (LWLR), k-means, regresión logística (LR), Bayes naïve (NB), SVM, ICA, PCA , análisis discriminante gaussiano (GDA), EM y retropropagación (NN).
+Se adapta el paradigma de reducción de mapas de Google para demostrar esta técnica de aceleración paralela en una variedad de algoritmos de aprendizaje, incluyendo regresión lineal ponderada localmente (LWLR), k-means, regresión logística (LR), Bayes naïve (NB), SVM, ICA, PCA , análisis discriminante gaussiano (GDA), EM y retropropagación (NN).
 
   * Katia Cotaquispe Mendoza
   * George Prado Acuña
