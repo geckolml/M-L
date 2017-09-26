@@ -105,6 +105,7 @@
     - [Diapositiva 2]().
 * Clase 3: Clasificadores lineales: Introducción al SVM.
     - [Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
+    - Cuaderno introductorio de [SVM](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/SVM/SVM.ipynb).
     - [Diapositiva 3]().
 * Clase 4: SVM: Introducción a la optimización convexa
   - [Gradient, Subgradient and how they may affect your grade](http://cs.nyu.edu/~dsontag/courses/ml16/slides/notes_convexity16.pdf)
