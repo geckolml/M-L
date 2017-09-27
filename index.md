@@ -102,7 +102,7 @@
     - Lectura del capítulo 17  sobre regresión de mínimos cuadrados de  David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online).
     - Lectura recomendada: [Perceptron Algorithm](http://www.jennwv.com/courses/F10/material/notes_1018.pdf).
     - Cuaderno introductorio sobre el [perceptron](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/Perceptron/Perceptron.ipynb).
-    - [Diapositiva 2]().
+    - [Diapositiva 2](https://github.com/C-Lara/M-L/blob/master/Diapositivas/Diapositiva2/Diapositiva2.pdf).
 * Clase 3: Clasificadores lineales: Introducción al SVM.
     - [Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
     - Cuaderno introductorio de [SVM](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/SVM/SVM.ipynb).
