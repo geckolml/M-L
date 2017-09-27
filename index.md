@@ -184,11 +184,11 @@ La fuente de muchos artículos relacionado al curso  es: [https://papers.nips.cc
 
 Un cronograma propuesto de asignaciones es :
 
-* Asignación 1: 22 de setiembre
-* Asignacion 2: 2 de  octubre
-* Asignacion 3: 14 de octubre
-* Asignacion 4: 29 de octubre
-* Asignacion 5: 19 de noviembre
+* Asignación 1: 29 de setiembre
+* Asignacion 2: 17 de  octubre
+* Asignacion 3: 1 de noviembre
+* Asignacion 4: 11 de noviembre
+* Asignacion 5: 23 de noviembre
 * Asignación 6: 3 de diciembre
 
 Fecha de presentación de proyectos
