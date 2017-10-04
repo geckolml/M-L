@@ -122,6 +122,7 @@
   - [Diapositiva 6]().
  
 * Clase 7: Regularización L1 y introducción a la teoria del aprendizaje
+  - [Feature selection,L1 vs.L2 regularization, and rotational invariance](http://www.machinelearning.org/proceedings/icml2004/papers/354.pdf).
   - [Diapositiva 7]().
   
 * Clase 8: Teoria del aprendizaje: Clases de hipótesis finitas
