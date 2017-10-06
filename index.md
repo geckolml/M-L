@@ -104,6 +104,11 @@
     - Cuaderno introductorio sobre el [perceptron](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/Perceptron/Perceptron.ipynb).
     - [Diapositiva 2](https://github.com/C-Lara/M-L/blob/master/Diapositivas/Diapositiva2/Diapositiva2.pdf).
 * Clase 3: Clasificadores lineales: Introducción al SVM.
+    - Lecturas previas:
+      * [Convex functions](https://www.seas.ucla.edu/~vandenbe/ee236b/lectures/functions.pdf).
+      * [Subgradients](http://stanford.edu/class/ee364b/lectures/subgradients_slides.pdf).
+      * [Conjugate Functions](http://www.seas.ucla.edu/~vandenbe/236C/lectures/conj.pdf).
+      * [Bregman Divergences](http://mark.reid.name/blog/meet-the-bregman-divergences.html).
     - [Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
     - Cuaderno introductorio de [SVM](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/SVM/SVM.ipynb).
     - [Diapositiva 3]().
