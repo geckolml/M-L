@@ -279,7 +279,8 @@ Cada equipo creará un screencast de 5 minutos como mínimo  mostrando, en que c
 
 * Miércoles 4 - 6 Sala 2.
 * Miércoles 6-  8 Sala 1.
-  
+ 
+ 
 ## Herramientas a  usar 
 
 ### Anaconda 
