@@ -44,7 +44,6 @@
   - Foundations of Machine Learning (Adaptive Computation and Machine Learning series) Mehryar Mohri, Afshin Rostamizadeh  y Ameet Talwalkar, 2012.
   - Shai Shalev-Shwartz, and Shai Ben-David,[Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), Cambridge University Press, 2014.
  
-
 * Cálculo
   - Apendice D del libro de Chris Bishop.
   - [Notas](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006/readings/lagrange.pdf) del MIT para multiplicadores de Lagrange.
