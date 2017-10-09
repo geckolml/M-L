@@ -1,8 +1,33 @@
-## Curso: Tópicos de investigación (Machine Learning)
+## Tópicos de investigación I (Machine Learning)
 
-### Sitio web del curso 
 
-* http://c-lara.github.io/M-L/
+### Lecturas iniciales:
+
+* El artículo [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-52) sobre un ejemplo de analisis exploratorio. 
+
+* La visualización y su importancia se encuentra en este artículo:[Anscombe’s Quartet, and Why Summary Statistics Don’t Tell the Whole Story - Heap Blog](https://blog.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/).
+
+* Video acerca de la visualización y el uso de datos:
+
+<iframe width="480" height="360" src="http://www.youtube.com/embed/coNDCIMH8bk"> </iframe> 
+
+* Videos sobre paradigmas de aprendizaje (obligatorio): [http://work.caltech.edu/library/014.html](http://work.caltech.edu/library/014.html).
+
+* Andrew ng y sus consejos en ML en el artículo : [ML-advice](http://cs229.stanford.edu/materials/ML-advice.pdf).
+
+* Una comparación empírica de aprendizajes supervisados [Which Supervised Learning Method Works Best for What? An Empirical Comparison of Learning Methods and Metrics](http://www.cs.cornell.edu/%7Ecaruana/ctp/ct.papers/caruana.icml06.pdf).
+
+* El artículo [Comparing supervised learning algorithms](http://www.dataschool.io/comparing-supervised-learning-algorithms/) muestra una comparación completa de aprendizajes supervisados.
+
+* El mapa del ML según sckit-learn [aquí](http://scikit-learn.org/stable/tutorial/machine_learning_map).
+
+* Algo de ingeniería características:
+
+<iframe width="480" height="360" src="http://www.youtube.com/embed/bL4b1sGnILU"> </iframe> 
+
+* Demasiado importante: [Learning from the best](http://blog.kaggle.com/2014/08/01/learning-from-the-best/).
+
+* Principales usos de la ciencia de datos en [10 interesting ways to use data science](https://blog.dominodatalab.com/10-interesting-uses-of-data-science/).
 
 ### Libro de referencia
 
@@ -17,7 +42,6 @@
   - Data Science From Scratch: First Principles with Python de Joel Grus 2015.
   - Machine Learning refined: Foundations, Algorithms, and Applications 1st Edition Jeremy Watt, Reza Borhani y Aggelos K. Katsaggelos, 2016.
   - Foundations of Machine Learning (Adaptive Computation and Machine Learning series) Mehryar Mohri, Afshin Rostamizadeh  y Ameet Talwalkar, 2012.
-  - David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online), , Cambridge University Press, 2012. 
   - Shai Shalev-Shwartz, and Shai Ben-David,[Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), Cambridge University Press, 2014.
  
 
@@ -44,6 +68,7 @@
     * [Convex Optimization Overview 1](http://cs229.stanford.edu/section/cs229-cvxopt.pdf).
     * [Convex Optimization Overview 2](http://cs229.stanford.edu/section/cs229-cvxopt2.pdf).
 
+
 ### El mundo del machine learning y la IA
 
 * Ejemplo 1: [Introduction](https://www.youtube.com/watch?v=i8D90DkCLhI).
@@ -66,23 +91,92 @@
 ## Temario
 
 * Clase 1: Introducción al Machine Learning 
+    - Lectura obligatoria: [Capitulo1 de Kevin P. Murphy](http://www.cs.ubc.ca/%7Emurphyk/MLbook/pml-intro-22may12.pdf).
+    - Cuaderno de Raúl Lopez Briega sobre una introducción a la [estadística y probabilidad con Python](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/pythonStats.ipynb).
+    - Cuaderno introductorio de [scikit-learn](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/scikit-learn/scikit-learn.ipynb).
+    - [Diapositiva 1](https://github.com/C-Lara/M-L/blob/master/Diapositivas/Diapositiva1/Diapositiva1.pdf).
 * Clase 2: Introducción al aprendizaje: Funciones de pérdida, algoritmo del perceptrón, prueba de errores del perceptrón.
+    -  Cuaderno sobre [OSL](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/OSL/OLS.ipynb).
+    -  Cuaderno introductorio sobre [regresión lineal](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/Regresion-lineal/Regresion-lineal.ipynb).
+    - [The Perceptron, and All the Things it can't Perceive](https://jeremykun.com/2011/08/11/the-perceptron-and-all-the-things-it-cant-perceive/).
+    - Lectura del capítulo 17  sobre regresión de mínimos cuadrados de  David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online).
+    - Lectura recomendada: [Perceptron Algorithm](http://www.jennwv.com/courses/F10/material/notes_1018.pdf).
+    - Cuaderno introductorio sobre el [perceptron](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/Perceptron/Perceptron.ipynb).
+    - [Diapositiva 2](https://github.com/C-Lara/M-L/blob/master/Diapositivas/Diapositiva2/Diapositiva2.pdf).
 * Clase 3: Clasificadores lineales: Introducción al SVM.
+    - Lecturas previas:
+      * [Convex functions](https://www.seas.ucla.edu/~vandenbe/ee236b/lectures/functions.pdf).
+      * [Subgradients](http://stanford.edu/class/ee364b/lectures/subgradients_slides.pdf).
+      * [Conjugate Functions](http://www.seas.ucla.edu/~vandenbe/236C/lectures/conj.pdf).
+      * [Bregman Divergences](http://mark.reid.name/blog/meet-the-bregman-divergences.html).
+    - [Support Vector Machine  ](http://www.analyticsvidhya.com/blog/2015/10/understaing-support-vector-machine-example-code/).
+    - Cuaderno introductorio de [SVM](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/Cuadernos/SVM/SVM.ipynb).
+    - [Diapositiva 3]().
 * Clase 4: SVM: Introducción a la optimización convexa
+  - [Gradient, Subgradient and how they may affect your grade](http://cs.nyu.edu/~dsontag/courses/ml16/slides/notes_convexity16.pdf)
+  - Lectura obligatoria: [Support Vector Machines](http://cs229.stanford.edu/notes/cs229-notes3.pdf) de Andrew Ng.
+  - Notas adicionales: [Linear Support Vector Machines](https://davidrosenberg.github.io/ml2015/docs/svm-notes.pdf) de David S. Rosenberg.
+  - [Diapositiva 4]().
 * Clase 5: Descenso de gradiente estocástico
+  - [Diapositiva 5]().
+  
 * Clase 6: Métodos del Kernel: Métodos del Kernel para SVM y classificación multiclases.
+  - [Notas](http://cs229.stanford.edu/notes/cs229-notes3.pdf) sobre Kernels (sección 7).
+  - [Pegasos Algorithm y  Kernels](http://cs.nyu.edu/~dsontag/courses/ml16/slides/lecture6_notes.pdf).
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), capítulo 16 sobre métodos de kernels. Secciones 17.1 & 17.2 sobre multiclases.
+  - [Diapositiva 6]().
+ 
 * Clase 7: Regularización L1 y introducción a la teoria del aprendizaje
+  - [Feature selection,L1 vs.L2 regularization, and rotational invariance](http://www.machinelearning.org/proceedings/icml2004/papers/354.pdf).
+  - [Diapositiva 7]().
+  
 * Clase 8: Teoria del aprendizaje: Clases de hipótesis finitas
+  - [Notas](http://cs229.stanford.edu/notes/cs229-notes4.pdf) de teoria del aprendizaje de Andrew Ng. Secciones 1 -3.
+  - [Diapositiva 8]().
   
 * Clase 9: Teoria de aprendizaje: Dimensión VC
-* Clase 10 : Árboles de decisión
-* Clase 11: K-means
-* Clase 12: Clasificación jerárquica y espectral
-* Clase 13: Introducción a la inferencia Bayesiana: Naive Bayes. 
-* Clase 14: Regresión logística
-* Clase 15: K vecinos más cércanos
-  
+  - [Notas](http://cs229.stanford.edu/notes/cs229-notes4.pdf) de teoria del aprendizaje de Andrew Ng. Sección 4.
+  - Lectura opcional: [A Tutorial on Support Vector Machines for PatternRecognition](http://cs.nyu.edu/%7Edsontag/courses/ml14/notes/burges_SVM_tutorial.pdf). Páginas 29-31.
+  - [Diapositiva 9]().
 
+* Clase 10 : Árboles de decisión
+  - [Trees](https://jeremykun.com/2012/09/16/trees-a-primer/).
+  - [Decision trees ](https://jeremykun.com/2012/10/08/decision-trees-and-political-party-classification/).
+  - [Tom M. Mitchel: Capitulo 3](http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf).
+  - Lectura opcional: [Cynthia Rudin: Decision Trees](https://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/lecture-notes/MIT15_097S12_lec08.pdf).
+  - [Diapositiva 10]().
+  
+* Clase 11: K-means
+  - [k-Means Clustering ](https://jeremykun.com/2013/02/04/k-means-clustering-and-birth-rates/).
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Capítulo 22 (intro) y la sección 22.2.
+  - [Diapositiva 11]().
+  
+* Clase 12: Clasificación jerárquica y espectral
+
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Secciones 22.1 y 22.3.
+  - Lectura opcional: [A Tutorial on Spectral Clustering](http://cs.nyu.edu/%7Edsontag/courses/ml14/notes/Luxburg07_tutorial_spectral_clustering.pdf).
+  - [Diapositiva 12]().
+  
+* Clase 13: Introducción a la inferencia Bayesiana: Naive Bayes.
+  - [How Bayesian Inference works](http://www.kdnuggets.com/2016/11/how-bayesian-inference-works.html).
+  - Artículo de Sebastian Raschka [Naive Bayes and Text Classification](http://sebastianraschka.com/Articles/2014_naive_bayes_1.html) sobre Naive Bayes.
+  - [ Naives Bayes explained](http://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/).
+  - [Generative and discriminative classifiers:Naives Bayes y Logistic Regression](http://www.cs.cmu.edu/%7Etom/mlbook/NBayesLogReg.pdf). Secciones 1 y 2.
+  - [Shalev-Shwartz & Ben-David](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html). Sección 24.
+  - [Diapositiva 13]().
+  
+* Clase 14: Regresión logística
+  - [Logistic Regression - Interpreting Parameters](http://www.unm.edu/%7Eschrader/biostat/bio2/Spr06/lec11.pdf).
+  - [Diapositiva 14]().
+  
+* Clase 15: K vecinos más cércanos
+  - [A Detailed Introduction to K-Nearest Neighbor (KNN) Algorithm](https://saravananthirumuruganathan.wordpress.com/2010/05/17/a-detailed-introduction-to-k-nearest-neighbor-knn-algorithm/).
+  - Aplicaciones:
+    * [Nearest Neighbor Retrieval and Classification ](http://vlm1.uta.edu/%7Eathitsos/nearest_neighbors/).
+    * [Mapping Forest Resources Using the k-Nearest Neighbor Method](http://land.umn.edu/documents/FS6.pdf).
+    * [Text categorization using k-nearest neighbor classification](http://user.ceng.metu.edu.tr/~e120321/paper.pdf).
+  - [Diapositiva 15]().
+  
 ## Evaluaciones en el curso CM-072
 
 ### Lista de temas propuestos
@@ -96,11 +190,11 @@ La fuente de muchos artículos relacionado al curso  es: [https://papers.nips.cc
 
 Un cronograma propuesto de asignaciones es :
 
-* Asignación 1: 22 de setiembre
-* Asignacion 2: 2 de octubre
-* Asignacion 3: 14 de octubre
-* Asignacion 4: 29 de octubre
-* Asignacion 5: 19 de noviembre
+* Asignación 1: 29 de setiembre
+* Asignacion 2: 17 de  octubre
+* Asignacion 3: 1 de noviembre
+* Asignacion 4: 11 de noviembre
+* Asignacion 5: 23 de noviembre
 * Asignación 6: 3 de diciembre
 
 Fecha de presentación de proyectos
@@ -111,7 +205,7 @@ Fecha de presentación de proyectos
 
 Cualquier cambio que realices en tus  repositorios o documentos en  github después de la fecha de vencimiento se ignorará. Por favor, tengan  todo su trabajo enviado y probado (presentaciones y/o páginas web, screencasts, código etc.) antes de la fecha límite.
 
-## Temas de trabajo
+## Temas de trabajo 
 
 1 .[Binarized Neural Networks](https://papers.nips.cc/paper/6573-binarized-neural-networks.pdf): Sobre un método para entrenar Redes Neuronales Binarizadas (BNNs) - redes neuronales con pesos binarios y activaciones en tiempo de ejecución. 
 
@@ -146,7 +240,7 @@ to Accelerate Training of Deep Neural Networks](https://papers.nips.cc/paper/611
  
 5 .[Map-Reduce for Machine Learning on Multicore](https://papers.nips.cc/paper/3150-map-reduce-for-machine-learning-on-multicore.pdf) El artículo muestra  que los algoritmos que se ajustan al modelo de consulta estadística pueden ser escritos en una cierta  *forma de suma*, que les permite ser fácilmente paralelizados en computadoras multinúcleo.
 
-Adaptamos el paradigma de reducción de mapas de Google para demostrar esta técnica de aceleración paralela en una variedad de algoritmos de aprendizaje, incluyendo regresión lineal ponderada localmente (LWLR), k-means, regresión logística (LR), Bayes naïve (NB), SVM, ICA, PCA , análisis discriminante gaussiano (GDA), EM y retropropagación (NN).
+Se adapta el paradigma de reducción de mapas de Google para demostrar esta técnica de aceleración paralela en una variedad de algoritmos de aprendizaje, incluyendo regresión lineal ponderada localmente (LWLR), k-means, regresión logística (LR), Bayes naïve (NB), SVM, ICA, PCA , análisis discriminante gaussiano (GDA), EM y retropropagación (NN).
 
   * Katia Cotaquispe Mendoza
   * George Prado Acuña
@@ -169,20 +263,23 @@ El equipo debe presentar un sitio web público para sus asignaciones, tareas de 
 
 Cada equipo creará un screencast de 5 minutos como mínimo  mostrando, en que consiste su proyecto, utilizando un cuaderno de jupyter notebook  o algunas diapositivas. Puedes encontrar información de como hacerlo en [Making a Screencast Video](https://docs.google.com/document/d/1alPLuBOW5YPoQDa57KZes1h72PoQDoDj21-UEKOHp1I/pub) o en [How to record screencasts with recordMyDesktop](https://opensource.com/business/15/11/how-record-screencasts).
 
-####  Referencias
+#### Referencias
 
 * [Presentation Zen-How to Design & Deliver Presentations Like a Pro](http://www.garrreynolds.com/Presentation/pdf/presentation_tips.pdf).
 * [Points of view: Storytelling](http://www.nature.com/nmeth/journal/v10/n8/full/nmeth.2571.html).
+
+
+### Asignaciones 
+
+* [Asignación1](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/AsignacionesML/Asignacion1/AsignacionML1.ipynb).
+* [Asignación2](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/AsignacionesML/Asignacion2/AsignacionML2.ipynb).
+* [Asignacion3](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/AsignacionesML/Asignacion3/Asignacion3ML.ipynb).
 
 ### Horario de clases 
 
 * Miércoles 4 - 6 Sala 2.
 * Miércoles 6-  8 Sala 1.
-
-### Asignaciones 
-
-* [Asignacion1](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/AsignacionesML/Asignacion1/AsignacionML1.ipynb).
-
+  
 ## Herramientas a  usar 
 
 ### Anaconda 
@@ -252,6 +349,15 @@ Referencias y Lecturas
 - [Practical Git Introduction](http://marc.helbling.fr/2014/09/practical-git-introduction).
 - [Visual Git Guide](http://marklodato.github.io/visual-git-guide/index-es.html).
 
+* Empezando con github clasroom
+
+<iframe width="480" height="360" src="http://www.youtube.com/embed/ChA_zph7aao"> </iframe> 
+
+* Manejando asignaciones grupales en github classroom
+
+<iframe width="480" height="360" src="http://www.youtube.com/embed/-52quDR2QSc"> </iframe> 
+
+
 ### Scikit-learn 
 
 [Scikit-learn](http://scikit-learn.org/stable/), es tal vez la mejor biblioteca para Machine Learning, construida sobre NumPy, SciPy y Matplotlib, esta biblioteca contiene una gran cantidad de herramientas eficientes para el Machine Learning y el modelado estadístico incluyendo clasificación, regresión, agrupación y reducción de la dimensionalidad.
@@ -259,6 +365,10 @@ Referencias y Lecturas
 - Video sobre [Machine Learning with scikit-learn](https://www.youtube.com/watch?v=HC0J_SPm9co) de Jake VanderPlas.
 - [Machine Learning Cheat Sheet for scikit-learn](http://peekaboo-vision.blogspot.pe/2013/01/machine-learning-cheat-sheet-for-scikit.html).
 - [Notas de Scikit-Learn como herramienta de Machine Learning](http://www.analyticsvidhya.com/blog/2015/01/scikit-learn-python-machine-learning-tool/).
+
+* Videos de Jake VanderPlas sobre Machine Learning con  Scikit Learn :
+
+<iframe width="480" height="360" src="http://www.youtube.com/embed/HC0J_SPm9co"> </iframe> 
 
 ### Otras herramientas
 
