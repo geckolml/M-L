@@ -273,7 +273,7 @@ Cada equipo creará un screencast de 5 minutos como mínimo  mostrando, en que c
 
 * [Asignación1](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/AsignacionesML/Asignacion1/AsignacionML1.ipynb).
 * [Asignación2](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/AsignacionesML/Asignacion2/AsignacionML2.ipynb).
-* [Asignacion3](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/AsignacionesML/Asignacion3/Asignacion3ML.ipynb).
+* [Asignación3](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/AsignacionesML/Asignacion3/Asignacion3ML.ipynb).
 
 ### Horario de clases 
 
