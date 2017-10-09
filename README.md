@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Curso: Tópicos de investigación (Machine Learning)
 
 ### Sitio web del curso 
@@ -18,7 +17,6 @@
   - Data Science From Scratch: First Principles with Python de Joel Grus 2015.
   - Machine Learning refined: Foundations, Algorithms, and Applications 1st Edition Jeremy Watt, Reza Borhani y Aggelos K. Katsaggelos, 2016.
   - Foundations of Machine Learning (Adaptive Computation and Machine Learning series) Mehryar Mohri, Afshin Rostamizadeh  y Ameet Talwalkar, 2012.
-  - David Barber, [Bayesian Reasoning and Machine Learning](http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online), , Cambridge University Press, 2012. 
   - Shai Shalev-Shwartz, and Shai Ben-David,[Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/index.html), Cambridge University Press, 2014.
  
 
@@ -97,12 +95,14 @@ La fuente de muchos artículos relacionado al curso  es: [https://papers.nips.cc
 
 Un cronograma propuesto de asignaciones es :
 
-* Asignación 1: 22 de setiembre
-* Asignacion 2: 2 de octubre
-* Asignacion 3: 14 de octubre
-* Asignacion 4: 29 de octubre
-* Asignacion 5: 19 de noviembre
+
+* Asignación 1: 29 de setiembre
+* Asignacion 2: 17 de octubre
+* Asignacion 3: 1 de noviembre
+* Asignacion 4: 11 de noviembre
+* Asignacion 5: 23 de noviembre
 * Asignación 6: 3 de diciembre
+
 
 Fecha de presentación de proyectos
 
@@ -180,9 +180,7 @@ Cada equipo creará un screencast de 5 minutos como mínimo  mostrando, en que c
 * Miércoles 4 - 6 Sala 2.
 * Miércoles 6-  8 Sala 1.
 
-### Asignaciones 
 
-* [Asignacion1](https://nbviewer.jupyter.org/github/C-Lara/M-L/blob/master/AsignacionesML/Asignacion1/AsignacionML1.ipynb).
 
 ## Herramientas a  usar 
 
@@ -307,6 +305,3 @@ Algunas lecturas y referencias
 - [Apache Spark Videos](https://www.youtube.com/user/TheApacheSpark/videos).
 - [Spark vs Hadoop](https://acadgild.com/blog/spark-vs-hadoop/).
 
-=======
-# Curso: Tópicos de Investigación: Machine Learning
->>>>>>> 9648421e16c48670c30685580660f8b75c2ed33e
