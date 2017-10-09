@@ -415,4 +415,3 @@ Algunas lecturas y referencias
 - [Spark Examples ](https://spark.apache.org/examples.html).
 - [Apache Spark Videos](https://www.youtube.com/user/TheApacheSpark/videos).
 - [Spark vs Hadoop](https://acadgild.com/blog/spark-vs-hadoop/).
-
