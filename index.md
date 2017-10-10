@@ -231,6 +231,8 @@ to Accelerate Training of Deep Neural Networks](https://papers.nips.cc/paper/611
   * Renzo Cerrón Tome
   * Gerson Garrido Mansilla
   
+  Fecha de presentación : Jueves 19 de octubre de 6 a 9 pm.
+  
 4 .[Where are they looking?](http://carlvondrick.com/gaze.pdf) El paper presenta un modelo de  red profunda capaz de descubrir cómo extraer la postura de la cabeza y la orientación de la mirada, y seleccionar objetos en la escena que están en la línea de visión prevista.
  
   * Bruno Bedon Vasquez
@@ -242,7 +244,6 @@ to Accelerate Training of Deep Neural Networks](https://papers.nips.cc/paper/611
 
 Se adapta el paradigma de reducción de mapas de Google para demostrar esta técnica de aceleración paralela en una variedad de algoritmos de aprendizaje, incluyendo regresión lineal ponderada localmente (LWLR), k-means, regresión logística (LR), Bayes naïve (NB), SVM, ICA, PCA , análisis discriminante gaussiano (GDA), EM y retropropagación (NN).
 
-  * Katia Cotaquispe Mendoza
   * George Prado Acuña
   * Miguel Mini Huambachano
   * Victor Galvan Oyola
