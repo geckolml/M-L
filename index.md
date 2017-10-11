@@ -214,6 +214,7 @@ Cualquier cambio que realices en tus  repositorios o documentos en  github despu
   * Julio Cesar Silva
   * Gianfranco Ferro Palomino
 
+Fecha de presentación : Jueves 19 de octubre de 6 a 9 pm.
 
 2 .[A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf): El paper introduce un sistema artificial basado en una Red Neural Profunda que crea imágenes artísticas de alta calidad perceptiva.
 
@@ -231,7 +232,7 @@ to Accelerate Training of Deep Neural Networks](https://papers.nips.cc/paper/611
   * Renzo Cerrón Tome
   * Gerson Garrido Mansilla
   
-  Fecha de presentación : Jueves 19 de octubre de 6 a 9 pm.
+  
   
 4 .[Where are they looking?](http://carlvondrick.com/gaze.pdf) El paper presenta un modelo de  red profunda capaz de descubrir cómo extraer la postura de la cabeza y la orientación de la mirada, y seleccionar objetos en la escena que están en la línea de visión prevista.
  
@@ -239,6 +240,7 @@ to Accelerate Training of Deep Neural Networks](https://papers.nips.cc/paper/611
   * Miguel Mejia Puma
   * Bitzer Arotoma Bacilio
   * Óscar Huarcaya Canal
+ Fecha de presentación : Jueves 19 de octubre de 6 a 9 pm.
  
 5 .[Map-Reduce for Machine Learning on Multicore](https://papers.nips.cc/paper/3150-map-reduce-for-machine-learning-on-multicore.pdf) El artículo muestra  que los algoritmos que se ajustan al modelo de consulta estadística pueden ser escritos en una cierta  *forma de suma*, que les permite ser fácilmente paralelizados en computadoras multinúcleo.
 
